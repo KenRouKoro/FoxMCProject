@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.map.ForestMap;
-import cn.hutool.core.map.LinkedForestMap;
-import cn.hutool.core.map.TreeEntry;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.map.ForestMap;
+import com.foxapplication.embed.hutool.core.map.LinkedForestMap;
+import com.foxapplication.embed.hutool.core.map.TreeEntry;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.Map;
 

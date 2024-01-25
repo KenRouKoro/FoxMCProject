@@ -1,9 +1,9 @@
-package cn.hutool.cron.pattern;
+package com.foxapplication.embed.hutool.cron.pattern;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.date.DateUnit;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.date.DateUnit;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.util.ArrayList;
 import java.util.Date;

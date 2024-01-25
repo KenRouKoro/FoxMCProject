@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.crypto.asymmetric;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.crypto.BCUtil;
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.ECKeyUtil;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.crypto.BCUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.ECKeyUtil;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 import org.bouncycastle.crypto.CipherParameters;
 import org.bouncycastle.crypto.Digest;
 import org.bouncycastle.crypto.InvalidCipherTextException;
@@ -317,7 +317,7 @@ public class SM2 extends AbstractAsymmetricCrypto<SM2> {
 
 	/**
 	 * 用私钥对信息生成数字签名，签名格式为ASN1<br>
-	 * * 在硬件签名中，返回结果为R+S，可以通过调用{@link cn.hutool.crypto.SmUtil#rsAsn1ToPlain(byte[])}方法转换之。
+	 * * 在硬件签名中，返回结果为R+S，可以通过调用{@link com.foxapplication.embed.hutool.crypto.SmUtil#rsAsn1ToPlain(byte[])}方法转换之。
 	 *
 	 * @param data 加密数据
 	 * @return 签名
@@ -339,7 +339,7 @@ public class SM2 extends AbstractAsymmetricCrypto<SM2> {
 
 	/**
 	 * 用私钥对信息生成数字签名，签名格式为ASN1<br>
-	 * 在硬件签名中，返回结果为R+S，可以通过调用{@link cn.hutool.crypto.SmUtil#rsAsn1ToPlain(byte[])}方法转换之。
+	 * 在硬件签名中，返回结果为R+S，可以通过调用{@link com.foxapplication.embed.hutool.crypto.SmUtil#rsAsn1ToPlain(byte[])}方法转换之。
 	 *
 	 * @param data 被签名的数据数据
 	 * @param id   可以为null，若为null，则默认withId为字节数组:"1234567812345678".getBytes()

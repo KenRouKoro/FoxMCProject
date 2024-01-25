@@ -1,4 +1,4 @@
-package cn.hutool.bloomfilter.bitMap;
+package com.foxapplication.embed.hutool.bloomfilter.bitMap;
 
 import java.io.Serializable;
 

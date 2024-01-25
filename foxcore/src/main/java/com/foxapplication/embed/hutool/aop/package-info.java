@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.aop;
+package com.foxapplication.embed.hutool.aop;

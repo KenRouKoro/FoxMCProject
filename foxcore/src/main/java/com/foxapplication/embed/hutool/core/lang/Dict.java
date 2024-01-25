@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.bean.BeanPath;
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.getter.BasicTypeGetter;
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.lang.func.LambdaUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanPath;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.getter.BasicTypeGetter;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.lang.func.LambdaUtil;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

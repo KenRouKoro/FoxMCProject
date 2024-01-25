@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.mutable;
 
-import cn.hutool.core.util.ObjUtil;
+import com.foxapplication.embed.hutool.core.util.ObjUtil;
 
 import java.io.Serializable;
 

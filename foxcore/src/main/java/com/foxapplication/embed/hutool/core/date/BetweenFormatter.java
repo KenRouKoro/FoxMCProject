@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 

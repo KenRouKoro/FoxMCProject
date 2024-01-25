@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.util.BooleanUtil;
-import cn.hutool.core.util.ByteUtil;
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.util.BooleanUtil;
+import com.foxapplication.embed.hutool.core.util.ByteUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

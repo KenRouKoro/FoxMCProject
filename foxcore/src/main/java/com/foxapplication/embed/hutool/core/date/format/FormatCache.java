@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.date.format;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Tuple;
-import cn.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Tuple;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
 
 import java.text.DateFormat;
 import java.text.Format;

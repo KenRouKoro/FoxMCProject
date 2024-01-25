@@ -1,4 +1,4 @@
-package cn.hutool.cache;
+package com.foxapplication.embed.hutool.cache;
 
 /**
  * 缓存监听，用于实现缓存操作时的回调监听，例如缓存对象的移除事件等

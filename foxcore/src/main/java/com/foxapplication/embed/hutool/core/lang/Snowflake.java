@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.date.SystemClock;
-import cn.hutool.core.util.IdUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.date.SystemClock;
+import com.foxapplication.embed.hutool.core.util.IdUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.util.Date;

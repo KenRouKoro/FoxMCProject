@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
 
 /**
  * Bean属性排序器<br>

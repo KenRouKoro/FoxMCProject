@@ -1,8 +1,8 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.io.FastByteArrayOutputStream;
-import cn.hutool.core.io.StreamProgress;
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.io.FastByteArrayOutputStream;
+import com.foxapplication.embed.hutool.core.io.StreamProgress;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.io.File;
 import java.io.OutputStream;

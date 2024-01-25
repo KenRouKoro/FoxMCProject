@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.util.JdkUtil;
+import com.foxapplication.embed.hutool.core.util.JdkUtil;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

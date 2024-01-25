@@ -1,9 +1,9 @@
-package cn.hutool.cache.file;
+package com.foxapplication.embed.hutool.cache.file;
+
+import com.foxapplication.embed.hutool.cache.Cache;
+import com.foxapplication.embed.hutool.cache.impl.LFUCache;
 
 import java.io.File;
-
-import cn.hutool.cache.Cache;
-import cn.hutool.cache.impl.LFUCache;
 
 /**
  *  使用LFU缓存文件，以解决频繁读取文件引起的性能问题

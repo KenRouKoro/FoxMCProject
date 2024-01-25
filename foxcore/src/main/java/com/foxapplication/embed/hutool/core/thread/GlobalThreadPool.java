@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 
-import cn.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
 
 /**
  * 全局公共线程池<br>

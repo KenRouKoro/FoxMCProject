@@ -1,16 +1,17 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlElementWrapper;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlTransient;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
+
 import java.io.File;
 import java.io.Reader;
 import java.io.StringWriter;

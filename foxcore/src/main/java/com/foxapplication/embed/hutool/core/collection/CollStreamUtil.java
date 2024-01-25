@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.collection;
 
 
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.stream.CollectorUtil;
-import cn.hutool.core.stream.StreamUtil;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.stream.CollectorUtil;
+import com.foxapplication.embed.hutool.core.stream.StreamUtil;
 
 import java.util.Collection;
 import java.util.HashMap;

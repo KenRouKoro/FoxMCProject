@@ -1,11 +1,11 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
 import java.io.Serializable;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- * {@link cn.hutool.cache.impl.AbstractCache} 的CacheObj迭代器.
+ * {@link com.foxapplication.embed.hutool.cache.impl.AbstractCache} 的CacheObj迭代器.
  *
  * @author looly
  *

@@ -1,26 +1,16 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.io.FastByteArrayOutputStream;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.StreamProgress;
-import cn.hutool.core.io.resource.BytesResource;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ObjUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.URLUtil;
-import cn.hutool.http.cookie.GlobalCookieManager;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.io.*;
+import com.foxapplication.embed.hutool.core.io.resource.BytesResource;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ObjUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.http.cookie.GlobalCookieManager;
 
-import java.io.Closeable;
-import java.io.EOFException;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.HttpCookie;
 import java.nio.charset.Charset;
 import java.util.List;

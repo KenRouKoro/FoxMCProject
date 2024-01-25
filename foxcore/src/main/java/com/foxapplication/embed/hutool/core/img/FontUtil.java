@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.img;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
 
 import java.awt.Dimension;
 import java.awt.Font;

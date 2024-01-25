@@ -1,4 +1,4 @@
-package cn.hutool.http.useragent;
+package com.foxapplication.embed.hutool.http.useragent;
 
 /**
  * User-Agent工具类

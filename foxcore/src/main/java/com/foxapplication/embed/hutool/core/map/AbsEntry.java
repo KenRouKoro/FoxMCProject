@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.Map;
 

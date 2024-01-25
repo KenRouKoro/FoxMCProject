@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;

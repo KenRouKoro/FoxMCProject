@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.text.escape;
 
-import cn.hutool.core.text.StrBuilder;
-import cn.hutool.core.text.replacer.StrReplacer;
-import cn.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.text.StrBuilder;
+import com.foxapplication.embed.hutool.core.text.replacer.StrReplacer;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
 
 /**
  * 形如&#39;的反转义器

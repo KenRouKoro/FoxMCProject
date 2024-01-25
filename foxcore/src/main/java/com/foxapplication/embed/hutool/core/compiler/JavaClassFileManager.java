@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.compiler;
 
-import cn.hutool.core.io.resource.FileObjectResource;
-import cn.hutool.core.lang.ResourceClassLoader;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.io.resource.FileObjectResource;
+import com.foxapplication.embed.hutool.core.lang.ResourceClassLoader;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import javax.tools.FileObject;
 import javax.tools.ForwardingJavaFileManager;

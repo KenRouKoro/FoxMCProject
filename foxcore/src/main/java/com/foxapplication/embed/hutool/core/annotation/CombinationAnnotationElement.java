@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.map.TableMap;
+import com.foxapplication.embed.hutool.core.map.TableMap;
 
 import java.io.Serializable;
 import java.lang.annotation.Annotation;

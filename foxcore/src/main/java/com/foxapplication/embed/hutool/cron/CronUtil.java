@@ -1,12 +1,12 @@
 
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.resource.NoResourceException;
-import cn.hutool.cron.pattern.CronPattern;
-import cn.hutool.cron.task.Task;
-import cn.hutool.setting.Setting;
-import cn.hutool.setting.SettingRuntimeException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.resource.NoResourceException;
+import com.foxapplication.embed.hutool.cron.pattern.CronPattern;
+import com.foxapplication.embed.hutool.cron.task.Task;
+import com.foxapplication.embed.hutool.setting.Setting;
+import com.foxapplication.embed.hutool.setting.SettingRuntimeException;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

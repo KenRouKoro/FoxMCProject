@@ -1,19 +1,19 @@
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.thread.ExecutorBuilder;
-import cn.hutool.core.thread.ThreadFactoryBuilder;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.IdUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.cron.listener.TaskListener;
-import cn.hutool.cron.listener.TaskListenerManager;
-import cn.hutool.cron.pattern.CronPattern;
-import cn.hutool.cron.task.InvokeTask;
-import cn.hutool.cron.task.RunnableTask;
-import cn.hutool.cron.task.Task;
-import cn.hutool.log.StaticLog;
-import cn.hutool.setting.Setting;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.thread.ExecutorBuilder;
+import com.foxapplication.embed.hutool.core.thread.ThreadFactoryBuilder;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.IdUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.cron.listener.TaskListener;
+import com.foxapplication.embed.hutool.cron.listener.TaskListenerManager;
+import com.foxapplication.embed.hutool.cron.pattern.CronPattern;
+import com.foxapplication.embed.hutool.cron.task.InvokeTask;
+import com.foxapplication.embed.hutool.cron.task.RunnableTask;
+import com.foxapplication.embed.hutool.cron.task.Task;
+import com.foxapplication.embed.hutool.log.StaticLog;
+import com.foxapplication.embed.hutool.setting.Setting;
 
 import java.io.Serializable;
 import java.util.LinkedHashMap;

@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.id;
 
-import cn.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
 
 import java.security.SecureRandom;
 import java.util.Random;

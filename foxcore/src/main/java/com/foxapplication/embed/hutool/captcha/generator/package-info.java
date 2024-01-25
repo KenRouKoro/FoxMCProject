@@ -4,4 +4,4 @@
  * @author looly
  * @since 4.1.2
  */
-package cn.hutool.captcha.generator;
+package com.foxapplication.embed.hutool.captcha.generator;

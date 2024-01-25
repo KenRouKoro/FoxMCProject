@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.collection;
 
-import cn.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
 
 import java.util.AbstractSet;
 import java.util.Collection;

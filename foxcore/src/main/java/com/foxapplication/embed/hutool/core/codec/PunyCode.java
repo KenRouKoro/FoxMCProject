@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.List;
 

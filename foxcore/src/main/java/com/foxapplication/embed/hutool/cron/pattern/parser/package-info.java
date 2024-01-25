@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.cron.pattern.parser;
+package com.foxapplication.embed.hutool.cron.pattern.parser;

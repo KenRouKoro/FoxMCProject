@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.copier.SrcToDestCopier;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.copier.SrcToDestCopier;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.File;
 import java.io.IOException;

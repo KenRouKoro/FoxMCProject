@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.crypto.symmetric;
 
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.crypto.KeyUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.crypto.KeyUtil;
 
 import javax.crypto.spec.IvParameterSpec;
 

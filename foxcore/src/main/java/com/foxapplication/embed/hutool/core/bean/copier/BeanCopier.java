@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.bean.copier;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.copier.Copier;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.copier.Copier;
 
 import java.io.Serializable;
 import java.lang.reflect.Type;

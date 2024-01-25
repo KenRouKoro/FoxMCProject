@@ -1,8 +1,8 @@
-package cn.hutool.log;
+package com.foxapplication.embed.hutool.log;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.level.Level;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.level.Level;
 
 import java.io.Serializable;
 

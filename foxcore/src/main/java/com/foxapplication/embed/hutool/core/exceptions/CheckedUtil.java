@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.exceptions;
 
-import cn.hutool.core.lang.func.*;
+import com.foxapplication.embed.hutool.core.lang.func.*;
 
 import java.util.Objects;
 
 /**
  * 方便的执行会抛出受检查类型异常的方法调用或者代码段
  * <p>
- * 该工具通过函数式的方式将那些需要抛出受检查异常的表达式或者代码段转化成一个 cn.hutool.core.lang.func.Func* 对象
+ * 该工具通过函数式的方式将那些需要抛出受检查异常的表达式或者代码段转化成一个 com.foxapplication.embed.hutool.core.lang.func.Func* 对象
  * </p>
  * <p>
  * {@code
@@ -29,7 +29,7 @@ import java.util.Objects;
  *       Map<String, String> describedObject = CheckedUtil.uncheck(BeanUtils::describe).call(new Object());
  *       // use describedObject ...
  *
- *       CheckedUtil.uncheck 方法接受任意可以转化成 cn.hutool.core.lang.func.Func* 函数式接口的 Lambda 表达式。返回对应的函数式对象。
+ *       CheckedUtil.uncheck 方法接受任意可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func* 函数式接口的 Lambda 表达式。返回对应的函数式对象。
  *       上述代码可以理解为：
  *        Func0<Object, Map<String, String>> aFunc = CheckedUtil.uncheck(BeanUtils::describe);
  *        Map<String, String> describedObject = aFunc.call(传入参数);
@@ -45,7 +45,7 @@ import java.util.Objects;
 public class CheckedUtil {
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.Func 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression Lambda表达式
@@ -58,7 +58,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.Func0 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func0 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression 运行时传入的参数类型
@@ -70,7 +70,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.Func1 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func1 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression 运行时传入的参数类型
@@ -84,7 +84,7 @@ public class CheckedUtil {
 
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression 运行时传入的参数类型
@@ -96,7 +96,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc0 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc0 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression 运行时传入的参数类型
@@ -107,7 +107,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc1 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc1 的Lambda表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression 运行时传入的参数类型
@@ -120,7 +120,7 @@ public class CheckedUtil {
 
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.Func的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression  Lambda表达式
@@ -145,7 +145,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.Func0的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func0的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression  Lambda表达式
@@ -169,7 +169,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.Func1的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.Func1的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression  Lambda表达式
@@ -194,7 +194,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression  Lambda表达式
@@ -219,7 +219,7 @@ public class CheckedUtil {
 
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc0的Lambda表达式，和一个RuntimeException，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc0的Lambda表达式，和一个RuntimeException，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression Lambda表达式
@@ -243,7 +243,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc0的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc0的Lambda表达式，和一个可以把Exception转化成RuntimeExceptionde的表达式，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression  Lambda表达式
@@ -266,7 +266,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * 接收一个可以转化成 cn.hutool.core.lang.func.VoidFunc1的Lambda表达式，和一个RuntimeException，当执行表达式抛出任何异常的时候，都会转化成运行时异常
+	 * 接收一个可以转化成 com.foxapplication.embed.hutool.core.lang.func.VoidFunc1的Lambda表达式，和一个RuntimeException，当执行表达式抛出任何异常的时候，都会转化成运行时异常
 	 * 如此一来，代码中就不用显示的try-catch转化成运行时异常
 	 *
 	 * @param expression  Lambda表达式

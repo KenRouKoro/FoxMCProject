@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.swing;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.img.ImgUtil;
-import cn.hutool.core.swing.clipboard.ClipboardUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.img.ImgUtil;
+import com.foxapplication.embed.hutool.core.swing.clipboard.ClipboardUtil;
 
 import java.awt.AWTException;
 import java.awt.Rectangle;

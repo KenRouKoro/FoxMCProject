@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import java.io.File;
 import java.io.IOException;

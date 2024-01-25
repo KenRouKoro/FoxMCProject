@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.Map;
 import java.util.function.Consumer;

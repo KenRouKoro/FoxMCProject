@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.ansi;
 
-import cn.hutool.core.img.LabColor;
+import com.foxapplication.embed.hutool.core.img.LabColor;
 
 import java.awt.Color;
 import java.util.Collections;

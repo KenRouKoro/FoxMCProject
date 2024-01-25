@@ -4,8 +4,8 @@ import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * {@link ParameterizedType} 接口实现，用于重新定义泛型类型

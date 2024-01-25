@@ -1,6 +1,6 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
 
 import java.io.Serializable;
 import java.util.Date;

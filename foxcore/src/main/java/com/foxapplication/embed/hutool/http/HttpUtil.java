@@ -1,21 +1,17 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.StreamProgress;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.net.RFC3986;
-import cn.hutool.core.net.url.UrlQuery;
-import cn.hutool.core.text.StrBuilder;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.URLUtil;
-import cn.hutool.http.cookie.GlobalCookieManager;
-import cn.hutool.http.server.SimpleServer;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.StreamProgress;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.net.RFC3986;
+import com.foxapplication.embed.hutool.core.net.url.UrlQuery;
+import com.foxapplication.embed.hutool.core.text.StrBuilder;
+import com.foxapplication.embed.hutool.core.util.*;
+import com.foxapplication.embed.hutool.http.cookie.GlobalCookieManager;
+import com.foxapplication.embed.hutool.http.server.SimpleServer;
 
 import java.io.File;
 import java.io.InputStream;

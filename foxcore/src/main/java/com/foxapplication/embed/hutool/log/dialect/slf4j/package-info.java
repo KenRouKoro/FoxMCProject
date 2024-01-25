@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.log.dialect.slf4j;
+package com.foxapplication.embed.hutool.log.dialect.slf4j;

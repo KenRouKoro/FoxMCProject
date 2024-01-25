@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.collection;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Filter;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

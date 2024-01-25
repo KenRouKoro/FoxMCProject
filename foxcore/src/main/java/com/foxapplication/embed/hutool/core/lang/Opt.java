@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.lang.func.VoidFunc0;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.lang.func.VoidFunc0;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Collection;
 import java.util.NoSuchElementException;

@@ -1,12 +1,12 @@
-package cn.hutool.cron.pattern.parser;
+package com.foxapplication.embed.hutool.cron.pattern.parser;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.cron.CronException;
-import cn.hutool.cron.pattern.Part;
-import cn.hutool.cron.pattern.matcher.AlwaysTrueMatcher;
-import cn.hutool.cron.pattern.matcher.PartMatcher;
-import cn.hutool.cron.pattern.matcher.PatternMatcher;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.cron.CronException;
+import com.foxapplication.embed.hutool.cron.pattern.Part;
+import com.foxapplication.embed.hutool.cron.pattern.matcher.AlwaysTrueMatcher;
+import com.foxapplication.embed.hutool.cron.pattern.matcher.PartMatcher;
+import com.foxapplication.embed.hutool.cron.pattern.matcher.PatternMatcher;
 
 import java.util.ArrayList;
 import java.util.List;

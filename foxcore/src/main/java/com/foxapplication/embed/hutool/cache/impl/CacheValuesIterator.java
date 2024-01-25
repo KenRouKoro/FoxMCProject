@@ -1,10 +1,10 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
 import java.io.Serializable;
 import java.util.Iterator;
 
 /**
- *  {@link cn.hutool.cache.impl.AbstractCache} 的值迭代器.
+ *  {@link com.foxapplication.embed.hutool.cache.impl.AbstractCache} 的值迭代器.
  * @author looly
  *
  * @param <V> 迭代对象类型

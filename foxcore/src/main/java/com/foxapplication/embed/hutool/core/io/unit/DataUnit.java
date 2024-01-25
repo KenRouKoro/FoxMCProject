@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io.unit;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 数据单位封装<p>

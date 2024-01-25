@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.crypto.digest;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,18 +1,15 @@
-package cn.hutool.captcha;
+package com.foxapplication.embed.hutool.captcha;
 
-import cn.hutool.captcha.generator.CodeGenerator;
-import cn.hutool.captcha.generator.RandomGenerator;
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.img.ImgUtil;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.captcha.generator.CodeGenerator;
+import com.foxapplication.embed.hutool.captcha.generator.RandomGenerator;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.img.ImgUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
-import java.awt.AlphaComposite;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Image;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

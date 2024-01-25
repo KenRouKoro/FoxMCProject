@@ -1,7 +1,7 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.cache.GlobalPruneTimer;
-import cn.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.cache.GlobalPruneTimer;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
 
 import java.util.HashMap;
 import java.util.Iterator;

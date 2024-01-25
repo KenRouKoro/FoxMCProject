@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.lang.PatternPool;
-import cn.hutool.core.lang.Validator;
+import com.foxapplication.embed.hutool.core.lang.PatternPool;
+import com.foxapplication.embed.hutool.core.lang.Validator;
 
 
 /**

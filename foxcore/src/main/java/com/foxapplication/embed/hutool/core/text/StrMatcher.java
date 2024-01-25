@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

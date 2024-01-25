@@ -1,18 +1,18 @@
 package com.foxapplication.embed.hutool.core.text.csv;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.collection.ArrayIter;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.collection.ArrayIter;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.BufferedWriter;
 import java.io.Closeable;

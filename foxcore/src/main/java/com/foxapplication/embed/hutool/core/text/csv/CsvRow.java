@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text.csv;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.util.Collection;
 import java.util.Iterator;

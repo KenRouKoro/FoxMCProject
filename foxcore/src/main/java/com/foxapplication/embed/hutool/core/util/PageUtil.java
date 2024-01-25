@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.lang.DefaultSegment;
-import cn.hutool.core.lang.Segment;
+import com.foxapplication.embed.hutool.core.lang.DefaultSegment;
+import com.foxapplication.embed.hutool.core.lang.Segment;
 
 /**
  * 分页工具类

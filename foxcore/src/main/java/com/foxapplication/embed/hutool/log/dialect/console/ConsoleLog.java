@@ -1,12 +1,12 @@
-package cn.hutool.log.dialect.console;
+package com.foxapplication.embed.hutool.log.dialect.console;
 
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Console;
-import cn.hutool.core.lang.Dict;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
-import cn.hutool.log.level.Level;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Console;
+import com.foxapplication.embed.hutool.core.lang.Dict;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
+import com.foxapplication.embed.hutool.log.level.Level;
 
 /**
  * 利用System.out.println()打印日志

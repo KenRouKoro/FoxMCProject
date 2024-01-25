@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.crypto.digest.otp;
 
-import cn.hutool.core.codec.Base32;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.crypto.digest.HMac;
-import cn.hutool.crypto.digest.HmacAlgorithm;
+import com.foxapplication.embed.hutool.core.codec.Base32;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.crypto.digest.HMac;
+import com.foxapplication.embed.hutool.crypto.digest.HmacAlgorithm;
 
 /**
  * <p>HMAC-based one-time passwords (HOTP) 基于HMAC算法一次性密码生成器，

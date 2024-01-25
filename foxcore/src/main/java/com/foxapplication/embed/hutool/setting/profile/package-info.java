@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.setting.profile;
+package com.foxapplication.embed.hutool.setting.profile;

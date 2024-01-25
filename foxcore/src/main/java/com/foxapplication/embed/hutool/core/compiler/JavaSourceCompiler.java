@@ -1,17 +1,17 @@
 package com.foxapplication.embed.hutool.core.compiler;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.FileResource;
-import cn.hutool.core.io.resource.Resource;
-import cn.hutool.core.io.resource.StringResource;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.FileResource;
+import com.foxapplication.embed.hutool.core.io.resource.Resource;
+import com.foxapplication.embed.hutool.core.io.resource.StringResource;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import javax.tools.DiagnosticCollector;
 import javax.tools.JavaCompiler.CompilationTask;

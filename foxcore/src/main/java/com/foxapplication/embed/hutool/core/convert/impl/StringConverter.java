@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.convert.ConvertException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.XmlUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.ConvertException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.XmlUtil;
 
 import java.io.InputStream;
 import java.io.Reader;

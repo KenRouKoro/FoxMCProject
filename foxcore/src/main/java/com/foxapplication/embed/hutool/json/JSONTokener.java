@@ -1,13 +1,9 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
-import java.io.StringReader;
+import java.io.*;
 
 /**
  * JSON解析器，用于将JSON字符串解析为JSONObject或者JSONArray

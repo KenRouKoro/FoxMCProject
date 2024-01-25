@@ -1,11 +1,10 @@
-package cn.hutool.log.dialect.commons;
+package com.foxapplication.embed.hutool.log.dialect.commons;
 
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
+import com.foxapplication.embed.hutool.log.level.Level;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
-import cn.hutool.log.level.Level;
 
 /**
  * Apache Commons Logging

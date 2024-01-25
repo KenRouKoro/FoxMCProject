@@ -10,7 +10,7 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 
-import cn.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
 
 /**
  * 系统剪贴板工具类

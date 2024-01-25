@@ -1,16 +1,9 @@
-package cn.hutool.script;
+package com.foxapplication.embed.hutool.script;
 
-import cn.hutool.core.map.WeakConcurrentMap;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
-import javax.script.Bindings;
-import javax.script.Compilable;
-import javax.script.CompiledScript;
-import javax.script.Invocable;
-import javax.script.ScriptContext;
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
+import javax.script.*;
 
 /**
  * 脚本工具类

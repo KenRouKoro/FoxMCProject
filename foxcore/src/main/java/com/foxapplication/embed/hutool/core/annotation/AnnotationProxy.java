@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.annotation.Annotation;

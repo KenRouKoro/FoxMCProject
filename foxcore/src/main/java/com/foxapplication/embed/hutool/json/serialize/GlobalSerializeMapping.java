@@ -1,7 +1,7 @@
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;
 
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.json.JSON;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.json.JSON;
 
 import java.lang.reflect.Type;
 import java.time.LocalDate;

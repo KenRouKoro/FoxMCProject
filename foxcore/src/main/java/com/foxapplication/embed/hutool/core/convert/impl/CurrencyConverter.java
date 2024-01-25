@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 
 import java.util.Currency;
 
-import cn.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
 
 /**
  * 货币{@link Currency} 转换器

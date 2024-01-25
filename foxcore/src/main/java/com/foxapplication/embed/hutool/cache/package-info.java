@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.cache;
+package com.foxapplication.embed.hutool.cache;

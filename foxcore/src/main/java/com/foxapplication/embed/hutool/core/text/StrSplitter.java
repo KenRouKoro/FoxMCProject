@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.lang.PatternPool;
-import cn.hutool.core.text.finder.CharFinder;
-import cn.hutool.core.text.finder.CharMatcherFinder;
-import cn.hutool.core.text.finder.LengthFinder;
-import cn.hutool.core.text.finder.PatternFinder;
-import cn.hutool.core.text.finder.StrFinder;
-import cn.hutool.core.text.split.SplitIter;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.lang.PatternPool;
+import com.foxapplication.embed.hutool.core.text.finder.CharFinder;
+import com.foxapplication.embed.hutool.core.text.finder.CharMatcherFinder;
+import com.foxapplication.embed.hutool.core.text.finder.LengthFinder;
+import com.foxapplication.embed.hutool.core.text.finder.PatternFinder;
+import com.foxapplication.embed.hutool.core.text.finder.StrFinder;
+import com.foxapplication.embed.hutool.core.text.split.SplitIter;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.ArrayList;
 import java.util.List;

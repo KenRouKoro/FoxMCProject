@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.crypto.digest.mac;
 
-import cn.hutool.crypto.SmUtil;
-import cn.hutool.crypto.digest.HmacAlgorithm;
+import com.foxapplication.embed.hutool.crypto.SmUtil;
+import com.foxapplication.embed.hutool.crypto.digest.HmacAlgorithm;
 
 import java.security.Key;
 import java.security.spec.AlgorithmParameterSpec;

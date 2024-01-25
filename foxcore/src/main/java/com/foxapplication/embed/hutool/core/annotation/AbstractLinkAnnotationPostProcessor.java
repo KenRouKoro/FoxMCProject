@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.lang.annotation.Annotation;
 import java.util.HashMap;

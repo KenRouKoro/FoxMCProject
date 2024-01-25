@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;

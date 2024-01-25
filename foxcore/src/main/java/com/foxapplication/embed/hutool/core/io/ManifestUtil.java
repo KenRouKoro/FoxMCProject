@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
 
 import java.io.File;
 import java.io.FileInputStream;

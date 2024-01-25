@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.bean.copier.provider;
 
-import cn.hutool.core.bean.DynaBean;
-import cn.hutool.core.bean.copier.ValueProvider;
-import cn.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.bean.DynaBean;
+import com.foxapplication.embed.hutool.core.bean.copier.ValueProvider;
+import com.foxapplication.embed.hutool.core.convert.Convert;
 
 import java.lang.reflect.Type;
 

@@ -8,4 +8,4 @@
  *
  * @author looly
  */
-package cn.hutool.cron.timingwheel;
+package com.foxapplication.embed.hutool.cron.timingwheel;

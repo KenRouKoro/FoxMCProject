@@ -1,17 +1,17 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.comparator.CompareUtil;
-import cn.hutool.core.date.format.DateParser;
-import cn.hutool.core.date.format.DatePrinter;
-import cn.hutool.core.date.format.FastDateFormat;
-import cn.hutool.core.date.format.GlobalCustomFormat;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.PatternPool;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.date.format.DateParser;
+import com.foxapplication.embed.hutool.core.date.format.DatePrinter;
+import com.foxapplication.embed.hutool.core.date.format.FastDateFormat;
+import com.foxapplication.embed.hutool.core.date.format.GlobalCustomFormat;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.PatternPool;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

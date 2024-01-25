@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.lang.copier;
 
 import java.io.Serializable;
 
-import cn.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Filter;
 
 /**
  * 复制器抽象类<br>

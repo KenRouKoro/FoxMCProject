@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.http.ssl;
+package com.foxapplication.embed.hutool.http.ssl;

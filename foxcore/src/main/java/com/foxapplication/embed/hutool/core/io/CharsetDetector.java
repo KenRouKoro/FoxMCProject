@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.io.File;
 import java.io.IOException;

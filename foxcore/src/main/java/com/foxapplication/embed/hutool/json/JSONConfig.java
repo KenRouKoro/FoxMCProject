@@ -1,6 +1,6 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
 
 import java.io.Serializable;
 import java.util.Comparator;

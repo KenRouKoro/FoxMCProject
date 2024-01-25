@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io.checksum;
 
-import cn.hutool.core.io.checksum.crc16.CRC16Checksum;
-import cn.hutool.core.io.checksum.crc16.CRC16IBM;
+import com.foxapplication.embed.hutool.core.io.checksum.crc16.CRC16Checksum;
+import com.foxapplication.embed.hutool.core.io.checksum.crc16.CRC16IBM;
 
 import java.io.Serializable;
 import java.util.zip.Checksum;

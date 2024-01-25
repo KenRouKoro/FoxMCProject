@@ -1,16 +1,16 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.comparator.VersionComparator;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.Matcher;
-import cn.hutool.core.lang.func.Func1;
-import cn.hutool.core.text.finder.CharFinder;
-import cn.hutool.core.text.finder.Finder;
-import cn.hutool.core.text.finder.StrFinder;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.comparator.VersionComparator;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Matcher;
+import com.foxapplication.embed.hutool.core.lang.func.Func1;
+import com.foxapplication.embed.hutool.core.text.finder.CharFinder;
+import com.foxapplication.embed.hutool.core.text.finder.Finder;
+import com.foxapplication.embed.hutool.core.text.finder.StrFinder;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;

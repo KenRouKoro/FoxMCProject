@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReferenceUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReferenceUtil;
 
 import java.io.Serializable;
 import java.lang.ref.Reference;

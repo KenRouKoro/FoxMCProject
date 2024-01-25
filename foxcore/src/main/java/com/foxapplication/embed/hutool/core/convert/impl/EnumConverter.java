@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.convert.ConvertException;
-import cn.hutool.core.lang.EnumItem;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.map.WeakConcurrentMap;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.EnumUtil;
-import cn.hutool.core.util.ModifierUtil;
-import cn.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.ConvertException;
+import com.foxapplication.embed.hutool.core.lang.EnumItem;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.EnumUtil;
+import com.foxapplication.embed.hutool.core.util.ModifierUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

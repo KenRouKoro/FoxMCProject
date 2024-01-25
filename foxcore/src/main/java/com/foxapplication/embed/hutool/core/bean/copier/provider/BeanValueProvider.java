@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.bean.copier.provider;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.bean.PropDesc;
-import cn.hutool.core.bean.copier.ValueProvider;
-import cn.hutool.core.lang.Editor;
-import cn.hutool.core.map.FuncKeyMap;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.bean.PropDesc;
+import com.foxapplication.embed.hutool.core.bean.copier.ValueProvider;
+import com.foxapplication.embed.hutool.core.lang.Editor;
+import com.foxapplication.embed.hutool.core.map.FuncKeyMap;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.Type;

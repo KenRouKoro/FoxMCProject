@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.annotation.scanner.AnnotationScanner;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.annotation.scanner.AnnotationScanner;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.lang.annotation.Annotation;
 import java.util.Collection;

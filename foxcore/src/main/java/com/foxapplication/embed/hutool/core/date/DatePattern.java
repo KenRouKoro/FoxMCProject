@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.date.format.FastDateFormat;
+import com.foxapplication.embed.hutool.core.date.format.FastDateFormat;
 
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;

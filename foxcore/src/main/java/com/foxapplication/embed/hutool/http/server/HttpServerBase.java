@@ -1,6 +1,6 @@
-package cn.hutool.http.server;
+package com.foxapplication.embed.hutool.http.server;
 
-import cn.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpExchange;
 

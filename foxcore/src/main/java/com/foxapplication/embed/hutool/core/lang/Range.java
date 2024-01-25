@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.thread.lock.NoLock;
+import com.foxapplication.embed.hutool.core.thread.lock.NoLock;
 
 import java.io.Serializable;
 import java.util.Iterator;

@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.lang.tree.parser;
 
-import cn.hutool.core.lang.tree.TreeNode;
-import cn.hutool.core.lang.tree.Tree;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.lang.tree.TreeNode;
+import com.foxapplication.embed.hutool.core.lang.tree.Tree;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.util.Map;
 

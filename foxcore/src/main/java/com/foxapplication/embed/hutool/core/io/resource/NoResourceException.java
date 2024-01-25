@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io.resource;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 资源文件或资源不存在异常

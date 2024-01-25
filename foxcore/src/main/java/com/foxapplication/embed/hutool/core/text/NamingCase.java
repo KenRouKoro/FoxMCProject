@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 命名规则封装，主要是针对驼峰风格命名、连接符命名等的封装

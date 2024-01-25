@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.comparator.CompareUtil;
-import cn.hutool.core.convert.NumberChineseFormatter;
-import cn.hutool.core.date.format.DateParser;
-import cn.hutool.core.date.format.FastDateParser;
-import cn.hutool.core.date.format.GlobalCustomFormat;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.convert.NumberChineseFormatter;
+import com.foxapplication.embed.hutool.core.date.format.DateParser;
+import com.foxapplication.embed.hutool.core.date.format.FastDateParser;
+import com.foxapplication.embed.hutool.core.date.format.GlobalCustomFormat;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.text.ParsePosition;
 import java.time.Instant;

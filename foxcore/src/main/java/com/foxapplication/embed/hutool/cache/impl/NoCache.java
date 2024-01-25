@@ -1,8 +1,8 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.cache.Cache;
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.cache.Cache;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
 
 import java.util.Iterator;
 

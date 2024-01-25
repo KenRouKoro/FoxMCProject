@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.io.resource;
 
 import java.io.File;
 
-import cn.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
 
 /**
  * Web root资源访问对象

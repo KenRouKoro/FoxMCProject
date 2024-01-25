@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io.watch;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import java.io.File;
 import java.io.IOException;

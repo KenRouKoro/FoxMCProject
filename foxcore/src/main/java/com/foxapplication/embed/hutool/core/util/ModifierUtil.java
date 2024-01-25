@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

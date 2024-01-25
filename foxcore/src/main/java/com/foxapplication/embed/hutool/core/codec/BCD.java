@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 /**
  * BCD码（Binary-Coded Decimal）亦称二进码十进数或二-十进制代码<br>

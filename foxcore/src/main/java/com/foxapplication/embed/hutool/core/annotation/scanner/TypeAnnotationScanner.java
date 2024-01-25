@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.annotation.scanner;
 
-import cn.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;

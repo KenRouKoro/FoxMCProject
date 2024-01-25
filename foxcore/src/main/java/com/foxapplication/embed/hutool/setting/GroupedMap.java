@@ -1,14 +1,10 @@
-package cn.hutool.setting;
+package com.foxapplication.embed.hutool.setting;
 
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
@@ -277,7 +273,7 @@ public class GroupedMap extends LinkedHashMap<String, LinkedHashMap<String, Stri
 	}
 
 	@Override
-	public Set<java.util.Map.Entry<String, LinkedHashMap<String, String>>> entrySet() {
+	public Set<Entry<String, LinkedHashMap<String, String>>> entrySet() {
 		readLock.lock();
 		try {
 			return super.entrySet();

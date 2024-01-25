@@ -1,6 +1,6 @@
-package cn.hutool.cron.pattern;
+package com.foxapplication.embed.hutool.cron.pattern;
 
-import cn.hutool.core.date.Week;
+import com.foxapplication.embed.hutool.core.date.Week;
 
 import java.time.LocalDateTime;
 import java.util.Calendar;

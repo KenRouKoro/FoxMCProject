@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.socket.protocol;
+package com.foxapplication.embed.hutool.socket.protocol;

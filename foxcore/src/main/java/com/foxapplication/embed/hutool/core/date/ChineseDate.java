@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.convert.NumberChineseFormatter;
-import cn.hutool.core.date.chinese.ChineseMonth;
-import cn.hutool.core.date.chinese.GanZhi;
-import cn.hutool.core.date.chinese.LunarFestival;
-import cn.hutool.core.date.chinese.LunarInfo;
-import cn.hutool.core.date.chinese.SolarTerms;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.NumberChineseFormatter;
+import com.foxapplication.embed.hutool.core.date.chinese.ChineseMonth;
+import com.foxapplication.embed.hutool.core.date.chinese.GanZhi;
+import com.foxapplication.embed.hutool.core.date.chinese.LunarFestival;
+import com.foxapplication.embed.hutool.core.date.chinese.LunarInfo;
+import com.foxapplication.embed.hutool.core.date.chinese.SolarTerms;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.time.LocalDate;
 import java.util.Calendar;

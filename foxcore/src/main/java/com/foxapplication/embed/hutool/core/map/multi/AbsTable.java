@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.map.multi;
 
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.collection.TransIter;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.collection.TransIter;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.Serializable;
 import java.util.AbstractCollection;

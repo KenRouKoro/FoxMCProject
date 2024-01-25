@@ -1,19 +1,15 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.convert.NumberWithFormat;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.file.FileReader;
-import cn.hutool.core.lang.TypeReference;
-import cn.hutool.core.map.MapWrapper;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.json.serialize.GlobalSerializeMapping;
-import cn.hutool.json.serialize.JSONArraySerializer;
-import cn.hutool.json.serialize.JSONDeserializer;
-import cn.hutool.json.serialize.JSONObjectSerializer;
+import com.foxapplication.embed.hutool.core.convert.NumberWithFormat;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.file.FileReader;
+import com.foxapplication.embed.hutool.core.lang.TypeReference;
+import com.foxapplication.embed.hutool.core.map.MapWrapper;
+import com.foxapplication.embed.hutool.core.util.*;
+import com.foxapplication.embed.hutool.json.serialize.GlobalSerializeMapping;
+import com.foxapplication.embed.hutool.json.serialize.JSONArraySerializer;
+import com.foxapplication.embed.hutool.json.serialize.JSONDeserializer;
+import com.foxapplication.embed.hutool.json.serialize.JSONObjectSerializer;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,11 +19,7 @@ import java.lang.reflect.Type;
 import java.nio.charset.Charset;
 import java.sql.SQLException;
 import java.time.temporal.TemporalAccessor;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * JSON工具类

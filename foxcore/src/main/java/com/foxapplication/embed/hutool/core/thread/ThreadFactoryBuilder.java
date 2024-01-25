@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.thread;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.Executors;

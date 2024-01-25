@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.func;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
 
 import java.io.Serializable;
 

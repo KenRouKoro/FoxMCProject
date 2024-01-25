@@ -1,16 +1,12 @@
-package cn.hutool.cron.pattern;
+package com.foxapplication.embed.hutool.cron.pattern;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.date.CalendarUtil;
-import cn.hutool.cron.pattern.matcher.PatternMatcher;
-import cn.hutool.cron.pattern.parser.PatternParser;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.date.CalendarUtil;
+import com.foxapplication.embed.hutool.cron.pattern.matcher.PatternMatcher;
+import com.foxapplication.embed.hutool.cron.pattern.parser.PatternParser;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.List;
-import java.util.TimeZone;
+import java.util.*;
 
 /**
  * 定时任务表达式<br>

@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
 
 import java.util.Iterator;
 import java.util.List;

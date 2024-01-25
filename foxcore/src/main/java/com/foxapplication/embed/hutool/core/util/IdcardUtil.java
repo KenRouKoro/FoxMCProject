@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.date.DatePattern;
-import cn.hutool.core.date.DateTime;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.PatternPool;
-import cn.hutool.core.lang.Validator;
+import com.foxapplication.embed.hutool.core.date.DatePattern;
+import com.foxapplication.embed.hutool.core.date.DateTime;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.PatternPool;
+import com.foxapplication.embed.hutool.core.lang.Validator;
 
 import java.io.Serializable;
 import java.util.Date;

@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.lang.caller;
 
 import java.io.Serializable;
 
-import cn.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
 
 /**
  * 通过StackTrace方式获取调用者。此方式效率最低，不推荐使用

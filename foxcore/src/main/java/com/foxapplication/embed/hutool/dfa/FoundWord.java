@@ -1,6 +1,6 @@
-package cn.hutool.dfa;
+package com.foxapplication.embed.hutool.dfa;
 
-import cn.hutool.core.lang.DefaultSegment;
+import com.foxapplication.embed.hutool.core.lang.DefaultSegment;
 
 /**
  * <p>

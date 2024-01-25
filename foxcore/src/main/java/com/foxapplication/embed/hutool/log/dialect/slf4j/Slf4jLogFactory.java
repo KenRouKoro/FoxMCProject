@@ -1,14 +1,13 @@
-package cn.hutool.log.dialect.slf4j;
+package com.foxapplication.embed.hutool.log.dialect.slf4j;
+
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
+import org.slf4j.LoggerFactory;
+import org.slf4j.helpers.NOPLoggerFactory;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
-
-import org.slf4j.LoggerFactory;
-import org.slf4j.helpers.NOPLoggerFactory;
-
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
 
 /**
  * <a href="http://www.slf4j.org/">SLF4J</a> log.<br>

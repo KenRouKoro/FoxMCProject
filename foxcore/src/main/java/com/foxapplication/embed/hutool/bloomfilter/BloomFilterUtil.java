@@ -1,4 +1,4 @@
-package cn.hutool.bloomfilter;
+package com.foxapplication.embed.hutool.bloomfilter;
 
 /**
  * 布隆过滤器工具

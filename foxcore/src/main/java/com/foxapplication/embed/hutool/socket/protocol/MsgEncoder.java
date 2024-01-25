@@ -1,8 +1,8 @@
-package cn.hutool.socket.protocol;
+package com.foxapplication.embed.hutool.socket.protocol;
+
+import com.foxapplication.embed.hutool.socket.aio.AioSession;
 
 import java.nio.ByteBuffer;
-
-import cn.hutool.socket.aio.AioSession;
 
 /**
  * 消息编码器

@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.generator;
 
-import cn.hutool.core.lang.ObjectId;
+import com.foxapplication.embed.hutool.core.lang.ObjectId;
 
 /**
  * ObjectId生成器

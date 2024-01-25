@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text.replacer;
 
-import cn.hutool.core.text.StrBuilder;
+import com.foxapplication.embed.hutool.core.text.StrBuilder;
 
 import java.util.HashMap;
 import java.util.HashSet;

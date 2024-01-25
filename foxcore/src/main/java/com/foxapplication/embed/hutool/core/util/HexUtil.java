@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.codec.Base16Codec;
-import cn.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.codec.Base16Codec;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
 
 import java.awt.Color;
 import java.math.BigInteger;

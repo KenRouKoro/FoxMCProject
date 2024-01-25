@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Set;
 import java.util.stream.Collectors;

@@ -1,6 +1,6 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
 
 /**
  * JSON支持<br>

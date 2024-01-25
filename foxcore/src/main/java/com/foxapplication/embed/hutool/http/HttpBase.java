@@ -1,19 +1,15 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.CollectionUtil;
-import cn.hutool.core.io.resource.Resource;
-import cn.hutool.core.map.CaseInsensitiveMap;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.CollectionUtil;
+import com.foxapplication.embed.hutool.core.io.resource.Resource;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveMap;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
 
 /**

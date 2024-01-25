@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.bean.copier;
 
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 import java.lang.reflect.Type;
 import java.util.Map;

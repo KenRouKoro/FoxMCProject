@@ -1,6 +1,6 @@
-package cn.hutool.setting;
+package com.foxapplication.embed.hutool.setting;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 设置异常

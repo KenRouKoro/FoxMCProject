@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Converter;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Converter;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 import java.lang.reflect.Type;
 import java.util.Collection;

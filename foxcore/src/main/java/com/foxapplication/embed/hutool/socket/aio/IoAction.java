@@ -1,4 +1,4 @@
-package cn.hutool.socket.aio;
+package com.foxapplication.embed.hutool.socket.aio;
 
 /**
  * Socket流处理接口<br>

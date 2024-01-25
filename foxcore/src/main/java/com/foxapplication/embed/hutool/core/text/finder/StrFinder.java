@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text.finder;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.text.CharSequenceUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.text.CharSequenceUtil;
 
 /**
  * 字符串查找器

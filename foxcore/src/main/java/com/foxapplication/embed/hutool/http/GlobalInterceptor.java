@@ -1,4 +1,4 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
 /**
  * 全局的拦截器<br>
@@ -69,7 +69,7 @@ public enum GlobalInterceptor {
 	/**
 	 * 复制请求过滤器列表
 	 *
-	 * @return {@link cn.hutool.http.HttpInterceptor.Chain}
+	 * @return {@link com.foxapplication.embed.hutool.http.HttpInterceptor.Chain}
 	 */
 	HttpInterceptor.Chain<HttpRequest> getCopiedRequestInterceptor() {
 		final HttpInterceptor.Chain<HttpRequest> copied = new HttpInterceptor.Chain<>();
@@ -82,7 +82,7 @@ public enum GlobalInterceptor {
 	/**
 	 * 复制响应过滤器列表
 	 *
-	 * @return {@link cn.hutool.http.HttpInterceptor.Chain}
+	 * @return {@link com.foxapplication.embed.hutool.http.HttpInterceptor.Chain}
 	 */
 	HttpInterceptor.Chain<HttpResponse> getCopiedResponseInterceptor() {
 		final HttpInterceptor.Chain<HttpResponse> copied = new HttpInterceptor.Chain<>();

@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.crypto.asymmetric;
 
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.GlobalBouncyCastleProvider;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.GlobalBouncyCastleProvider;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 
 import java.math.BigInteger;
 import java.security.NoSuchAlgorithmException;

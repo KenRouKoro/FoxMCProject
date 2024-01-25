@@ -1,0 +1,70 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.foxapplication.mc'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext  {
+    jythonVersion  =  '2.7.3'
+    luajVersion  =  '3.0.1'
+    groovyVersion  =  '3.0.19'
+    slf4jVersion  =  '1.7.36'
+    logbackVersion  =  '1.4.14'
+    log4jVersion  =  '1.2.17'
+    log4j2Version  =  '2.20.0'
+    commonsLoggingVersion  =  '1.2'
+    tinylogVersion  =  '1.3.6'
+    tinylog2Version  =  '2.6.2'
+    jbossLoggingVersion  =  '3.4.3.Final'
+    logtubeVersion  =  '0.45.0'
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+    implementation("org.glassfish.jaxb:jaxb-runtime:4.0.4")
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    implementation 'org.bouncycastle:bcpkix-jdk18on:1.77'
+    implementation 'javax.xml.soap:javax.xml.soap-api:1.4.0'
+
+    compileOnly  "org.python:jython:$jythonVersion"
+    compileOnly  "org.luaj:luaj-jse:$luajVersion"
+
+    compileOnly("org.codehaus.groovy:groovy-all:$groovyVersion")  {
+        exclude  group:  'junit',  module:  'junit'
+    }
+
+    compileOnly  "org.slf4j:slf4j-api:$slf4jVersion"
+    compileOnly  "ch.qos.logback:logback-classic:$logbackVersion"
+    compileOnly  "log4j:log4j:$log4jVersion"
+    compileOnly  "org.apache.logging.log4j:log4j-api:$log4j2Version"
+    compileOnly  "commons-logging:commons-logging:$commonsLoggingVersion"
+    compileOnly  "org.tinylog:tinylog:$tinylogVersion"
+    compileOnly  "org.tinylog:tinylog-api:$tinylog2Version"
+    compileOnly  "org.jboss.logging:jboss-logging:$jbossLoggingVersion"
+    compileOnly  "io.github.logtube:logtube:$logtubeVersion"
+    compileOnly  "org.yaml:snakeyaml:2.2"
+
+    implementation 'com.github.KenRouKoro:ctoml4j:1.0.1'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+}
+
+test {
+    useJUnitPlatform()
+}

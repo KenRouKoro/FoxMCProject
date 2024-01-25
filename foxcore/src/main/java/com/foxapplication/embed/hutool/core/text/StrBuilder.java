@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.util.Arrays;

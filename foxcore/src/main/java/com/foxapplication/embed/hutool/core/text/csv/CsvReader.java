@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.text.csv;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
 
 import java.io.Closeable;
 import java.io.File;

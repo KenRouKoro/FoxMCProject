@@ -1,20 +1,20 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.collection.EnumerationIter;
-import cn.hutool.core.compress.Deflate;
-import cn.hutool.core.compress.Gzip;
-import cn.hutool.core.compress.ZipCopyVisitor;
-import cn.hutool.core.compress.ZipReader;
-import cn.hutool.core.compress.ZipWriter;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FastByteArrayOutputStream;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.LimitedInputStream;
-import cn.hutool.core.io.file.FileSystemUtil;
-import cn.hutool.core.io.file.PathUtil;
-import cn.hutool.core.io.resource.Resource;
+import com.foxapplication.embed.hutool.core.collection.EnumerationIter;
+import com.foxapplication.embed.hutool.core.compress.Deflate;
+import com.foxapplication.embed.hutool.core.compress.Gzip;
+import com.foxapplication.embed.hutool.core.compress.ZipCopyVisitor;
+import com.foxapplication.embed.hutool.core.compress.ZipReader;
+import com.foxapplication.embed.hutool.core.compress.ZipWriter;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FastByteArrayOutputStream;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.LimitedInputStream;
+import com.foxapplication.embed.hutool.core.io.file.FileSystemUtil;
+import com.foxapplication.embed.hutool.core.io.file.PathUtil;
+import com.foxapplication.embed.hutool.core.io.resource.Resource;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
@@ -43,7 +43,7 @@ import java.util.zip.ZipOutputStream;
  * 压缩工具类
  *
  * @author Looly
- * @see cn.hutool.core.compress.ZipWriter
+ * @see com.foxapplication.embed.hutool.core.compress.ZipWriter
  */
 public class ZipUtil {
 

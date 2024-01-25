@@ -1,4 +1,4 @@
-package cn.hutool.socket.nio;
+package com.foxapplication.embed.hutool.socket.nio;
 
 import java.nio.channels.SocketChannel;
 

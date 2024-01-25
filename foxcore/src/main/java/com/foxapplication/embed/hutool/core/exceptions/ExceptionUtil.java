@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.exceptions;
 
-import cn.hutool.core.io.FastByteArrayOutputStream;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.FastByteArrayOutputStream;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;

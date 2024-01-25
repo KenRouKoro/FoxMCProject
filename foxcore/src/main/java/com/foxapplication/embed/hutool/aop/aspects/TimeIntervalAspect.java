@@ -1,7 +1,7 @@
-package cn.hutool.aop.aspects;
+package com.foxapplication.embed.hutool.aop.aspects;
 
-import cn.hutool.core.date.TimeInterval;
-import cn.hutool.core.lang.Console;
+import com.foxapplication.embed.hutool.core.date.TimeInterval;
+import com.foxapplication.embed.hutool.core.lang.Console;
 
 import java.lang.reflect.Method;
 

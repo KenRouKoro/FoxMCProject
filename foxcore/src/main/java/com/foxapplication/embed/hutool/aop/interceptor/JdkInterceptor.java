@@ -1,8 +1,8 @@
-package cn.hutool.aop.interceptor;
+package com.foxapplication.embed.hutool.aop.interceptor;
 
-import cn.hutool.aop.aspects.Aspect;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.aop.aspects.Aspect;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.InvocationHandler;

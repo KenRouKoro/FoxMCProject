@@ -1,12 +1,12 @@
-package cn.hutool.json.xml;
+package com.foxapplication.embed.hutool.json.xml;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.EscapeUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.json.JSONArray;
-import cn.hutool.json.JSONException;
-import cn.hutool.json.JSONObject;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.EscapeUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.json.JSONArray;
+import com.foxapplication.embed.hutool.json.JSONException;
+import com.foxapplication.embed.hutool.json.JSONObject;
 
 /**
  * JSON转XML字符串工具

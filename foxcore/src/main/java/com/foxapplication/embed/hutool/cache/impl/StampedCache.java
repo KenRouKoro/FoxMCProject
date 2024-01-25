@@ -1,7 +1,6 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.core.collection.CopiedIter;
-import cn.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.core.collection.CopiedIter;
 
 import java.util.Iterator;
 import java.util.concurrent.locks.StampedLock;

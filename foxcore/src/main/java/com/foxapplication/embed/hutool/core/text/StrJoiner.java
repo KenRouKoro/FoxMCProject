@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.collection.ArrayIter;
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.ArrayIter;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.IOException;
 import java.io.Serializable;

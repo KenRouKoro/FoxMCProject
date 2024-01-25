@@ -1,4 +1,4 @@
 /**
  * {@link com.sun.net.httpserver.Filter} 实现包装
  */
-package cn.hutool.http.server.filter;
+package com.foxapplication.embed.hutool.http.server.filter;

@@ -1,24 +1,19 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.BeanPath;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.Validator;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.lang.mutable.MutableObj;
-import cn.hutool.core.lang.mutable.MutablePair;
-import cn.hutool.core.text.StrJoiner;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.json.serialize.JSONWriter;
+import com.foxapplication.embed.hutool.core.bean.BeanPath;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Validator;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutableObj;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutablePair;
+import com.foxapplication.embed.hutool.core.text.StrJoiner;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.json.serialize.JSONWriter;
 
 import java.io.StringWriter;
 import java.io.Writer;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.RandomAccess;
+import java.util.*;
 
 /**
  * JSON数组<br>

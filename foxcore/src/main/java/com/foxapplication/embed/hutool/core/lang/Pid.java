@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.lang.management.ManagementFactory;
 

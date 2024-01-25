@@ -1,16 +1,16 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.bean.copier.BeanCopier;
-import cn.hutool.core.bean.copier.CopyOptions;
-import cn.hutool.core.bean.copier.ValueProvider;
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.convert.ConvertException;
-import cn.hutool.core.map.MapProxy;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.bean.copier.BeanCopier;
+import com.foxapplication.embed.hutool.core.bean.copier.CopyOptions;
+import com.foxapplication.embed.hutool.core.bean.copier.ValueProvider;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.ConvertException;
+import com.foxapplication.embed.hutool.core.map.MapProxy;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 import java.lang.reflect.Type;
 import java.util.Map;
@@ -69,7 +69,7 @@ public class BeanConverter<T> extends AbstractConverter<T> {
 	protected T convertInternal(Object value) {
 		final Class<?>[] interfaces = this.beanClass.getInterfaces();
 		for (Class<?> anInterface : interfaces) {
-			if("cn.hutool.json.JSONBeanParser".equals(anInterface.getName())){
+			if("com.foxapplication.embed.hutool.json.JSONBeanParser".equals(anInterface.getName())){
 				// issue#I7M2GZ
 				final T obj = ReflectUtil.newInstanceIfPossible(this.beanClass);
 				ReflectUtil.invoke(obj, "parse", value);

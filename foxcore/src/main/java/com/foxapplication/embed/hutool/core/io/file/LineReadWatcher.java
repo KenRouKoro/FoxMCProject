@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.LineHandler;
-import cn.hutool.core.io.watch.SimpleWatcher;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.LineHandler;
+import com.foxapplication.embed.hutool.core.io.watch.SimpleWatcher;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

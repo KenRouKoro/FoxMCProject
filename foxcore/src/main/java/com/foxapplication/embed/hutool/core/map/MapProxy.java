@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.getter.OptNullBasicTypeFromObjectGetter;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.BooleanUtil;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.getter.OptNullBasicTypeFromObjectGetter;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.BooleanUtil;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.InvocationHandler;

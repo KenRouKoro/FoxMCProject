@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.crypto.symmetric;
 
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.crypto.KeyUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.crypto.KeyUtil;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.PBEKeySpec;

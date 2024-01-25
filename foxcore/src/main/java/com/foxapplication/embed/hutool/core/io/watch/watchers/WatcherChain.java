@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io.watch.watchers;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.io.watch.Watcher;
-import cn.hutool.core.lang.Chain;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.io.watch.Watcher;
+import com.foxapplication.embed.hutool.core.lang.Chain;
 
 import java.nio.file.Path;
 import java.nio.file.WatchEvent;

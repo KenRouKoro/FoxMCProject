@@ -5,4 +5,4 @@
  * @author looly
  *
  */
-package cn.hutool.log;
+package com.foxapplication.embed.hutool.log;

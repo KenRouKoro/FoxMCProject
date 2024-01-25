@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.core.net;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.EnumerationIter;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.util.JNDIUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.EnumerationIter;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.util.JNDIUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import javax.naming.NamingException;
 import javax.naming.directory.Attribute;

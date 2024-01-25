@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.thread;
 
-import cn.hutool.core.date.TimeInterval;
+import com.foxapplication.embed.hutool.core.date.TimeInterval;
 
 import java.io.Closeable;
 import java.io.IOException;

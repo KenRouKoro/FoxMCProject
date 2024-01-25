@@ -1,35 +1,26 @@
-package cn.hutool.setting;
+package com.foxapplication.embed.hutool.setting;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.ClassPathResource;
-import cn.hutool.core.io.resource.FileResource;
-import cn.hutool.core.io.resource.Resource;
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.io.resource.UrlResource;
-import cn.hutool.core.io.watch.SimpleWatcher;
-import cn.hutool.core.io.watch.WatchMonitor;
-import cn.hutool.core.io.watch.WatchUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.StaticLog;
-import cn.hutool.setting.dialect.Props;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.*;
+import com.foxapplication.embed.hutool.core.io.watch.SimpleWatcher;
+import com.foxapplication.embed.hutool.core.io.watch.WatchMonitor;
+import com.foxapplication.embed.hutool.core.io.watch.WatchUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.StaticLog;
+import com.foxapplication.embed.hutool.setting.dialect.Props;
 
 import java.io.File;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.file.Path;
 import java.nio.file.WatchEvent;
-import java.util.Collection;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Consumer;
 
 /**

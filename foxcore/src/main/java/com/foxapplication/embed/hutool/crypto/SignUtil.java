@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.crypto;
 
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.asymmetric.Sign;
-import cn.hutool.crypto.asymmetric.SignAlgorithm;
-import cn.hutool.crypto.digest.DigestAlgorithm;
-import cn.hutool.crypto.digest.Digester;
-import cn.hutool.crypto.symmetric.SymmetricCrypto;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.asymmetric.Sign;
+import com.foxapplication.embed.hutool.crypto.asymmetric.SignAlgorithm;
+import com.foxapplication.embed.hutool.crypto.digest.DigestAlgorithm;
+import com.foxapplication.embed.hutool.crypto.digest.Digester;
+import com.foxapplication.embed.hutool.crypto.symmetric.SymmetricCrypto;
 
 import java.util.Map;
 

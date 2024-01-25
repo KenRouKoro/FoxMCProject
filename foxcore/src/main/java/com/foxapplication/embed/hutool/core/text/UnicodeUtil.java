@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 提供Unicode字符串和普通字符串之间的转换

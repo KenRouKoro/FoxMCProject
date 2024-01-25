@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.tree;
 
-import cn.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
 
 import java.io.Serializable;
 

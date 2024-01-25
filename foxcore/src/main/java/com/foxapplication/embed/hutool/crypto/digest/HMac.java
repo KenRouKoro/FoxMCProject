@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.crypto.digest;
 
-import cn.hutool.crypto.digest.mac.Mac;
-import cn.hutool.crypto.digest.mac.MacEngine;
-import cn.hutool.crypto.digest.mac.MacEngineFactory;
+import com.foxapplication.embed.hutool.crypto.digest.mac.Mac;
+import com.foxapplication.embed.hutool.crypto.digest.mac.MacEngine;
+import com.foxapplication.embed.hutool.crypto.digest.mac.MacEngineFactory;
 
 import javax.crypto.spec.SecretKeySpec;
 import java.security.Key;

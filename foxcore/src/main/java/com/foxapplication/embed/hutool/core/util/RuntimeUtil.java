@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Pid;
-import cn.hutool.core.text.StrBuilder;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Pid;
+import com.foxapplication.embed.hutool.core.text.StrBuilder;
 
 import java.io.File;
 import java.io.IOException;

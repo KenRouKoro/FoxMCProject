@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.io.CharsetDetector;
-import cn.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.CharsetDetector;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
 
 import java.io.File;
 import java.io.InputStream;

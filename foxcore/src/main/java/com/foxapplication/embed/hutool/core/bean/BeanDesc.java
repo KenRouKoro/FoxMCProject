@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.bean;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.CaseInsensitiveMap;
-import cn.hutool.core.util.BooleanUtil;
-import cn.hutool.core.util.ModifierUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveMap;
+import com.foxapplication.embed.hutool.core.util.BooleanUtil;
+import com.foxapplication.embed.hutool.core.util.ModifierUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;

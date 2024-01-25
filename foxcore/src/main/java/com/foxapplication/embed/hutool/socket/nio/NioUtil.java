@@ -1,6 +1,6 @@
-package cn.hutool.socket.nio;
+package com.foxapplication.embed.hutool.socket.nio;
 
-import cn.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
 
 import java.io.IOException;
 import java.nio.channels.SelectableChannel;

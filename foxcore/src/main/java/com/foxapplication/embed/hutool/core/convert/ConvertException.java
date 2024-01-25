@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.convert;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 转换异常

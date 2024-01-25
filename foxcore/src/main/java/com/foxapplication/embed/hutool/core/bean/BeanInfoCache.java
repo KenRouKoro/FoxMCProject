@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.bean;
 
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.map.ReferenceConcurrentMap;
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.map.ReferenceConcurrentMap;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 import java.beans.PropertyDescriptor;
 import java.util.Map;

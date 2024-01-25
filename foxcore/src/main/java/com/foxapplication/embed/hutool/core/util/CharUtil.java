@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.text.ASCIIStrCache;
-import cn.hutool.core.text.CharPool;
+import com.foxapplication.embed.hutool.core.text.ASCIIStrCache;
+import com.foxapplication.embed.hutool.core.text.CharPool;
 
 /**
  * 字符工具类<br>

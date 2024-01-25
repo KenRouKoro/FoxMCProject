@@ -1,11 +1,11 @@
-package cn.hutool.cron.task;
+package com.foxapplication.embed.hutool.cron.task;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.cron.CronException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.cron.CronException;
 
 import java.lang.reflect.Method;
 

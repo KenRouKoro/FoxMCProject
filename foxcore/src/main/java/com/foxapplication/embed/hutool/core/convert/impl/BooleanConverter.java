@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.util.BooleanUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.util.BooleanUtil;
 
 /**
  * 布尔转换器

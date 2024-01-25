@@ -1,4 +1,4 @@
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
 import java.util.TimeZone;
 

@@ -1,8 +1,8 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.util.EscapeUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.EscapeUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * HTML工具类

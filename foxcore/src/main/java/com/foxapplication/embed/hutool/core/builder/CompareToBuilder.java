@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.builder;
 
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Field;

@@ -1,7 +1,7 @@
-package cn.hutool.cron.listener;
+package com.foxapplication.embed.hutool.cron.listener;
 
-import cn.hutool.cron.TaskExecutor;
-import cn.hutool.log.StaticLog;
+import com.foxapplication.embed.hutool.cron.TaskExecutor;
+import com.foxapplication.embed.hutool.log.StaticLog;
 
 import java.io.Serializable;
 import java.util.ArrayList;

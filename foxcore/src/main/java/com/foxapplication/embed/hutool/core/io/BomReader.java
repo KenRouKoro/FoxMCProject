@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.io.IOException;
 import java.io.InputStream;

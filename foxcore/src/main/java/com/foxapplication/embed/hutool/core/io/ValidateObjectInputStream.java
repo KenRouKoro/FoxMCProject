@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

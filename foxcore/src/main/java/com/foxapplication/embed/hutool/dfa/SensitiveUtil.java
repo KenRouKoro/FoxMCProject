@@ -1,10 +1,10 @@
-package cn.hutool.dfa;
+package com.foxapplication.embed.hutool.dfa;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.json.JSONUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.json.JSONUtil;
 
 import java.util.Collection;
 import java.util.HashMap;

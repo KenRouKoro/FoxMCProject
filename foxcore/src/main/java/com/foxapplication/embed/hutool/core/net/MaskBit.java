@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.net;
 
-import cn.hutool.core.map.BiMap;
+import com.foxapplication.embed.hutool.core.map.BiMap;
 import java.util.HashMap;
 
 /**

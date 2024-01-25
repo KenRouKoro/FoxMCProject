@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.setting.dialect;
+package com.foxapplication.embed.hutool.setting.dialect;

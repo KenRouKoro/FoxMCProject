@@ -1,6 +1,6 @@
-package cn.hutool.http.useragent;
+package com.foxapplication.embed.hutool.http.useragent;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * User-Agent解析器

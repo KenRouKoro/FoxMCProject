@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.log.dialect.console;
+package com.foxapplication.embed.hutool.log.dialect.console;

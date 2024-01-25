@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io.resource;
 
-import cn.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 
 import java.nio.charset.Charset;
 

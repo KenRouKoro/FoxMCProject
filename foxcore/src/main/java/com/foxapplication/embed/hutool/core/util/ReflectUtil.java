@@ -1,17 +1,17 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.annotation.Alias;
-import cn.hutool.core.bean.NullWrapperBean;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.UniqueKeySet;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.exceptions.InvocationTargetRuntimeException;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.reflect.MethodHandleUtil;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.annotation.Alias;
+import com.foxapplication.embed.hutool.core.bean.NullWrapperBean;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.UniqueKeySet;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.exceptions.InvocationTargetRuntimeException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.reflect.MethodHandleUtil;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Array;

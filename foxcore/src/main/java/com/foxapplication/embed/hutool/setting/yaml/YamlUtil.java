@@ -1,9 +1,9 @@
-package cn.hutool.setting.yaml;
+package com.foxapplication.embed.hutool.setting.yaml;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Dict;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Dict;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 

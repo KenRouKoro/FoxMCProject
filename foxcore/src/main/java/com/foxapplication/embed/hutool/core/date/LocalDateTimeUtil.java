@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.date.format.GlobalCustomFormat;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.date.format.GlobalCustomFormat;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.time.*;
 import java.time.chrono.ChronoLocalDateTime;

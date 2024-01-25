@@ -16,7 +16,7 @@
 
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.util.Comparator;
 

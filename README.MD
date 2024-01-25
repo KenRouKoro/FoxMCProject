@@ -1,0 +1,3 @@
+# Fox MC Project
+
+## FoxCore

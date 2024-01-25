@@ -1,8 +1,8 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.lang.mutable.MutablePair;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutablePair;
 
 /**
  * JSON字符串解析器

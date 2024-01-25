@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.file.visitor.CopyVisitor;
-import cn.hutool.core.io.file.visitor.DelVisitor;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.file.visitor.CopyVisitor;
+import com.foxapplication.embed.hutool.core.io.file.visitor.DelVisitor;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.net;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import javax.net.ssl.KeyManager;
 import javax.net.ssl.SSLContext;

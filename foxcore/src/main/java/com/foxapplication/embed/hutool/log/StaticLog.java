@@ -1,8 +1,8 @@
-package cn.hutool.log;
+package com.foxapplication.embed.hutool.log;
 
-import cn.hutool.core.lang.caller.CallerUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.level.Level;
+import com.foxapplication.embed.hutool.core.lang.caller.CallerUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.level.Level;
 
 /**
  * 静态日志类，用于在不引入日志对象的情况下打印日志

@@ -1,4 +1,4 @@
-package cn.hutool.http.ssl;
+package com.foxapplication.embed.hutool.http.ssl;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;

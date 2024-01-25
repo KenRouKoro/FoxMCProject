@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.date.format;
 
-import cn.hutool.core.date.DateException;
-import cn.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.date.DateException;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

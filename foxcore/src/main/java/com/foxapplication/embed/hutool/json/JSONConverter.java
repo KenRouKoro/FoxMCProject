@@ -1,19 +1,19 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.convert.ConvertException;
-import cn.hutool.core.convert.Converter;
-import cn.hutool.core.convert.ConverterRegistry;
-import cn.hutool.core.convert.impl.ArrayConverter;
-import cn.hutool.core.convert.impl.BeanConverter;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.TypeUtil;
-import cn.hutool.json.serialize.GlobalSerializeMapping;
-import cn.hutool.json.serialize.JSONDeserializer;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.convert.ConvertException;
+import com.foxapplication.embed.hutool.core.convert.Converter;
+import com.foxapplication.embed.hutool.core.convert.ConverterRegistry;
+import com.foxapplication.embed.hutool.core.convert.impl.ArrayConverter;
+import com.foxapplication.embed.hutool.core.convert.impl.BeanConverter;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.json.serialize.GlobalSerializeMapping;
+import com.foxapplication.embed.hutool.json.serialize.JSONDeserializer;
 
 import java.lang.reflect.Type;
 import java.util.List;

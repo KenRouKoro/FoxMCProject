@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.core.io.resource;
 
-import cn.hutool.core.collection.EnumerationIter;
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.ObjUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.collection.EnumerationIter;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.ObjUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import java.io.BufferedReader;
 import java.io.IOException;

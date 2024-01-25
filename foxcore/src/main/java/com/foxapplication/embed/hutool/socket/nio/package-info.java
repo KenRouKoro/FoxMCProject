@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.socket.nio;
+package com.foxapplication.embed.hutool.socket.nio;

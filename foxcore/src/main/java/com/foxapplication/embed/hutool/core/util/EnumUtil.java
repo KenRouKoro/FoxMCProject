@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.func.Func1;
-import cn.hutool.core.lang.func.LambdaUtil;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.func.Func1;
+import com.foxapplication.embed.hutool.core.lang.func.LambdaUtil;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

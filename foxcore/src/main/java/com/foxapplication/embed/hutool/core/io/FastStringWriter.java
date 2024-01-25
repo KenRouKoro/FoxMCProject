@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.text.StrBuilder;
+import com.foxapplication.embed.hutool.core.text.StrBuilder;
 
 import java.io.Writer;
 

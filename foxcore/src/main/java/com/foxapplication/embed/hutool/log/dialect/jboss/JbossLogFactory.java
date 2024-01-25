@@ -1,7 +1,7 @@
-package cn.hutool.log.dialect.jboss;
+package com.foxapplication.embed.hutool.log.dialect.jboss;
 
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 /**
  * <a href="https://github.com/jboss-logging">Jboss-Logging</a> log.

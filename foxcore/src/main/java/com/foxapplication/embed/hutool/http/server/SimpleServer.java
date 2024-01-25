@@ -1,21 +1,15 @@
-package cn.hutool.http.server;
+package com.foxapplication.embed.hutool.http.server;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.lang.Console;
-import cn.hutool.core.thread.GlobalThreadPool;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.http.server.action.Action;
-import cn.hutool.http.server.action.RootAction;
-import cn.hutool.http.server.filter.HttpFilter;
-import cn.hutool.http.server.filter.SimpleFilter;
-import cn.hutool.http.server.handler.ActionHandler;
-import com.sun.net.httpserver.Filter;
-import com.sun.net.httpserver.HttpContext;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpServer;
-import com.sun.net.httpserver.HttpsConfigurator;
-import com.sun.net.httpserver.HttpsServer;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.lang.Console;
+import com.foxapplication.embed.hutool.core.thread.GlobalThreadPool;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.http.server.action.Action;
+import com.foxapplication.embed.hutool.http.server.action.RootAction;
+import com.foxapplication.embed.hutool.http.server.filter.HttpFilter;
+import com.foxapplication.embed.hutool.http.server.filter.SimpleFilter;
+import com.foxapplication.embed.hutool.http.server.handler.ActionHandler;
+import com.sun.net.httpserver.*;
 
 import java.io.File;
 import java.io.IOException;

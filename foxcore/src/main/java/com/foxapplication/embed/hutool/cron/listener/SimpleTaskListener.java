@@ -1,6 +1,6 @@
-package cn.hutool.cron.listener;
+package com.foxapplication.embed.hutool.cron.listener;
 
-import cn.hutool.cron.TaskExecutor;
+import com.foxapplication.embed.hutool.cron.TaskExecutor;
 
 /**
  * 简单监听实现，不做任何操作<br>

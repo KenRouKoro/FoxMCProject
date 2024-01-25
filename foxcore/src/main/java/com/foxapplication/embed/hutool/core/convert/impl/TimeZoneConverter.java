@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 
 import java.util.TimeZone;
 
-import cn.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
 
 /**
  * TimeZone转换器

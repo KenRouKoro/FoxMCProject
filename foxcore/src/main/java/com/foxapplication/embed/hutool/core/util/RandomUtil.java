@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.date.DateField;
-import cn.hutool.core.date.DateTime;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.WeightRandom;
-import cn.hutool.core.lang.WeightRandom.WeightObj;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.date.DateField;
+import com.foxapplication.embed.hutool.core.date.DateTime;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.WeightRandom;
+import com.foxapplication.embed.hutool.core.lang.WeightRandom.WeightObj;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

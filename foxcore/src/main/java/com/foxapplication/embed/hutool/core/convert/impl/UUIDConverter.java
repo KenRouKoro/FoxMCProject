@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 
 import java.util.UUID;
 
-import cn.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
 
 /**
  * UUID对象转换器转换器

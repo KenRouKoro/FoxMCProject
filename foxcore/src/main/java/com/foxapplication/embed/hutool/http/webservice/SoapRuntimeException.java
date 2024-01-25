@@ -1,6 +1,6 @@
-package cn.hutool.http.webservice;
+package com.foxapplication.embed.hutool.http.webservice;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * SOAP异常

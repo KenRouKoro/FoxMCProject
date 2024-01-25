@@ -1,6 +1,6 @@
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;
 
-import cn.hutool.json.JSON;
+import com.foxapplication.embed.hutool.json.JSON;
 
 /**
  * JSON反序列话自定义实现类

@@ -1,4 +1,4 @@
-package cn.hutool.log;
+package com.foxapplication.embed.hutool.log;
 
 /**
  * 全局日志工厂类<br>
@@ -30,12 +30,12 @@ public class GlobalLogFactory {
 	/**
 	 * 自定义日志实现
 	 * 
-	 * @see cn.hutool.log.dialect.slf4j.Slf4jLogFactory
-	 * @see cn.hutool.log.dialect.log4j.Log4jLogFactory
-	 * @see cn.hutool.log.dialect.log4j2.Log4j2LogFactory
-	 * @see cn.hutool.log.dialect.commons.ApacheCommonsLogFactory
-	 * @see cn.hutool.log.dialect.jdk.JdkLogFactory
-	 * @see cn.hutool.log.dialect.console.ConsoleLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.slf4j.Slf4jLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.log4j.Log4jLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.log4j2.Log4j2LogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.commons.ApacheCommonsLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.jdk.JdkLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.console.ConsoleLogFactory
 	 * 
 	 * @param logFactoryClass 日志工厂类
 	 * @return 自定义的日志工厂类
@@ -51,12 +51,12 @@ public class GlobalLogFactory {
 	/**
 	 * 自定义日志实现
 	 *
-	 * @see cn.hutool.log.dialect.slf4j.Slf4jLogFactory
-	 * @see cn.hutool.log.dialect.log4j.Log4jLogFactory
-	 * @see cn.hutool.log.dialect.log4j2.Log4j2LogFactory
-	 * @see cn.hutool.log.dialect.commons.ApacheCommonsLogFactory
-	 * @see cn.hutool.log.dialect.jdk.JdkLogFactory
-	 * @see cn.hutool.log.dialect.console.ConsoleLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.slf4j.Slf4jLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.log4j.Log4jLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.log4j2.Log4j2LogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.commons.ApacheCommonsLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.jdk.JdkLogFactory
+	 * @see com.foxapplication.embed.hutool.log.dialect.console.ConsoleLogFactory
 	 *
 	 * @param logFactory 日志工厂类对象
 	 * @return 自定义的日志工厂类

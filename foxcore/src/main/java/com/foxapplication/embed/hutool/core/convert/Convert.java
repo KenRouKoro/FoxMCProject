@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.convert;
 
-import cn.hutool.core.convert.impl.CollectionConverter;
-import cn.hutool.core.convert.impl.EnumConverter;
-import cn.hutool.core.convert.impl.MapConverter;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.TypeReference;
-import cn.hutool.core.text.UnicodeUtil;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.convert.impl.CollectionConverter;
+import com.foxapplication.embed.hutool.core.convert.impl.EnumConverter;
+import com.foxapplication.embed.hutool.core.convert.impl.MapConverter;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.TypeReference;
+import com.foxapplication.embed.hutool.core.text.UnicodeUtil;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.lang.reflect.Type;
 import java.math.BigDecimal;

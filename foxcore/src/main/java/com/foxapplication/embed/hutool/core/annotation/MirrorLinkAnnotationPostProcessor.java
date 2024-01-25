@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.text.CharSequenceUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.text.CharSequenceUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 /**
  * <p>用于处理注解对象中带有{@link Link}注解，且{@link Link#type()}为{@link RelationType#MIRROR_FOR}的属性。<br>

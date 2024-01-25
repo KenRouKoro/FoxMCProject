@@ -1,7 +1,7 @@
-package cn.hutool.captcha.generator;
+package com.foxapplication.embed.hutool.captcha.generator;
 
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 随机字符验证码生成器<br>

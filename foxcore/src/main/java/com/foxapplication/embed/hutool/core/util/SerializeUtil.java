@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FastByteArrayOutputStream;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.ValidateObjectInputStream;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FastByteArrayOutputStream;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.ValidateObjectInputStream;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,18 +1,18 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.collection.ArrayIter;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.lang.mutable.MutablePair;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.TypeUtil;
-import cn.hutool.json.serialize.GlobalSerializeMapping;
-import cn.hutool.json.serialize.JSONObjectSerializer;
-import cn.hutool.json.serialize.JSONSerializer;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.collection.ArrayIter;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutablePair;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.json.serialize.GlobalSerializeMapping;
+import com.foxapplication.embed.hutool.json.serialize.JSONObjectSerializer;
+import com.foxapplication.embed.hutool.json.serialize.JSONSerializer;
 
 import java.io.InputStream;
 import java.io.Reader;

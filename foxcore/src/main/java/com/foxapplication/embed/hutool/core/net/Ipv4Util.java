@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.net;
 
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.PatternPool;
-import cn.hutool.core.lang.Validator;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.PatternPool;
+import com.foxapplication.embed.hutool.core.lang.Validator;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.ArrayList;
 import java.util.List;

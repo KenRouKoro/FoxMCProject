@@ -1,11 +1,7 @@
-package cn.hutool.bloomfilter;
+package com.foxapplication.embed.hutool.bloomfilter;
 
-import cn.hutool.bloomfilter.filter.DefaultFilter;
-import cn.hutool.bloomfilter.filter.ELFFilter;
-import cn.hutool.bloomfilter.filter.JSFilter;
-import cn.hutool.bloomfilter.filter.PJWFilter;
-import cn.hutool.bloomfilter.filter.SDBMFilter;
-import cn.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.bloomfilter.filter.*;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
 
 /**
  * BloomFilter 实现 <br>

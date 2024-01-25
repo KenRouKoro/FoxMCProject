@@ -3,9 +3,9 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 import java.lang.reflect.Type;
 import java.util.concurrent.atomic.AtomicReference;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.convert.ConverterRegistry;
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.ConverterRegistry;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 /**
  * {@link AtomicReference}转换器

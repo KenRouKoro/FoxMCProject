@@ -1,7 +1,7 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.map.FixedLinkedHashMap;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.map.FixedLinkedHashMap;
 
 import java.util.Iterator;
 

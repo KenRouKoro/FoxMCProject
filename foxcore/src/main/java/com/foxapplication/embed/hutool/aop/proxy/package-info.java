@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.aop.proxy;
+package com.foxapplication.embed.hutool.aop.proxy;

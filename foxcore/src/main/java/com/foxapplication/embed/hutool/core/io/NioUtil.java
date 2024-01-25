@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.io.copy.ChannelCopier;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.copy.ChannelCopier;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

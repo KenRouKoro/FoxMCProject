@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.crypto.symmetric.fpe;
 
-import cn.hutool.crypto.KeyUtil;
-import cn.hutool.crypto.Padding;
-import cn.hutool.crypto.symmetric.AES;
+import com.foxapplication.embed.hutool.crypto.KeyUtil;
+import com.foxapplication.embed.hutool.crypto.Padding;
+import com.foxapplication.embed.hutool.crypto.symmetric.AES;
 import org.bouncycastle.crypto.AlphabetMapper;
 import org.bouncycastle.jcajce.spec.FPEParameterSpec;
 

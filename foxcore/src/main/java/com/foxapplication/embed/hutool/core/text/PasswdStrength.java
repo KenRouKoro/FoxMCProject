@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 检测密码强度<br>

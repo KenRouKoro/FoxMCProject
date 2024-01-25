@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text.finder;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 /**
  * 固定长度查找器<br>

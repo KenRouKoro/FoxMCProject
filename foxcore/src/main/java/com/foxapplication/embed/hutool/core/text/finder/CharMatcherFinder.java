@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text.finder;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Matcher;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Matcher;
 
 /**
  * 字符匹配查找器<br>

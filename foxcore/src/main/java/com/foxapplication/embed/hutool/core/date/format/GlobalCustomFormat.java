@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.date.format;
 
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
 
 import java.time.temporal.TemporalAccessor;
 import java.util.Date;

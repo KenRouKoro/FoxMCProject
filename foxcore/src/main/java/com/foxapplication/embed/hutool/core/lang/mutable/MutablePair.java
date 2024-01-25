@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.mutable;
 
-import cn.hutool.core.lang.Pair;
+import com.foxapplication.embed.hutool.core.lang.Pair;
 
 /**
  * 可变{@link Pair}实现，可以修改键和值

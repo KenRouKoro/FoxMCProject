@@ -1,8 +1,8 @@
-package cn.hutool.http.cookie;
+package com.foxapplication.embed.hutool.http.cookie;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.URLUtil;
-import cn.hutool.http.HttpConnection;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.http.HttpConnection;
 
 import java.io.IOException;
 import java.net.CookieManager;

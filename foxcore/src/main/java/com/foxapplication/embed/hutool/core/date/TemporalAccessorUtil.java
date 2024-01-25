@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.date.format.GlobalCustomFormat;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.date.format.GlobalCustomFormat;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.time.DayOfWeek;
 import java.time.Instant;

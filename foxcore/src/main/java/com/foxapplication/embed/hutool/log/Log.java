@@ -1,12 +1,7 @@
-package cn.hutool.log;
+package com.foxapplication.embed.hutool.log;
 
-import cn.hutool.core.lang.caller.CallerUtil;
-import cn.hutool.log.level.DebugLog;
-import cn.hutool.log.level.ErrorLog;
-import cn.hutool.log.level.InfoLog;
-import cn.hutool.log.level.Level;
-import cn.hutool.log.level.TraceLog;
-import cn.hutool.log.level.WarnLog;
+import com.foxapplication.embed.hutool.core.lang.caller.CallerUtil;
+import com.foxapplication.embed.hutool.log.level.*;
 
 /**
  * 日志统一接口

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Map;
 

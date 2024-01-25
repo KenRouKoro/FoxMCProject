@@ -1,7 +1,7 @@
-package cn.hutool.cache;
+package com.foxapplication.embed.hutool.cache;
 
-import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.List;
 import java.util.concurrent.ScheduledExecutorService;

@@ -1,6 +1,6 @@
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;
 
-import cn.hutool.json.JSONArray;
+import com.foxapplication.embed.hutool.json.JSONArray;
 
 /**
  * JSON列表的序列化接口，用于将特定对象序列化为{@link JSONArray}

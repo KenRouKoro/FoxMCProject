@@ -1,9 +1,9 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.cache.CacheListener;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.cache.CacheListener;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 import java.lang.ref.Reference;
 

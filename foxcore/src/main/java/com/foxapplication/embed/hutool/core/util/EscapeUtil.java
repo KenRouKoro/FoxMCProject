@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.text.escape.Html4Escape;
-import cn.hutool.core.text.escape.Html4Unescape;
-import cn.hutool.core.text.escape.XmlEscape;
-import cn.hutool.core.text.escape.XmlUnescape;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.text.escape.Html4Escape;
+import com.foxapplication.embed.hutool.core.text.escape.Html4Unescape;
+import com.foxapplication.embed.hutool.core.text.escape.XmlEscape;
+import com.foxapplication.embed.hutool.core.text.escape.XmlUnescape;
 
 /**
  * 转义和反转义工具类Escape / Unescape<br>

@@ -7,8 +7,8 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 /**
  * <p>

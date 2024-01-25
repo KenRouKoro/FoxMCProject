@@ -1,12 +1,12 @@
-package cn.hutool.setting;
+package com.foxapplication.embed.hutool.setting;
 
-import cn.hutool.core.collection.CollectionUtil;
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.collection.CollectionUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,11 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 分组化的Set集合类<br>

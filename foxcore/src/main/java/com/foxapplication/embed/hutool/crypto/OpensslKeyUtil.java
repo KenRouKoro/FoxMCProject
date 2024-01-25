@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.crypto;
 
-import cn.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
 import org.bouncycastle.asn1.pkcs.PrivateKeyInfo;
 import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;
 

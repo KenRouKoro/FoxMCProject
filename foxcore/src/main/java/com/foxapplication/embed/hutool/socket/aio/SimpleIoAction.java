@@ -1,8 +1,8 @@
-package cn.hutool.socket.aio;
+package com.foxapplication.embed.hutool.socket.aio;
+
+import com.foxapplication.embed.hutool.log.StaticLog;
 
 import java.nio.ByteBuffer;
-
-import cn.hutool.log.StaticLog;
 
 /**
  * 简易IO信息处理类<br>

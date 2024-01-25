@@ -5,8 +5,8 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 /**
  * 桌面相关工具（平台相关）<br>

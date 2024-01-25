@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Serializable;

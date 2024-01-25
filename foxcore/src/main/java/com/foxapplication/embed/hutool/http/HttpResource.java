@@ -1,7 +1,7 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.io.resource.Resource;
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.io.resource.Resource;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.io.InputStream;
 import java.io.Serializable;

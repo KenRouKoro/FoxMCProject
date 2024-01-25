@@ -1,12 +1,12 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
-import cn.hutool.cache.Cache;
-import cn.hutool.cache.CacheListener;
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.lang.mutable.MutableObj;
-import cn.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.cache.Cache;
+import com.foxapplication.embed.hutool.cache.CacheListener;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutableObj;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
 
 import java.util.Iterator;
 import java.util.Map;

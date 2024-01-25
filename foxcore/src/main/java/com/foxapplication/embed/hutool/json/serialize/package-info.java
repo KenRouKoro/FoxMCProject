@@ -4,4 +4,4 @@
  * @author Looly
  *
  */
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;

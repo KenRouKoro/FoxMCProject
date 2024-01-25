@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-package cn.hutool;
+package com.foxapplication.embed.hutool;
 
-import cn.hutool.core.lang.ConsoleTable;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.StrUtil;
+
+
+import com.foxapplication.embed.hutool.core.lang.ConsoleTable;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Set;
 
@@ -54,7 +56,7 @@ public class Hutool {
 	 * @since 5.5.2
 	 */
 	public static Set<Class<?>> getAllUtils() {
-		return ClassUtil.scanPackage("cn.hutool",
+		return ClassUtil.scanPackage("com.foxapplication.embed.hutool",
 				(clazz) -> (false == clazz.isInterface()) && StrUtil.endWith(clazz.getSimpleName(), "Util"));
 	}
 

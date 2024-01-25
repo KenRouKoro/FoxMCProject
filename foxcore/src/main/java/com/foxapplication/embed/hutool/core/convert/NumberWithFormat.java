@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.convert;
 
-import cn.hutool.core.convert.impl.DateConverter;
-import cn.hutool.core.convert.impl.TemporalAccessorConverter;
+import com.foxapplication.embed.hutool.core.convert.impl.DateConverter;
+import com.foxapplication.embed.hutool.core.convert.impl.TemporalAccessorConverter;
 
 import java.lang.reflect.Type;
 import java.time.temporal.TemporalAccessor;

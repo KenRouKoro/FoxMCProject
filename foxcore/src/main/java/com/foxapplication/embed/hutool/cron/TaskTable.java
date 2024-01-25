@@ -1,9 +1,9 @@
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.cron.pattern.CronPattern;
-import cn.hutool.cron.task.CronTask;
-import cn.hutool.cron.task.Task;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.cron.pattern.CronPattern;
+import com.foxapplication.embed.hutool.cron.task.CronTask;
+import com.foxapplication.embed.hutool.cron.task.Task;
 
 import java.io.Serializable;
 import java.util.ArrayList;

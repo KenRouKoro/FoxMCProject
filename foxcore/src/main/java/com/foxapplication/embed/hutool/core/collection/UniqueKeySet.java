@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.collection;
 
-import cn.hutool.core.map.MapBuilder;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.map.MapBuilder;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.Serializable;
 import java.util.AbstractSet;

@@ -1,9 +1,9 @@
-package cn.hutool.http.server.handler;
+package com.foxapplication.embed.hutool.http.server.handler;
 
-import cn.hutool.http.server.HttpExchangeWrapper;
-import cn.hutool.http.server.HttpServerRequest;
-import cn.hutool.http.server.HttpServerResponse;
-import cn.hutool.http.server.action.Action;
+import com.foxapplication.embed.hutool.http.server.HttpExchangeWrapper;
+import com.foxapplication.embed.hutool.http.server.HttpServerRequest;
+import com.foxapplication.embed.hutool.http.server.HttpServerResponse;
+import com.foxapplication.embed.hutool.http.server.action.Action;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 

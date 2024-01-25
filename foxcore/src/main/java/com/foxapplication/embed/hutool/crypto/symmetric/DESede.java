@@ -3,10 +3,10 @@ package com.foxapplication.embed.hutool.crypto.symmetric;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.Mode;
-import cn.hutool.crypto.Padding;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.Mode;
+import com.foxapplication.embed.hutool.crypto.Padding;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 
 /**
  * DESede是由DES对称加密算法改进后的一种对称加密算法，又名3DES、TripleDES。<br>

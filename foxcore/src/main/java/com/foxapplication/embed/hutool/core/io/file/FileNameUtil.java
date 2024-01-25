@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.File;
 import java.util.regex.Pattern;

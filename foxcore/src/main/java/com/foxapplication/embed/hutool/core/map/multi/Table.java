@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.map.multi;
 
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.lang.func.Consumer3;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.lang.func.Consumer3;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;

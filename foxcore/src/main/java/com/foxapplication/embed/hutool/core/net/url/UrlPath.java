@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.net.url;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.net.RFC3986;
-import cn.hutool.core.net.URLDecoder;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.net.RFC3986;
+import com.foxapplication.embed.hutool.core.net.URLDecoder;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.nio.charset.Charset;
 import java.util.LinkedList;

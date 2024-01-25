@@ -1,7 +1,7 @@
-package cn.hutool.http.server.action;
+package com.foxapplication.embed.hutool.http.server.action;
 
-import cn.hutool.http.server.HttpServerRequest;
-import cn.hutool.http.server.HttpServerResponse;
+import com.foxapplication.embed.hutool.http.server.HttpServerRequest;
+import com.foxapplication.embed.hutool.http.server.HttpServerResponse;
 
 import java.io.IOException;
 

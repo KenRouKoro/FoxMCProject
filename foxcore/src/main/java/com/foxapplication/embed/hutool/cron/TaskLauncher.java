@@ -1,4 +1,4 @@
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
 /**
  * 作业启动器<br>

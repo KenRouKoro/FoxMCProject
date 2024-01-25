@@ -1,4 +1,4 @@
-package cn.hutool.http.server.filter;
+package com.foxapplication.embed.hutool.http.server.filter;
 
 import com.sun.net.httpserver.Filter;
 

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.crypto.digest.mac;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
 
 import java.io.IOException;
 import java.io.InputStream;

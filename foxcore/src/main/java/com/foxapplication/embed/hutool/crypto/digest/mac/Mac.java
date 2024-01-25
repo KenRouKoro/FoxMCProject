@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.crypto.digest.mac;
 
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

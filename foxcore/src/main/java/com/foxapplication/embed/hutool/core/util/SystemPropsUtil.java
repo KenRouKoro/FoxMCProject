@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.lang.Console;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.lang.Console;
 
 import java.util.Properties;
 

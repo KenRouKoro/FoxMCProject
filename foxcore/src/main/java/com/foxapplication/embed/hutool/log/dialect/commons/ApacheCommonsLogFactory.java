@@ -1,7 +1,7 @@
-package cn.hutool.log.dialect.commons;
+package com.foxapplication.embed.hutool.log.dialect.commons;
 
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 /**
  *  Apache Commons Logging

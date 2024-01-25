@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.net.URLDecoder;
-import cn.hutool.core.net.URLEncodeUtil;
-import cn.hutool.core.net.url.UrlQuery;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.net.URLDecoder;
+import com.foxapplication.embed.hutool.core.net.URLEncodeUtil;
+import com.foxapplication.embed.hutool.core.net.url.UrlQuery;
 
 import java.io.BufferedReader;
 import java.io.File;

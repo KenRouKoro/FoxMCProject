@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.file.visitor.MoveVisitor;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ObjUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.file.visitor.MoveVisitor;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ObjUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.IOException;
 import java.nio.file.*;

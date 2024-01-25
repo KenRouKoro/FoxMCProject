@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.net;
 
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -22,7 +22,7 @@ import java.util.BitSet;
  * </pre>
  *
  * @author looly
- * @see cn.hutool.core.codec.PercentCodec
+ * @see com.foxapplication.embed.hutool.core.codec.PercentCodec
  * @deprecated 此类中的方法并不规范，请使用 {@link RFC3986}
  */
 @Deprecated

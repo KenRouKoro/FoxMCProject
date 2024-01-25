@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
 
 import java.lang.reflect.Type;
 

@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.core.bean.copier;
 
-import cn.hutool.core.bean.PropDesc;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.convert.TypeConverter;
-import cn.hutool.core.lang.Editor;
-import cn.hutool.core.lang.func.Func1;
-import cn.hutool.core.lang.func.LambdaUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.bean.PropDesc;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.convert.TypeConverter;
+import com.foxapplication.embed.hutool.core.lang.Editor;
+import com.foxapplication.embed.hutool.core.lang.func.Func1;
+import com.foxapplication.embed.hutool.core.lang.func.LambdaUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;

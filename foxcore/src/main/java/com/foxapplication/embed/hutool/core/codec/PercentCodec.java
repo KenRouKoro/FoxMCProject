@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

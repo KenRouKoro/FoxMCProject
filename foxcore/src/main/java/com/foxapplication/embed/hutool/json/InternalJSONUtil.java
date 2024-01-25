@@ -1,23 +1,15 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.copier.CopyOptions;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.mutable.MutablePair;
-import cn.hutool.core.map.CaseInsensitiveLinkedMap;
-import cn.hutool.core.map.CaseInsensitiveTreeMap;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.bean.copier.CopyOptions;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutablePair;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveLinkedMap;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveTreeMap;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.math.BigDecimal;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * 内部JSON工具类，仅用于JSON内部使用

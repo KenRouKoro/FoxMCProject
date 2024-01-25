@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.thread;
 
-import cn.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
 
 import java.io.Closeable;
 import java.io.IOException;

@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.text.split;
 
-import cn.hutool.core.collection.ComputeIter;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.text.finder.TextFinder;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.ComputeIter;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.text.finder.TextFinder;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.util.ArrayList;

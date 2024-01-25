@@ -1,7 +1,7 @@
-package cn.hutool.socket;
+package com.foxapplication.embed.hutool.socket;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * Socket异常

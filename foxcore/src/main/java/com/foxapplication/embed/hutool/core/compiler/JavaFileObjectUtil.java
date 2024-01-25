@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.compiler;
 
-import cn.hutool.core.io.file.FileNameUtil;
-import cn.hutool.core.util.ZipUtil;
+import com.foxapplication.embed.hutool.core.io.file.FileNameUtil;
+import com.foxapplication.embed.hutool.core.util.ZipUtil;
 
 import javax.tools.JavaFileObject;
 import java.io.File;

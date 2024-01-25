@@ -1,9 +1,9 @@
-package cn.hutool.cron.pattern;
+package com.foxapplication.embed.hutool.cron.pattern;
 
-import cn.hutool.core.date.Month;
-import cn.hutool.core.date.Week;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.cron.CronException;
+import com.foxapplication.embed.hutool.core.date.Month;
+import com.foxapplication.embed.hutool.core.date.Week;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.cron.CronException;
 
 import java.util.Calendar;
 

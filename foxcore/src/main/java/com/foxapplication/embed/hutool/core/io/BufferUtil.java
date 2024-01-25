@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;

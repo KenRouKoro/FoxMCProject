@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.collection.LineIter;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.copy.ReaderWriterCopier;
-import cn.hutool.core.io.copy.StreamCopier;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.LineIter;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.copy.ReaderWriterCopier;
+import com.foxapplication.embed.hutool.core.io.copy.StreamCopier;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

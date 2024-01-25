@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.bean.copier;
 
-import cn.hutool.core.lang.copier.Copier;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.lang.copier.Copier;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 /**
  * 抽象的对象拷贝封装，提供来源对象、目标对象持有

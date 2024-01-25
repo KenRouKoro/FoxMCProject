@@ -1,4 +1,4 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
 /**
  * HTTP状态码

@@ -1,4 +1,4 @@
-package cn.hutool.cron.timingwheel;
+package com.foxapplication.embed.hutool.cron.timingwheel;
 
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;

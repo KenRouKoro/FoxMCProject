@@ -1,15 +1,15 @@
-package cn.hutool.setting;
+package com.foxapplication.embed.hutool.setting;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.bean.copier.CopyOptions;
-import cn.hutool.core.bean.copier.ValueProvider;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.getter.OptNullBasicTypeFromStringGetter;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.bean.copier.CopyOptions;
+import com.foxapplication.embed.hutool.core.bean.copier.ValueProvider;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.getter.OptNullBasicTypeFromStringGetter;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 import java.io.Serializable;
 import java.lang.reflect.Type;

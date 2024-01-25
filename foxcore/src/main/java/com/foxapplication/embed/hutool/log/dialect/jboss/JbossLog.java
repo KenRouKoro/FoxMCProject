@@ -1,10 +1,9 @@
-package cn.hutool.log.dialect.jboss;
+package com.foxapplication.embed.hutool.log.dialect.jboss;
 
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
+import com.foxapplication.embed.hutool.log.level.Level;
 import org.jboss.logging.Logger;
-
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
-import cn.hutool.log.level.Level;
 
 /**
  * <a href="https://github.com/jboss-logging">Jboss-Logging</a> log.

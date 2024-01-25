@@ -1,7 +1,7 @@
-package cn.hutool.socket.aio;
+package com.foxapplication.embed.hutool.socket.aio;
 
-import cn.hutool.socket.ChannelUtil;
-import cn.hutool.socket.SocketConfig;
+import com.foxapplication.embed.hutool.socket.ChannelUtil;
+import com.foxapplication.embed.hutool.socket.SocketConfig;
 
 import java.io.Closeable;
 import java.io.IOException;

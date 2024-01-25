@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
 
 import java.time.Duration;
 import java.time.temporal.TemporalAmount;

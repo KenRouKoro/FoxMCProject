@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.map.multi;
 
-import cn.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
 
 import java.util.ArrayList;
 import java.util.Collection;

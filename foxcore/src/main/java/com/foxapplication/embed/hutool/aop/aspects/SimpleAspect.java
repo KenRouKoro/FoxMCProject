@@ -1,4 +1,4 @@
-package cn.hutool.aop.aspects;
+package com.foxapplication.embed.hutool.aop.aspects;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;

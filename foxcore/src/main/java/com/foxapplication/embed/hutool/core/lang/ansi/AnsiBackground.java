@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.ansi;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * ANSI背景颜色枚举

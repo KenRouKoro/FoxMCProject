@@ -1,9 +1,9 @@
-package cn.hutool.setting.dialect;
+package com.foxapplication.embed.hutool.setting.dialect;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.resource.NoResourceException;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.resource.NoResourceException;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Map;
 

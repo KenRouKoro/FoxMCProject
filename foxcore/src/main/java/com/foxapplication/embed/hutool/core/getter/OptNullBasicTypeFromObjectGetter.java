@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.getter;
 
-import cn.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.convert.Convert;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

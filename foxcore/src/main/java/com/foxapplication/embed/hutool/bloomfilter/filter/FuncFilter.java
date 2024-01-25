@@ -1,6 +1,6 @@
-package cn.hutool.bloomfilter.filter;
+package com.foxapplication.embed.hutool.bloomfilter.filter;
 
-import cn.hutool.bloomfilter.BloomFilter;
+import com.foxapplication.embed.hutool.bloomfilter.BloomFilter;
 
 import java.util.function.Function;
 

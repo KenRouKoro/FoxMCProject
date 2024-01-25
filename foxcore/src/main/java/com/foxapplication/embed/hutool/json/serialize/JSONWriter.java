@@ -1,24 +1,17 @@
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.date.TemporalAccessorUtil;
-import cn.hutool.core.date.format.GlobalCustomFormat;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.mutable.MutablePair;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.json.JSON;
-import cn.hutool.json.JSONArray;
-import cn.hutool.json.JSONConfig;
-import cn.hutool.json.JSONException;
-import cn.hutool.json.JSONNull;
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONString;
-import cn.hutool.json.JSONUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.date.TemporalAccessorUtil;
+import com.foxapplication.embed.hutool.core.date.format.GlobalCustomFormat;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutablePair;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.json.*;
 
 import java.io.IOException;
 import java.io.Writer;

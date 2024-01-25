@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.File;
 import java.io.FileInputStream;

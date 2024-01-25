@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.lang.hash.Hash32;
-import cn.hutool.core.util.HashUtil;
+import com.foxapplication.embed.hutool.core.lang.hash.Hash32;
+import com.foxapplication.embed.hutool.core.util.HashUtil;
 
 import java.io.Serializable;
 import java.util.Collection;

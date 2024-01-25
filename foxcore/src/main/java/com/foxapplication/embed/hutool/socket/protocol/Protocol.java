@@ -6,7 +6,7 @@
  * Author: sandao
  */
 
-package cn.hutool.socket.protocol;
+package com.foxapplication.embed.hutool.socket.protocol;
 
 /**
  * 协议接口<br>

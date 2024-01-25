@@ -1,8 +1,8 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.BeanPath;
-import cn.hutool.core.bean.copier.IJSONTypeConverter;
-import cn.hutool.core.lang.TypeReference;
+import com.foxapplication.embed.hutool.core.bean.BeanPath;
+import com.foxapplication.embed.hutool.core.bean.copier.IJSONTypeConverter;
+import com.foxapplication.embed.hutool.core.lang.TypeReference;
 
 import java.io.Serializable;
 import java.io.StringWriter;

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.exceptions.ValidateException;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.exceptions.ValidateException;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,9 +1,9 @@
-package cn.hutool.setting.profile;
+package com.foxapplication.embed.hutool.setting.profile;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.setting.Setting;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.setting.Setting;
 
 import java.io.Serializable;
 import java.nio.charset.Charset;

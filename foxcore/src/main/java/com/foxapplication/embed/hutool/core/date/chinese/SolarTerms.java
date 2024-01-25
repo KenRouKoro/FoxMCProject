@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.date.chinese;
 
-import cn.hutool.core.date.ChineseDate;
-import cn.hutool.core.date.DateTime;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.date.ChineseDate;
+import com.foxapplication.embed.hutool.core.date.DateTime;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.time.LocalDate;
 import java.util.Date;

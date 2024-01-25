@@ -1,7 +1,7 @@
-package cn.hutool.log.dialect.log4j;
+package com.foxapplication.embed.hutool.log.dialect.log4j;
 
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 /**
  * <a href="http://logging.apache.org/log4j/1.2/index.html">Apache Log4J</a> log.<br>

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.math;
 
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.math.BigDecimal;
 import java.util.Collections;

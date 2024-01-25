@@ -1,17 +1,17 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.comparator.LengthComparator;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.PatternPool;
-import cn.hutool.core.lang.RegexPool;
-import cn.hutool.core.lang.Validator;
-import cn.hutool.core.lang.func.Func1;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.lang.mutable.MutableObj;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.comparator.LengthComparator;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.PatternPool;
+import com.foxapplication.embed.hutool.core.lang.RegexPool;
+import com.foxapplication.embed.hutool.core.lang.Validator;
+import com.foxapplication.embed.hutool.core.lang.func.Func1;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutableObj;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;

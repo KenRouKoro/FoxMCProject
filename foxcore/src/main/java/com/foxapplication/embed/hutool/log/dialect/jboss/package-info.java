@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.log.dialect.jboss;
+package com.foxapplication.embed.hutool.log.dialect.jboss;

@@ -1,12 +1,12 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.convert.ConvertException;
-import cn.hutool.core.convert.NumberWithFormat;
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.date.LocalDateTimeUtil;
-import cn.hutool.core.getter.OptNullBasicTypeFromObjectGetter;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.convert.ConvertException;
+import com.foxapplication.embed.hutool.core.convert.NumberWithFormat;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.date.LocalDateTimeUtil;
+import com.foxapplication.embed.hutool.core.getter.OptNullBasicTypeFromObjectGetter;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.time.LocalDateTime;
 import java.util.Date;

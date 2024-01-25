@@ -1,8 +1,8 @@
-package cn.hutool.cron.pattern.matcher;
+package com.foxapplication.embed.hutool.cron.pattern.matcher;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Collections;
 import java.util.List;

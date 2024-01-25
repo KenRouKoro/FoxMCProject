@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.loader;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -13,7 +13,7 @@ import java.util.function.Supplier;
  *
  * @param <T> 被加载对象类型
  * @author Mr.Po
- * @see cn.hutool.core.lang.loader.LazyLoader
+ * @see com.foxapplication.embed.hutool.core.lang.loader.LazyLoader
  * @since 5.6.1
  */
 public class LazyFunLoader<T> extends LazyLoader<T> {

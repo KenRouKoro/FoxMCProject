@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.io.copy;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.StreamProgress;
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.StreamProgress;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.io.IOException;
 import java.io.InputStream;

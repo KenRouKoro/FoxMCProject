@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.EnumerationIter;
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.EnumerationIter;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -429,7 +429,7 @@ public class ClassScanner implements Serializable {
 				addIfAccept(loadClass(className));
 			}
 		} else if (classLen > packageLen) {
-			//检查类名是否以指定包名为前缀，包名后加.（避免类似于cn.hutool.A和cn.hutool.ATest这类类名引起的歧义）
+			//检查类名是否以指定包名为前缀，包名后加.（避免类似于com.foxapplication.embed.hutool.A和com.foxapplication.embed.hutool.ATest这类类名引起的歧义）
 			if (".".equals(this.packageNameWithDot) || className.startsWith(this.packageNameWithDot)) {
 				addIfAccept(loadClass(className));
 			}

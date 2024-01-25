@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.crypto.digest.mac;
 
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 
 import javax.crypto.Mac;
 import javax.crypto.SecretKey;

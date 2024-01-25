@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.net.multipart;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.map.multi.ListValueMap;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.map.multi.ListValueMap;
 
 import java.io.IOException;
 import java.io.InputStream;

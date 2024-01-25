@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.Scanner;
 

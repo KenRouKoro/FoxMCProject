@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.multi.RowKeyTable;
-import cn.hutool.core.map.multi.Table;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.multi.RowKeyTable;
+import com.foxapplication.embed.hutool.core.map.multi.Table;
 
 import java.util.Collection;
 import java.util.Comparator;

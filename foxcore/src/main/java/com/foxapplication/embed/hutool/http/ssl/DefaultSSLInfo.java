@@ -1,6 +1,6 @@
-package cn.hutool.http.ssl;
+package com.foxapplication.embed.hutool.http.ssl;
 
-import cn.hutool.core.util.JdkUtil;
+import com.foxapplication.embed.hutool.core.util.JdkUtil;
 
 import javax.net.ssl.SSLSocketFactory;
 

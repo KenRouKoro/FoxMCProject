@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.generator;
 
-import cn.hutool.core.util.IdUtil;
+import com.foxapplication.embed.hutool.core.util.IdUtil;
 
 /**
  * UUID生成器

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.annotation.scanner;
 
-import cn.hutool.core.map.multi.ListValueMap;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.map.multi.ListValueMap;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;

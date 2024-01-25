@@ -1,9 +1,9 @@
-package cn.hutool.bloomfilter.filter;
+package com.foxapplication.embed.hutool.bloomfilter.filter;
 
-import cn.hutool.bloomfilter.BloomFilter;
-import cn.hutool.bloomfilter.bitMap.BitMap;
-import cn.hutool.bloomfilter.bitMap.IntMap;
-import cn.hutool.bloomfilter.bitMap.LongMap;
+import com.foxapplication.embed.hutool.bloomfilter.BloomFilter;
+import com.foxapplication.embed.hutool.bloomfilter.bitMap.BitMap;
+import com.foxapplication.embed.hutool.bloomfilter.bitMap.IntMap;
+import com.foxapplication.embed.hutool.bloomfilter.bitMap.LongMap;
 
 /**
  * 抽象Bloom过滤器

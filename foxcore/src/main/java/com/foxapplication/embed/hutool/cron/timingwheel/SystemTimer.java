@@ -1,6 +1,6 @@
-package cn.hutool.cron.timingwheel;
+package com.foxapplication.embed.hutool.cron.timingwheel;
 
-import cn.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.core.thread.ThreadUtil;
 
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.ExecutorService;

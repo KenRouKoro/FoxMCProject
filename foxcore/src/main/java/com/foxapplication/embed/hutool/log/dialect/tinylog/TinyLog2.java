@@ -1,8 +1,8 @@
-package cn.hutool.log.dialect.tinylog;
+package com.foxapplication.embed.hutool.log.dialect.tinylog;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
 import org.tinylog.Level;
 import org.tinylog.configuration.Configuration;
 import org.tinylog.format.AdvancedMessageFormatter;
@@ -101,12 +101,12 @@ public class TinyLog2 extends AbstractLog {
 
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(String fqcn, cn.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.foxapplication.embed.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		logIfEnabled(fqcn, toTinyLevel(level), t, format, arguments);
 	}
 
 	@Override
-	public boolean isEnabled(cn.hutool.log.level.Level level) {
+	public boolean isEnabled(com.foxapplication.embed.hutool.log.level.Level level) {
 		return this.level <= toTinyLevel(level).ordinal();
 	}
 
@@ -133,7 +133,7 @@ public class TinyLog2 extends AbstractLog {
 	 * @return Tinylog的Level
 	 * @since 4.0.3
 	 */
-	private Level toTinyLevel(cn.hutool.log.level.Level level) {
+	private Level toTinyLevel(com.foxapplication.embed.hutool.log.level.Level level) {
 		Level tinyLevel;
 		switch (level) {
 		case TRACE:

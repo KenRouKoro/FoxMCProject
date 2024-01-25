@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.annotation.scanner.AnnotationScanner;
-import cn.hutool.core.annotation.scanner.MetaAnnotationScanner;
-import cn.hutool.core.annotation.scanner.MethodAnnotationScanner;
-import cn.hutool.core.annotation.scanner.TypeAnnotationScanner;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.lang.func.Func1;
-import cn.hutool.core.lang.func.LambdaUtil;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.annotation.scanner.AnnotationScanner;
+import com.foxapplication.embed.hutool.core.annotation.scanner.MetaAnnotationScanner;
+import com.foxapplication.embed.hutool.core.annotation.scanner.MethodAnnotationScanner;
+import com.foxapplication.embed.hutool.core.annotation.scanner.TypeAnnotationScanner;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.lang.func.Func1;
+import com.foxapplication.embed.hutool.core.lang.func.LambdaUtil;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.lang.annotation.*;
 import java.lang.invoke.SerializedLambda;

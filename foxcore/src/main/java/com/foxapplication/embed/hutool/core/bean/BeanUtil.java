@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.core.bean;
 
-import cn.hutool.core.bean.copier.BeanCopier;
-import cn.hutool.core.bean.copier.CopyOptions;
-import cn.hutool.core.bean.copier.ValueProvider;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.lang.Editor;
-import cn.hutool.core.map.CaseInsensitiveMap;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.bean.copier.BeanCopier;
+import com.foxapplication.embed.hutool.core.bean.copier.CopyOptions;
+import com.foxapplication.embed.hutool.core.bean.copier.ValueProvider;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.lang.Editor;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveMap;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.beans.*;
 import java.lang.reflect.Field;
@@ -830,8 +830,8 @@ public class BeanUtil {
 
 	/**
 	 * 给定的Bean的类名是否匹配指定类名字符串<br>
-	 * 如果isSimple为{@code true}，则只匹配类名而忽略包名，例如：cn.hutool.TestEntity只匹配TestEntity<br>
-	 * 如果isSimple为{@code false}，则匹配包括包名的全类名，例如：cn.hutool.TestEntity匹配cn.hutool.TestEntity
+	 * 如果isSimple为{@code true}，则只匹配类名而忽略包名，例如：com.foxapplication.embed.hutool.TestEntity只匹配TestEntity<br>
+	 * 如果isSimple为{@code false}，则匹配包括包名的全类名，例如：com.foxapplication.embed.hutool.TestEntity匹配com.foxapplication.embed.hutool.TestEntity
 	 *
 	 * @param bean          Bean
 	 * @param beanClassName Bean的类名

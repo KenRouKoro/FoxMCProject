@@ -1,7 +1,7 @@
-package cn.hutool.http.server.filter;
+package com.foxapplication.embed.hutool.http.server.filter;
 
-import cn.hutool.http.server.HttpServerRequest;
-import cn.hutool.http.server.HttpServerResponse;
+import com.foxapplication.embed.hutool.http.server.HttpServerRequest;
+import com.foxapplication.embed.hutool.http.server.HttpServerResponse;
 import com.sun.net.httpserver.Filter;
 
 import java.io.IOException;

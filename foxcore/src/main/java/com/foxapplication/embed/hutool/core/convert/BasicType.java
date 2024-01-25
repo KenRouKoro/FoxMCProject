@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.convert;
 
-import cn.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
 
 import java.util.Map;
 

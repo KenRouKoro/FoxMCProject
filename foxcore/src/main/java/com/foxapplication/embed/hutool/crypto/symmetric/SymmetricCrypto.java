@@ -1,18 +1,18 @@
 package com.foxapplication.embed.hutool.crypto.symmetric;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.CipherMode;
-import cn.hutool.crypto.CipherWrapper;
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.KeyUtil;
-import cn.hutool.crypto.Padding;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.CipherMode;
+import com.foxapplication.embed.hutool.crypto.CipherWrapper;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.KeyUtil;
+import com.foxapplication.embed.hutool.crypto.Padding;
 
 import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;

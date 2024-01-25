@@ -1,4 +1,4 @@
-package cn.hutool.cron.task;
+package com.foxapplication.embed.hutool.cron.task;
 
 /**
  * {@link Runnable} 的 {@link Task}包装

@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.stream;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 
 import java.io.File;
 import java.io.IOException;

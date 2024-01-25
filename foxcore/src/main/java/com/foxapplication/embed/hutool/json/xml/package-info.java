@@ -3,4 +3,4 @@
  *
  * @author looly
  */
-package cn.hutool.json.xml;
+package com.foxapplication.embed.hutool.json.xml;

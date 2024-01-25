@@ -1,15 +1,10 @@
-package cn.hutool.dfa;
+package com.foxapplication.embed.hutool.dfa;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * DFA（Deterministic Finite Automaton 确定有穷自动机）

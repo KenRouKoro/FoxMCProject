@@ -1,4 +1,4 @@
-package cn.hutool.http.cookie;
+package com.foxapplication.embed.hutool.http.cookie;
 
 import java.net.CookieManager;
 import java.net.CookieStore;

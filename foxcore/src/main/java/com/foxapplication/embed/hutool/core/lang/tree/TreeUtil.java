@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.lang.tree;
 
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.lang.tree.parser.DefaultNodeParser;
-import cn.hutool.core.lang.tree.parser.NodeParser;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.lang.tree.parser.DefaultNodeParser;
+import com.foxapplication.embed.hutool.core.lang.tree.parser.NodeParser;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.map.multi;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.map.MapWrapper;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.map.MapWrapper;
 
 import java.util.Collection;
 import java.util.HashMap;

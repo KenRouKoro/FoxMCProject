@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.thread.lock.LockUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.thread.lock.LockUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.File;
 import java.io.PrintWriter;

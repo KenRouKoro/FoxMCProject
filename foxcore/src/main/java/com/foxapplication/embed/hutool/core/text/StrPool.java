@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.util.XmlUtil;
+import com.foxapplication.embed.hutool.core.util.XmlUtil;
 
 /**
  * 常用字符串常量定义

@@ -1,10 +1,10 @@
-package cn.hutool.cron.pattern;
+package com.foxapplication.embed.hutool.cron.pattern;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.text.StrJoiner;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.text.StrJoiner;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 定时任务表达式构建器

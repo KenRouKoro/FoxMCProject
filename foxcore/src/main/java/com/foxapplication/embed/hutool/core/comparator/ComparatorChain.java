@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.lang.Chain;
+import com.foxapplication.embed.hutool.core.lang.Chain;
 
 import java.io.Serializable;
 import java.util.ArrayList;

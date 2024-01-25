@@ -1,12 +1,12 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.MultiResource;
-import cn.hutool.core.io.resource.Resource;
-import cn.hutool.core.io.resource.StringResource;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.MultiResource;
+import com.foxapplication.embed.hutool.core.io.resource.Resource;
+import com.foxapplication.embed.hutool.core.io.resource.StringResource;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.IOException;
 import java.io.OutputStream;

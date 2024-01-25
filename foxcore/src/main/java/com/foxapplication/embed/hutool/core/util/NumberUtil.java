@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.math.Calculator;
-import cn.hutool.core.text.CharSequenceUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.math.Calculator;
+import com.foxapplication.embed.hutool.core.text.CharSequenceUtil;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

@@ -1,7 +1,7 @@
-package cn.hutool.log.dialect.tinylog;
+package com.foxapplication.embed.hutool.log.dialect.tinylog;
 
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 /**
  * <a href="http://www.tinylog.org/">TinyLog</a> log.<br>

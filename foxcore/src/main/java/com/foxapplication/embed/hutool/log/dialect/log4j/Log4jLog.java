@@ -1,10 +1,9 @@
-package cn.hutool.log.dialect.log4j;
+package com.foxapplication.embed.hutool.log.dialect.log4j;
 
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
 
 /**
  * <a href="http://logging.apache.org/log4j/1.2/index.html">Apache Log4J</a> log.<br>
@@ -43,7 +42,7 @@ public class Log4jLog extends AbstractLog {
 
 	@Override
 	public void trace(String fqcn, Throwable t, String format, Object... arguments) {
-		log(fqcn, cn.hutool.log.level.Level.TRACE, t, format, arguments);
+		log(fqcn, com.foxapplication.embed.hutool.log.level.Level.TRACE, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Debug
@@ -54,7 +53,7 @@ public class Log4jLog extends AbstractLog {
 
 	@Override
 	public void debug(String fqcn, Throwable t, String format, Object... arguments) {
-		log(fqcn, cn.hutool.log.level.Level.DEBUG, t, format, arguments);
+		log(fqcn, com.foxapplication.embed.hutool.log.level.Level.DEBUG, t, format, arguments);
 	}
 	// ------------------------------------------------------------------------- Info
 	@Override
@@ -64,7 +63,7 @@ public class Log4jLog extends AbstractLog {
 
 	@Override
 	public void info(String fqcn, Throwable t, String format, Object... arguments) {
-		log(fqcn, cn.hutool.log.level.Level.INFO, t, format, arguments);
+		log(fqcn, com.foxapplication.embed.hutool.log.level.Level.INFO, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Warn
@@ -75,7 +74,7 @@ public class Log4jLog extends AbstractLog {
 
 	@Override
 	public void warn(String fqcn, Throwable t, String format, Object... arguments) {
-		log(fqcn, cn.hutool.log.level.Level.WARN, t, format, arguments);
+		log(fqcn, com.foxapplication.embed.hutool.log.level.Level.WARN, t, format, arguments);
 	}
 	
 	// ------------------------------------------------------------------------- Error
@@ -86,12 +85,12 @@ public class Log4jLog extends AbstractLog {
 
 	@Override
 	public void error(String fqcn, Throwable t, String format, Object... arguments) {
-		log(fqcn, cn.hutool.log.level.Level.ERROR, t, format, arguments);
+		log(fqcn, com.foxapplication.embed.hutool.log.level.Level.ERROR, t, format, arguments);
 	}
 
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(String fqcn, cn.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.foxapplication.embed.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		Level log4jLevel;
 		switch (level) {
 			case TRACE:

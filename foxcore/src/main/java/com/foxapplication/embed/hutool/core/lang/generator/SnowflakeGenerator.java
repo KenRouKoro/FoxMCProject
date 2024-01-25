@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.generator;
 
-import cn.hutool.core.lang.Snowflake;
+import com.foxapplication.embed.hutool.core.lang.Snowflake;
 
 /**
  * Snowflake生成器<br>

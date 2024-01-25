@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.exceptions.ValidateException;
-import cn.hutool.core.util.CreditCodeUtil;
-import cn.hutool.core.util.NumberUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.IdcardUtil;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ValidateException;
+import com.foxapplication.embed.hutool.core.util.CreditCodeUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.IdcardUtil;
 
 import java.net.MalformedURLException;
 import java.util.regex.Matcher;

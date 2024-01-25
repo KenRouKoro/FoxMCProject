@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.bean;
 
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 /**
  * Bean属性缓存<br>

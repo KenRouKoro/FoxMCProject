@@ -1,14 +1,14 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ByteUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ByteUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.reflect.Array;

@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.comparator.CompareUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.lang.reflect.Array;
 import java.util.*;

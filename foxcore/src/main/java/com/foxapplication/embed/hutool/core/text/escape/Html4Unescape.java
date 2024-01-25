@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text.escape;
 
-import cn.hutool.core.text.replacer.LookupReplacer;
+import com.foxapplication.embed.hutool.core.text.replacer.LookupReplacer;
 
 /**
  * HTML4的UNESCAPE

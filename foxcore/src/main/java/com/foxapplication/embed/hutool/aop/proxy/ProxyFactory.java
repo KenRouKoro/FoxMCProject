@@ -1,8 +1,8 @@
-package cn.hutool.aop.proxy;
+package com.foxapplication.embed.hutool.aop.proxy;
 
-import cn.hutool.aop.aspects.Aspect;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.ServiceLoaderUtil;
+import com.foxapplication.embed.hutool.aop.aspects.Aspect;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.ServiceLoaderUtil;
 
 import java.io.Serializable;
 

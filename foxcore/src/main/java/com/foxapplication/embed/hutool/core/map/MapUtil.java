@@ -1,17 +1,17 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Editor;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.Pair;
-import cn.hutool.core.lang.TypeReference;
-import cn.hutool.core.stream.CollectorUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.JdkUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Editor;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Pair;
+import com.foxapplication.embed.hutool.core.lang.TypeReference;
+import com.foxapplication.embed.hutool.core.stream.CollectorUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.JdkUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.*;
 import java.util.Map.Entry;

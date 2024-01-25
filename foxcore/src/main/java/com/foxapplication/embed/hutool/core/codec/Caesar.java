@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 /**
  * 凯撒密码实现<br>

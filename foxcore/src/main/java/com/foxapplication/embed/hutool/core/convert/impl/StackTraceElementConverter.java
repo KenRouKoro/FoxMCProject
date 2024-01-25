@@ -2,9 +2,9 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 
 import java.util.Map;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 /**
  * {@link StackTraceElement} 转换器<br>

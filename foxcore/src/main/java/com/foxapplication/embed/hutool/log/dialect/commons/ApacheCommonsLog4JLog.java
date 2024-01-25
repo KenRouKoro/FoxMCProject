@@ -1,9 +1,8 @@
-package cn.hutool.log.dialect.commons;
+package com.foxapplication.embed.hutool.log.dialect.commons;
 
+import com.foxapplication.embed.hutool.log.dialect.log4j.Log4jLog;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.impl.Log4JLogger;
-
-import cn.hutool.log.dialect.log4j.Log4jLog;
 
 /**
  * Apache Commons Logging for Log4j

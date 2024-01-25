@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.stream;
 
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;

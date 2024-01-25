@@ -1,6 +1,6 @@
-package cn.hutool.captcha;
+package com.foxapplication.embed.hutool.captcha;
 
-import cn.hutool.captcha.generator.CodeGenerator;
+import com.foxapplication.embed.hutool.captcha.generator.CodeGenerator;
 
 /**
  * 图形验证码工具

@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text.csv;
 
-import cn.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
 
 import java.io.Serializable;
 

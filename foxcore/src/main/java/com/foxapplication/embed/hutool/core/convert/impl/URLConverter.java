@@ -4,7 +4,7 @@ import java.io.File;
 import java.net.URI;
 import java.net.URL;
 
-import cn.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
 
 /**
  * URL对象转换器

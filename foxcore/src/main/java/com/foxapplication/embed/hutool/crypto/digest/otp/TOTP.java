@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.crypto.digest.otp;
 
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.digest.HmacAlgorithm;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.digest.HmacAlgorithm;
 
 import java.time.Duration;
 import java.time.Instant;

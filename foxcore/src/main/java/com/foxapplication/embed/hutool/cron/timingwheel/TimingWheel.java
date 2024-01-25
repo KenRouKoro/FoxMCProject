@@ -1,6 +1,6 @@
-package cn.hutool.cron.timingwheel;
+package com.foxapplication.embed.hutool.cron.timingwheel;
 
-import cn.hutool.log.StaticLog;
+import com.foxapplication.embed.hutool.log.StaticLog;
 
 import java.util.function.Consumer;
 

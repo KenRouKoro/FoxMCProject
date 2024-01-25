@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.util.Calendar;
 

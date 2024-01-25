@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.crypto;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.crypto.asymmetric.SM2;
-import cn.hutool.crypto.digest.HMac;
-import cn.hutool.crypto.digest.HmacAlgorithm;
-import cn.hutool.crypto.digest.SM3;
-import cn.hutool.crypto.digest.mac.BCHMacEngine;
-import cn.hutool.crypto.digest.mac.MacEngine;
-import cn.hutool.crypto.symmetric.SM4;
-import cn.hutool.crypto.symmetric.SymmetricCrypto;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.crypto.asymmetric.SM2;
+import com.foxapplication.embed.hutool.crypto.digest.HMac;
+import com.foxapplication.embed.hutool.crypto.digest.HmacAlgorithm;
+import com.foxapplication.embed.hutool.crypto.digest.SM3;
+import com.foxapplication.embed.hutool.crypto.digest.mac.BCHMacEngine;
+import com.foxapplication.embed.hutool.crypto.digest.mac.MacEngine;
+import com.foxapplication.embed.hutool.crypto.symmetric.SM4;
+import com.foxapplication.embed.hutool.crypto.symmetric.SymmetricCrypto;
 import org.bouncycastle.asn1.ASN1ObjectIdentifier;
 import org.bouncycastle.asn1.gm.GMNamedCurves;
 import org.bouncycastle.crypto.digests.SM3Digest;

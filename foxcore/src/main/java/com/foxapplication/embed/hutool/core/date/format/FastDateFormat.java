@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.date.format;
 
-import cn.hutool.core.date.DatePattern;
+import com.foxapplication.embed.hutool.core.date.DatePattern;
 
 import java.text.DateFormat;
 import java.text.FieldPosition;

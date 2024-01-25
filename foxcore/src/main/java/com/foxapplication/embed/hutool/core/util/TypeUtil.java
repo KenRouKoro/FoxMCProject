@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.lang.ParameterizedTypeImpl;
-import cn.hutool.core.lang.reflect.ActualTypeMapperPool;
+import com.foxapplication.embed.hutool.core.lang.ParameterizedTypeImpl;
+import com.foxapplication.embed.hutool.core.lang.reflect.ActualTypeMapperPool;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -366,7 +366,7 @@ public class TypeUtil {
 	 * 获取泛型变量和泛型实际类型的对应关系Map，例如：
 	 *
 	 * <pre>
-	 *     T    cn.hutool.test.User
+	 *     T    com.foxapplication.embed.hutool.test.User
 	 *     E    java.lang.Integer
 	 * </pre>
 	 *

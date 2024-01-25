@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
 
 import java.io.Serializable;
 import java.util.Random;

@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.map.multi;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.collection.ComputeIter;
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.collection.TransIter;
-import cn.hutool.core.map.AbsEntry;
-import cn.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.collection.ComputeIter;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.collection.TransIter;
+import com.foxapplication.embed.hutool.core.map.AbsEntry;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
 
 import java.util.AbstractMap;
 import java.util.AbstractSet;

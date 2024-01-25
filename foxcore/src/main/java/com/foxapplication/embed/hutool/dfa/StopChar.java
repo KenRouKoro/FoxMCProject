@@ -1,8 +1,8 @@
-package cn.hutool.dfa;
+package com.foxapplication.embed.hutool.dfa;
+
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
 
 import java.util.Set;
-
-import cn.hutool.core.collection.CollUtil;
 
 /**
  * 过滤词及一些简单处理

@@ -1,7 +1,7 @@
-package cn.hutool.http.ssl;
+package com.foxapplication.embed.hutool.http.ssl;
 
-import cn.hutool.core.net.SSLContextBuilder;
-import cn.hutool.core.net.SSLProtocols;
+import com.foxapplication.embed.hutool.core.net.SSLContextBuilder;
+import com.foxapplication.embed.hutool.core.net.SSLProtocols;
 
 import javax.net.ssl.KeyManager;
 import javax.net.ssl.SSLSocketFactory;

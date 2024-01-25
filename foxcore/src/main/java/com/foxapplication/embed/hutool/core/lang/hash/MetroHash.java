@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.hash;
 
-import cn.hutool.core.util.ByteUtil;
+import com.foxapplication.embed.hutool.core.util.ByteUtil;
 
 import java.nio.ByteOrder;
 import java.util.Arrays;

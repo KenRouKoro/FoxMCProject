@@ -1,9 +1,9 @@
-package cn.hutool.http;
+package com.foxapplication.embed.hutool.http;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.http.cookie.GlobalCookieManager;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.http.cookie.GlobalCookieManager;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;

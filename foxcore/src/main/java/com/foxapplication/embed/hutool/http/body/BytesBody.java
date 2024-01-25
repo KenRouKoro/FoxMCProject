@@ -1,6 +1,6 @@
-package cn.hutool.http.body;
+package com.foxapplication.embed.hutool.http.body;
 
-import cn.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
 
 import java.io.OutputStream;
 

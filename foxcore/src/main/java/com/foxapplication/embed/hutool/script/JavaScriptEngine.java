@@ -1,12 +1,6 @@
-package cn.hutool.script;
+package com.foxapplication.embed.hutool.script;
 
-import javax.script.Bindings;
-import javax.script.Compilable;
-import javax.script.CompiledScript;
-import javax.script.Invocable;
-import javax.script.ScriptContext;
-import javax.script.ScriptEngineFactory;
-import javax.script.ScriptException;
+import javax.script.*;
 import java.io.Reader;
 
 /**

@@ -1,11 +1,11 @@
-package cn.hutool.log;
+package com.foxapplication.embed.hutool.log;
 
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.lang.caller.CallerUtil;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.ServiceLoaderUtil;
-import cn.hutool.log.dialect.console.ConsoleLogFactory;
-import cn.hutool.log.dialect.jdk.JdkLogFactory;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.lang.caller.CallerUtil;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.ServiceLoaderUtil;
+import com.foxapplication.embed.hutool.log.dialect.console.ConsoleLogFactory;
+import com.foxapplication.embed.hutool.log.dialect.jdk.JdkLogFactory;
 
 import java.net.URL;
 import java.util.Map;

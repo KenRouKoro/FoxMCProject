@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.img.gif;
 
-import cn.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;

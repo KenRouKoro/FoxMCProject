@@ -1,5 +1,7 @@
 package com.foxapplication.embed.hutool.core.util;
 
+import com.foxapplication.embed.hutool.core.text.*;
+
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.nio.ByteBuffer;
@@ -10,11 +12,6 @@ import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
 
-import cn.hutool.core.text.CharSequenceUtil;
-import cn.hutool.core.text.StrBuilder;
-import cn.hutool.core.text.StrFormatter;
-import cn.hutool.core.text.StrPool;
-import cn.hutool.core.text.TextSimilarity;
 
 /**
  * 字符串工具类

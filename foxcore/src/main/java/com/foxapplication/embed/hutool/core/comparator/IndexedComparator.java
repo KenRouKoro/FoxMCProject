@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.util.Comparator;
 

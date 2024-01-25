@@ -1,8 +1,8 @@
-package cn.hutool.aop.proxy;
+package com.foxapplication.embed.hutool.aop.proxy;
 
-import cn.hutool.aop.ProxyUtil;
-import cn.hutool.aop.aspects.Aspect;
-import cn.hutool.aop.interceptor.JdkInterceptor;
+import com.foxapplication.embed.hutool.aop.ProxyUtil;
+import com.foxapplication.embed.hutool.aop.aspects.Aspect;
+import com.foxapplication.embed.hutool.aop.interceptor.JdkInterceptor;
 
 /**
  * JDK实现的切面代理

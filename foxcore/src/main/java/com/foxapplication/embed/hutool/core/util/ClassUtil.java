@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.bean.NullWrapperBean;
-import cn.hutool.core.convert.BasicType;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.ClassScanner;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.Singleton;
+import com.foxapplication.embed.hutool.core.bean.NullWrapperBean;
+import com.foxapplication.embed.hutool.core.convert.BasicType;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.ClassScanner;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Singleton;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -112,7 +112,7 @@ public class ClassUtil {
 
 	/**
 	 * 获取完整类名的短格式如：<br>
-	 * cn.hutool.core.util.StrUtil -》c.h.c.u.StrUtil
+	 * com.foxapplication.embed.hutool.core.util.StrUtil -》c.h.c.u.StrUtil
 	 *
 	 * @param className 类名
 	 * @return 短格式类名

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.clone;
 
 
-import cn.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
 
 /**
  * 克隆默认实现接口，用于实现返回指定泛型类型的克隆方法

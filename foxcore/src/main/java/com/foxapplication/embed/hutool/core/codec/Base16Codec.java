@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.codec;
 
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * Base16（Hex）编码解码器<br>

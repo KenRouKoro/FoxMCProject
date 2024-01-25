@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.convert.impl;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.convert.ConverterRegistry;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.ConverterRegistry;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;

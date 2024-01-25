@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.map;
 
 
-import cn.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.builder.Builder;
 
 import java.util.Map;
 import java.util.function.Supplier;

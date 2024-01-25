@@ -1,12 +1,11 @@
-package cn.hutool.log.dialect.log4j2;
+package com.foxapplication.embed.hutool.log.dialect.log4j2;
 
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.spi.AbstractLogger;
-
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
 
 /**
  * <a href="http://logging.apache.org/log4j/2.x/index.html">Apache Log4J 2</a> log.<br>
@@ -94,7 +93,7 @@ public class Log4j2Log extends AbstractLog {
 	
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(String fqcn, cn.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.foxapplication.embed.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		Level log4j2Level;
 		switch (level) {
 			case TRACE:

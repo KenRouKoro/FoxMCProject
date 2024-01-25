@@ -1,11 +1,11 @@
-package cn.hutool.captcha;
+package com.foxapplication.embed.hutool.captcha;
 
-import cn.hutool.captcha.generator.CodeGenerator;
-import cn.hutool.captcha.generator.RandomGenerator;
-import cn.hutool.core.img.GraphicsUtil;
-import cn.hutool.core.img.ImgUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.captcha.generator.CodeGenerator;
+import com.foxapplication.embed.hutool.captcha.generator.RandomGenerator;
+import com.foxapplication.embed.hutool.core.img.GraphicsUtil;
+import com.foxapplication.embed.hutool.core.img.ImgUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

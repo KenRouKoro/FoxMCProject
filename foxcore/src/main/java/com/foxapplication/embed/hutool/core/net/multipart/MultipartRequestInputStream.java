@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.net.multipart;
 
-import cn.hutool.core.io.FastByteArrayOutputStream;
+import com.foxapplication.embed.hutool.core.io.FastByteArrayOutputStream;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;

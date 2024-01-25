@@ -1,6 +1,6 @@
-package cn.hutool.cron.task;
+package com.foxapplication.embed.hutool.cron.task;
 
-import cn.hutool.cron.pattern.CronPattern;
+import com.foxapplication.embed.hutool.cron.pattern.CronPattern;
 
 /**
  * 定时作业，此类除了定义了作业，也定义了作业的执行周期以及ID。

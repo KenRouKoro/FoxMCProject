@@ -1,11 +1,11 @@
-package cn.hutool.log.dialect.console;
+package com.foxapplication.embed.hutool.log.dialect.console;
 
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.lang.ansi.AnsiColor;
-import cn.hutool.core.lang.ansi.AnsiEncoder;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.level.Level;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.lang.ansi.AnsiColor;
+import com.foxapplication.embed.hutool.core.lang.ansi.AnsiEncoder;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.level.Level;
 
 import java.util.function.Function;
 

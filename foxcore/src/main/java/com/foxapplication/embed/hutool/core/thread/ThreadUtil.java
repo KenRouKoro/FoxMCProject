@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.thread;
 
-import cn.hutool.core.util.RuntimeUtil;
+import com.foxapplication.embed.hutool.core.util.RuntimeUtil;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.Callable;

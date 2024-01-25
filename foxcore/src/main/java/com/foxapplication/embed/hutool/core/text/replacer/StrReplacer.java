@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text.replacer;
 
-import cn.hutool.core.lang.Replacer;
-import cn.hutool.core.text.StrBuilder;
+import com.foxapplication.embed.hutool.core.lang.Replacer;
+import com.foxapplication.embed.hutool.core.text.StrBuilder;
 
 import java.io.Serializable;
 

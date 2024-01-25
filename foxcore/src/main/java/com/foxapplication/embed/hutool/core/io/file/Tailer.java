@@ -1,17 +1,17 @@
 package com.foxapplication.embed.hutool.core.io.file;
 
-import cn.hutool.core.date.DateUnit;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.LineHandler;
-import cn.hutool.core.io.watch.SimpleWatcher;
-import cn.hutool.core.io.watch.WatchKind;
-import cn.hutool.core.io.watch.WatchMonitor;
-import cn.hutool.core.lang.Console;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.date.DateUnit;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.LineHandler;
+import com.foxapplication.embed.hutool.core.io.watch.SimpleWatcher;
+import com.foxapplication.embed.hutool.core.io.watch.WatchKind;
+import com.foxapplication.embed.hutool.core.io.watch.WatchMonitor;
+import com.foxapplication.embed.hutool.core.lang.Console;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 
 import java.io.File;
 import java.io.IOException;

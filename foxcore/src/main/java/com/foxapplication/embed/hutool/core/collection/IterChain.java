@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.collection;
 
-import cn.hutool.core.lang.Chain;
+import com.foxapplication.embed.hutool.core.lang.Chain;
 
 import java.util.ArrayList;
 import java.util.Iterator;

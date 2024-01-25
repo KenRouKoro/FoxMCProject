@@ -1,12 +1,12 @@
-package cn.hutool.socket.aio;
+package com.foxapplication.embed.hutool.socket.aio;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.thread.ThreadFactoryBuilder;
-import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
-import cn.hutool.socket.SocketConfig;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.thread.ThreadFactoryBuilder;
+import com.foxapplication.embed.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.socket.SocketConfig;
 
 import java.io.Closeable;
 import java.io.IOException;

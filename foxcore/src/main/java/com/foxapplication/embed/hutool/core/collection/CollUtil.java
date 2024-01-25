@@ -1,20 +1,20 @@
 package com.foxapplication.embed.hutool.core.collection;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.comparator.CompareUtil;
-import cn.hutool.core.comparator.PinyinComparator;
-import cn.hutool.core.comparator.PropertyComparator;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.convert.ConverterRegistry;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Editor;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.Matcher;
-import cn.hutool.core.lang.func.Func1;
-import cn.hutool.core.lang.hash.Hash32;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.comparator.PinyinComparator;
+import com.foxapplication.embed.hutool.core.comparator.PropertyComparator;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.convert.ConverterRegistry;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Editor;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.Matcher;
+import com.foxapplication.embed.hutool.core.lang.func.Func1;
+import com.foxapplication.embed.hutool.core.lang.hash.Hash32;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.io.Serializable;
 import java.lang.reflect.Type;

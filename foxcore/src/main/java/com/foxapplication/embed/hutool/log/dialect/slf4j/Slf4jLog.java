@@ -1,12 +1,11 @@
-package cn.hutool.log.dialect.slf4j;
+package com.foxapplication.embed.hutool.log.dialect.slf4j;
 
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
+import com.foxapplication.embed.hutool.log.level.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.spi.LocationAwareLogger;
-
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
-import cn.hutool.log.level.Level;
 
 /**
  * <a href="http://www.slf4j.org/">SLF4J</a> log.<br>

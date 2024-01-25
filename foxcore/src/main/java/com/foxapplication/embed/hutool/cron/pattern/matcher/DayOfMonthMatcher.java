@@ -1,6 +1,6 @@
-package cn.hutool.cron.pattern.matcher;
+package com.foxapplication.embed.hutool.cron.pattern.matcher;
 
-import cn.hutool.core.date.Month;
+import com.foxapplication.embed.hutool.core.date.Month;
 
 import java.util.List;
 

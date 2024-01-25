@@ -1,9 +1,9 @@
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
-import cn.hutool.core.date.DateUnit;
-import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.core.date.DateUnit;
+import com.foxapplication.embed.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 import java.io.Serializable;
 

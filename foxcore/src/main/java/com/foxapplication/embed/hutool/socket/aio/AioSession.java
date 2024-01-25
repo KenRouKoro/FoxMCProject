@@ -1,9 +1,9 @@
-package cn.hutool.socket.aio;
+package com.foxapplication.embed.hutool.socket.aio;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.socket.SocketConfig;
-import cn.hutool.socket.SocketUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.socket.SocketConfig;
+import com.foxapplication.embed.hutool.socket.SocketUtil;
 
 import java.io.Closeable;
 import java.io.IOException;

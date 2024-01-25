@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.Serializable;
 import java.util.Map;

@@ -5,8 +5,8 @@ import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 
 /**
  * 文件包装器，扩展文件对象

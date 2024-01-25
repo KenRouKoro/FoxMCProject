@@ -1,6 +1,6 @@
-package cn.hutool.cron;
+package com.foxapplication.embed.hutool.cron;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 定时任务异常

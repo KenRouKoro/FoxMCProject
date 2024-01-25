@@ -1,7 +1,7 @@
-package cn.hutool.setting.profile;
+package com.foxapplication.embed.hutool.setting.profile;
 
-import cn.hutool.core.lang.Singleton;
-import cn.hutool.setting.Setting;
+import com.foxapplication.embed.hutool.core.lang.Singleton;
+import com.foxapplication.embed.hutool.setting.Setting;
 
 /**
  * 全局的Profile配置中心

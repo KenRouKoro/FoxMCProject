@@ -1,7 +1,7 @@
-package cn.hutool.socket;
+package com.foxapplication.embed.hutool.socket;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.RuntimeUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.RuntimeUtil;
 
 import java.io.Serializable;
 

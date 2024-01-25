@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.img;
 
-import cn.hutool.core.io.FileTypeUtil;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.FileTypeUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;

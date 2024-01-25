@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.date.chinese;
 
-import cn.hutool.core.lang.Pair;
-import cn.hutool.core.map.TableMap;
+import com.foxapplication.embed.hutool.core.lang.Pair;
+import com.foxapplication.embed.hutool.core.map.TableMap;
 
 import java.util.List;
 

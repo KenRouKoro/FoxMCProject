@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.intern;
 
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 import java.lang.ref.WeakReference;
 

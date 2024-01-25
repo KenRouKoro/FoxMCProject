@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io.resource;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import java.io.*;
 import java.net.URI;

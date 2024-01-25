@@ -1,7 +1,7 @@
-package cn.hutool.log.dialect.console;
+package com.foxapplication.embed.hutool.log.dialect.console;
 
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 /**
  * 利用System.out.println()打印日志

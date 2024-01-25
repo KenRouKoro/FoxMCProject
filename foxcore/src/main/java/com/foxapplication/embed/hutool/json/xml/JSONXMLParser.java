@@ -1,10 +1,6 @@
-package cn.hutool.json.xml;
+package com.foxapplication.embed.hutool.json.xml;
 
-import cn.hutool.json.InternalJSONUtil;
-import cn.hutool.json.JSONException;
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.XML;
-import cn.hutool.json.XMLTokener;
+import com.foxapplication.embed.hutool.json.*;
 
 /**
  * XML解析器，将XML解析为JSON对象

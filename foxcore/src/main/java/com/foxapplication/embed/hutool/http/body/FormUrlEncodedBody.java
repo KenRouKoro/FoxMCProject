@@ -1,7 +1,7 @@
-package cn.hutool.http.body;
+package com.foxapplication.embed.hutool.http.body;
 
-import cn.hutool.core.net.url.UrlQuery;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.net.url.UrlQuery;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;

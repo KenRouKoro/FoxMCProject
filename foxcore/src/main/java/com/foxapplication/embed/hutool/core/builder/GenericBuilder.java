@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.builder;
 
-import cn.hutool.core.lang.func.Consumer3;
-import cn.hutool.core.lang.func.Supplier1;
-import cn.hutool.core.lang.func.Supplier2;
-import cn.hutool.core.lang.func.Supplier3;
-import cn.hutool.core.lang.func.Supplier4;
-import cn.hutool.core.lang.func.Supplier5;
+import com.foxapplication.embed.hutool.core.lang.func.Consumer3;
+import com.foxapplication.embed.hutool.core.lang.func.Supplier1;
+import com.foxapplication.embed.hutool.core.lang.func.Supplier2;
+import com.foxapplication.embed.hutool.core.lang.func.Supplier3;
+import com.foxapplication.embed.hutool.core.lang.func.Supplier4;
+import com.foxapplication.embed.hutool.core.lang.func.Supplier5;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io.resource;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

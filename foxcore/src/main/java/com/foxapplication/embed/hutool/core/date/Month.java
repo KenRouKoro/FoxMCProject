@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.time.format.TextStyle;
 import java.util.Calendar;

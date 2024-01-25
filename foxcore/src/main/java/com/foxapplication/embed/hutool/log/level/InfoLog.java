@@ -1,4 +1,4 @@
-package cn.hutool.log.level;
+package com.foxapplication.embed.hutool.log.level;
 
 /**
  * INFO级别日志接口

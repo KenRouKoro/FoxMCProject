@@ -1,16 +1,16 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.bean.BeanPath;
-import cn.hutool.core.collection.CollectionUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.mutable.MutablePair;
-import cn.hutool.core.map.CaseInsensitiveMap;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.map.MapWrapper;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.json.serialize.JSONWriter;
+import com.foxapplication.embed.hutool.core.bean.BeanPath;
+import com.foxapplication.embed.hutool.core.collection.CollectionUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutablePair;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveMap;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.map.MapWrapper;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.json.serialize.JSONWriter;
 
 import java.io.StringWriter;
 import java.io.Writer;

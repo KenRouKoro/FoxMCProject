@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.net.multipart;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 上传的文件的头部信息<br>

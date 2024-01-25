@@ -1,9 +1,9 @@
-package cn.hutool.captcha.generator;
+package com.foxapplication.embed.hutool.captcha.generator;
 
-import cn.hutool.core.math.Calculator;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.math.Calculator;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 数字计算验证码生成器

@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.lang.func;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.map.WeakConcurrentMap;
-import cn.hutool.core.util.ClassUtil;
-import cn.hutool.core.util.ReflectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.lang.invoke.MethodHandleInfo;

@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.crypto.symmetric;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.KeyUtil;
-import cn.hutool.crypto.Mode;
-import cn.hutool.crypto.Padding;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.KeyUtil;
+import com.foxapplication.embed.hutool.crypto.Mode;
+import com.foxapplication.embed.hutool.crypto.Padding;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;

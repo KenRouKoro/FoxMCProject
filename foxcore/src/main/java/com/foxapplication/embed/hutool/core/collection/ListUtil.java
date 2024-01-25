@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.collection;
 
-import cn.hutool.core.comparator.PinyinComparator;
-import cn.hutool.core.comparator.PropertyComparator;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Matcher;
-import cn.hutool.core.lang.Validator;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.PageUtil;
+import com.foxapplication.embed.hutool.core.comparator.PinyinComparator;
+import com.foxapplication.embed.hutool.core.comparator.PropertyComparator;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Matcher;
+import com.foxapplication.embed.hutool.core.lang.Validator;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.PageUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;

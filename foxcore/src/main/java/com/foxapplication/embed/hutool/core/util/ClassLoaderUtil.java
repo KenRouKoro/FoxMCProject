@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.convert.BasicType;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.JarClassLoader;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.text.CharPool;
+import com.foxapplication.embed.hutool.core.convert.BasicType;
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.JarClassLoader;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.text.CharPool;
 
 import java.io.File;
 import java.lang.reflect.Array;

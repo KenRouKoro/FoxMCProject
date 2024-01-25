@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.text.escape;
 
-import cn.hutool.core.text.replacer.LookupReplacer;
-import cn.hutool.core.text.replacer.ReplacerChain;
+import com.foxapplication.embed.hutool.core.text.replacer.LookupReplacer;
+import com.foxapplication.embed.hutool.core.text.replacer.ReplacerChain;
 
 /**
  * XML特殊字符转义<br>

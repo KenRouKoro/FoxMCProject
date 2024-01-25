@@ -4,4 +4,4 @@
  *
  * @author looly
  */
-package cn.hutool.log.dialect.tinylog;
+package com.foxapplication.embed.hutool.log.dialect.tinylog;

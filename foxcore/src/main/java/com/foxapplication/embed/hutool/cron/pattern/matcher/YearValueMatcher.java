@@ -1,4 +1,4 @@
-package cn.hutool.cron.pattern.matcher;
+package com.foxapplication.embed.hutool.cron.pattern.matcher;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;

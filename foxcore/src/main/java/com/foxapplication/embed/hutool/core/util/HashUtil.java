@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.util;
 
-import cn.hutool.core.lang.hash.CityHash;
-import cn.hutool.core.lang.hash.MetroHash;
-import cn.hutool.core.lang.hash.MurmurHash;
-import cn.hutool.core.lang.hash.Number128;
+import com.foxapplication.embed.hutool.core.lang.hash.CityHash;
+import com.foxapplication.embed.hutool.core.lang.hash.MetroHash;
+import com.foxapplication.embed.hutool.core.lang.hash.MurmurHash;
+import com.foxapplication.embed.hutool.core.lang.hash.Number128;
 
 /**
  * Hash算法大全<br>

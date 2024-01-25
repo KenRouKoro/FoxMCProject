@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.thread;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.concurrent.*;
 

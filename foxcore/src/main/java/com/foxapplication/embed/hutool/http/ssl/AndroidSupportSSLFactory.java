@@ -1,7 +1,7 @@
-package cn.hutool.http.ssl;
+package com.foxapplication.embed.hutool.http.ssl;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.net.SSLProtocols;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.net.SSLProtocols;
 
 /**
  * 兼容android低版本SSL连接<br>

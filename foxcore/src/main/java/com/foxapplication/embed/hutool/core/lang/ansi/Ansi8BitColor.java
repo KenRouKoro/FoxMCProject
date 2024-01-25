@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.ansi;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 /**
  * ANSI 8-bit前景或背景色（即8位编码，共256种颜色（2^8） ）<br>

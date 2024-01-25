@@ -1,4 +1,4 @@
-package cn.hutool.cache.impl;
+package com.foxapplication.embed.hutool.cache.impl;
 
 import java.util.HashMap;
 import java.util.Iterator;

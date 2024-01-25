@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.lang.hash;
 
-import cn.hutool.core.util.ByteUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.ByteUtil;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.io.Serializable;
 import java.nio.ByteOrder;

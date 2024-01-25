@@ -1,8 +1,8 @@
-package cn.hutool.socket.aio;
+package com.foxapplication.embed.hutool.socket.aio;
+
+import com.foxapplication.embed.hutool.socket.SocketRuntimeException;
 
 import java.nio.channels.CompletionHandler;
-
-import cn.hutool.socket.SocketRuntimeException;
 
 /**
  * 数据读取完成回调，调用Session中相应方法处理消息，单例使用

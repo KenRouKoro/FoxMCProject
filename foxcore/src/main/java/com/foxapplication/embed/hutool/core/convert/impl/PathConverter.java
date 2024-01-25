@@ -6,7 +6,7 @@ import java.net.URL;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import cn.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
 
 /**
  * 字符串转换器

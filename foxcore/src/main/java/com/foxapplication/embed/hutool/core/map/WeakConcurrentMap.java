@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.util.ReferenceUtil;
+import com.foxapplication.embed.hutool.core.util.ReferenceUtil;
 
 import java.lang.ref.Reference;
 import java.util.concurrent.ConcurrentMap;

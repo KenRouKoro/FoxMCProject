@@ -2,8 +2,8 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 
 import java.util.Locale;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  *

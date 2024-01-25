@@ -2,7 +2,7 @@ package com.foxapplication.embed.hutool.core.lang;
 
 import java.lang.reflect.Type;
 
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 /**
  * Type类型参考<br>

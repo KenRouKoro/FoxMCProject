@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.mutable;
 
-import cn.hutool.core.util.NumberUtil;
+import com.foxapplication.embed.hutool.core.util.NumberUtil;
 
 /**
  * 可变 {@code byte} 类型

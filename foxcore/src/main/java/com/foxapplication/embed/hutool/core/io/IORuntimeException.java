@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * IO运行时异常，常用于对IOException的包装

@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.bean.copier;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.bean.PropDesc;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.map.CaseInsensitiveMap;
-import cn.hutool.core.map.MapWrapper;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.bean.PropDesc;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.map.CaseInsensitiveMap;
+import com.foxapplication.embed.hutool.core.map.MapWrapper;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 import java.lang.reflect.Type;
 import java.util.Map;

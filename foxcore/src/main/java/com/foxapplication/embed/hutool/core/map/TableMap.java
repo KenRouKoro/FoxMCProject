@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.map;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.util.ObjUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.util.ObjUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.Serializable;
 import java.util.ArrayList;

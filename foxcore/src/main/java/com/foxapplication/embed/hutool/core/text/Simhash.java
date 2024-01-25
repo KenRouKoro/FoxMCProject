@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.text;
 
-import cn.hutool.core.lang.hash.MurmurHash;
+import com.foxapplication.embed.hutool.core.lang.hash.MurmurHash;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

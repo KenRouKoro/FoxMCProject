@@ -1,4 +1,4 @@
-package cn.hutool.captcha;
+package com.foxapplication.embed.hutool.captcha;
 
 import java.io.OutputStream;
 import java.io.Serializable;

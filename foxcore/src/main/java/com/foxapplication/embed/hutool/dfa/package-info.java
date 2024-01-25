@@ -6,4 +6,4 @@
  * @author looly
  *
  */
-package cn.hutool.dfa;
+package com.foxapplication.embed.hutool.dfa;

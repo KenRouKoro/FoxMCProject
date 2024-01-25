@@ -1,7 +1,7 @@
-package cn.hutool.script;
+package com.foxapplication.embed.hutool.script;
 
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import javax.script.ScriptException;
 

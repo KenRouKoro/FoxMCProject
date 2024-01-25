@@ -1,9 +1,9 @@
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.json.JSON;
-import cn.hutool.json.JSONException;
-import cn.hutool.json.JSONObject;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.json.JSON;
+import com.foxapplication.embed.hutool.json.JSONException;
+import com.foxapplication.embed.hutool.json.JSONObject;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

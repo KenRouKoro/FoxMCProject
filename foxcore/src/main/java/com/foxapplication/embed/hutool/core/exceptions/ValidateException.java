@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.exceptions;
 
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 /**
  * 验证异常

@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.annotation;
 
-import cn.hutool.core.comparator.CompareUtil;
+import com.foxapplication.embed.hutool.core.comparator.CompareUtil;
 
 import java.util.Comparator;
 

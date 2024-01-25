@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.lang.Range;
+import com.foxapplication.embed.hutool.core.lang.Range;
 
 import java.util.Date;
 

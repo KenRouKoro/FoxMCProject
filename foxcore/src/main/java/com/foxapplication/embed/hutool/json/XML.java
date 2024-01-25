@@ -1,9 +1,9 @@
-package cn.hutool.json;
+package com.foxapplication.embed.hutool.json;
 
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.json.xml.JSONXMLParser;
-import cn.hutool.json.xml.JSONXMLSerializer;
-import cn.hutool.json.xml.ParseConfig;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.json.xml.JSONXMLParser;
+import com.foxapplication.embed.hutool.json.xml.JSONXMLSerializer;
+import com.foxapplication.embed.hutool.json.xml.ParseConfig;
 
 /**
  * 提供静态方法在XML和JSONObject之间转换

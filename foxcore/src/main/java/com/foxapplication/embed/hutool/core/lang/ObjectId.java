@@ -1,10 +1,10 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.RuntimeUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.date.DateUtil;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.RuntimeUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.net.NetworkInterface;
 import java.nio.ByteBuffer;

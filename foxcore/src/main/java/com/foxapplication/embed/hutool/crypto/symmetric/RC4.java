@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.crypto.symmetric;
 
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.HexUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.HexUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 
 import java.io.Serializable;
 import java.nio.charset.Charset;

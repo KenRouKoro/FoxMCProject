@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.net.url;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.net.RFC3986;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.net.RFC3986;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import java.net.MalformedURLException;
 import java.net.URI;

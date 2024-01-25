@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.log.level;
+package com.foxapplication.embed.hutool.log.level;

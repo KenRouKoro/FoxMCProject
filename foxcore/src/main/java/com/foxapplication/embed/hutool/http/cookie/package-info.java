@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.http.cookie;
+package com.foxapplication.embed.hutool.http.cookie;

@@ -1,8 +1,8 @@
-package cn.hutool.http.ssl;
+package com.foxapplication.embed.hutool.http.ssl;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.net.SSLUtil;
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.net.SSLUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;

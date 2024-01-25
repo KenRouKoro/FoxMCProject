@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.bloomfilter.filter;
+package com.foxapplication.embed.hutool.bloomfilter.filter;

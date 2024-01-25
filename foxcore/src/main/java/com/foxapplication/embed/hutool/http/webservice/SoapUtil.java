@@ -1,16 +1,15 @@
-package cn.hutool.http.webservice;
+package com.foxapplication.embed.hutool.http.webservice;
 
+import com.foxapplication.embed.hutool.core.exceptions.UtilException;
+import com.foxapplication.embed.hutool.core.util.CharsetUtil;
+import com.foxapplication.embed.hutool.core.util.XmlUtil;
+
+import javax.xml.soap.SOAPException;
+import javax.xml.soap.SOAPMessage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
-
-import javax.xml.soap.SOAPException;
-import javax.xml.soap.SOAPMessage;
-
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.XmlUtil;
 
 /**
  * SOAP相关工具类

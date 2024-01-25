@@ -1,11 +1,11 @@
 package com.foxapplication.embed.hutool.core.lang.tree;
 
-import cn.hutool.core.builder.Builder;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.tree.parser.NodeParser;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.builder.Builder;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.tree.parser.NodeParser;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.LinkedHashMap;
 import java.util.List;

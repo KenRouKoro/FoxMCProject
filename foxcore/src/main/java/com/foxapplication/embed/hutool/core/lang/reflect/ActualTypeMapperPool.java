@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.lang.reflect;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.map.WeakConcurrentMap;
-import cn.hutool.core.util.TypeUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.util.TypeUtil;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

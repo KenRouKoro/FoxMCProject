@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.io;
 
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.math.BigInteger;
 import java.util.Arrays;

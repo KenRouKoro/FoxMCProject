@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.convert;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.convert.impl.*;
-import cn.hutool.core.date.DateTime;
-import cn.hutool.core.lang.Opt;
-import cn.hutool.core.lang.Pair;
-import cn.hutool.core.lang.TypeReference;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.bean.BeanUtil;
+import com.foxapplication.embed.hutool.core.convert.impl.*;
+import com.foxapplication.embed.hutool.core.date.DateTime;
+import com.foxapplication.embed.hutool.core.lang.Opt;
+import com.foxapplication.embed.hutool.core.lang.Pair;
+import com.foxapplication.embed.hutool.core.lang.TypeReference;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.io.Serializable;
 import java.lang.ref.SoftReference;

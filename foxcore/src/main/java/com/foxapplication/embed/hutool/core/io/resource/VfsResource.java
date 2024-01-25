@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.io.resource;
 
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
 
 import java.io.InputStream;
 import java.lang.reflect.Method;

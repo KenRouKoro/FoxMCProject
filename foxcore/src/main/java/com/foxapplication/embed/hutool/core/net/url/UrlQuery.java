@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.core.net.url;
 
-import cn.hutool.core.codec.PercentCodec;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.IterUtil;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.map.TableMap;
-import cn.hutool.core.net.FormUrlencoded;
-import cn.hutool.core.net.RFC3986;
-import cn.hutool.core.net.URLDecoder;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.codec.PercentCodec;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.collection.IterUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.map.MapUtil;
+import com.foxapplication.embed.hutool.core.map.TableMap;
+import com.foxapplication.embed.hutool.core.net.FormUrlencoded;
+import com.foxapplication.embed.hutool.core.net.RFC3986;
+import com.foxapplication.embed.hutool.core.net.URLDecoder;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.nio.charset.Charset;
 import java.util.Iterator;

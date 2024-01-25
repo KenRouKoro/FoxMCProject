@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.img;
 
-import cn.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.lang.Assert;
 
 import java.awt.Color;
 import java.awt.color.ColorSpace;

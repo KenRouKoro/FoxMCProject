@@ -1,7 +1,7 @@
-package cn.hutool.cache;
+package com.foxapplication.embed.hutool.cache;
 
-import cn.hutool.cache.impl.CacheObj;
-import cn.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.cache.impl.CacheObj;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
 
 import java.io.Serializable;
 import java.util.Iterator;

@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.util.*;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.util.*;
 
 import java.io.Serializable;
 import java.util.Comparator;

@@ -1,8 +1,8 @@
-package cn.hutool.socket;
+package com.foxapplication.embed.hutool.socket;
 
-import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.thread.ThreadFactoryBuilder;
+import com.foxapplication.embed.hutool.core.io.IORuntimeException;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.thread.ThreadFactoryBuilder;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

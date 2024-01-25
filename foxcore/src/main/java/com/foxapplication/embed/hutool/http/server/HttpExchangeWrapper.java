@@ -1,4 +1,4 @@
-package cn.hutool.http.server;
+package com.foxapplication.embed.hutool.http.server;
 
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpContext;

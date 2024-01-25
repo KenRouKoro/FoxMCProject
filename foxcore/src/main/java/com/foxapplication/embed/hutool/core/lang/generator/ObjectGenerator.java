@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang.generator;
 
-import cn.hutool.core.util.ReflectUtil;
+import com.foxapplication.embed.hutool.core.util.ReflectUtil;
 
 /**
  * 对象生成器，通过指定对象的Class类型，调用next方法时生成新的对象。

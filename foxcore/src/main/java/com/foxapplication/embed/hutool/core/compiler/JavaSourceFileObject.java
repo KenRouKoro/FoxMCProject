@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.compiler;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.URLUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.URLUtil;
 
 import javax.tools.SimpleJavaFileObject;
 import java.io.BufferedInputStream;

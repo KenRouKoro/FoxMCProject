@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.crypto.asymmetric;
 
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.io.FastByteArrayOutputStream;
-import cn.hutool.crypto.CipherWrapper;
-import cn.hutool.crypto.CryptoException;
-import cn.hutool.crypto.KeyUtil;
-import cn.hutool.crypto.SecureUtil;
-import cn.hutool.crypto.symmetric.SymmetricAlgorithm;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.io.FastByteArrayOutputStream;
+import com.foxapplication.embed.hutool.crypto.CipherWrapper;
+import com.foxapplication.embed.hutool.crypto.CryptoException;
+import com.foxapplication.embed.hutool.crypto.KeyUtil;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.crypto.symmetric.SymmetricAlgorithm;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;

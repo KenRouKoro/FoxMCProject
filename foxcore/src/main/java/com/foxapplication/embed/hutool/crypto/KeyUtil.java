@@ -1,15 +1,15 @@
 package com.foxapplication.embed.hutool.crypto;
 
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.CharUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.crypto.asymmetric.AsymmetricAlgorithm;
-import cn.hutool.crypto.symmetric.SymmetricAlgorithm;
+import com.foxapplication.embed.hutool.core.codec.Base64;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.CharUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.crypto.asymmetric.AsymmetricAlgorithm;
+import com.foxapplication.embed.hutool.crypto.symmetric.SymmetricAlgorithm;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;

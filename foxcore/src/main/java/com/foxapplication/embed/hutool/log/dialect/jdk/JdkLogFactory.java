@@ -1,13 +1,13 @@
-package cn.hutool.log.dialect.jdk;
+package com.foxapplication.embed.hutool.log.dialect.jdk;
+
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.resource.ResourceUtil;
+import com.foxapplication.embed.hutool.core.lang.Console;
+import com.foxapplication.embed.hutool.log.Log;
+import com.foxapplication.embed.hutool.log.LogFactory;
 
 import java.io.InputStream;
 import java.util.logging.LogManager;
-
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.resource.ResourceUtil;
-import cn.hutool.core.lang.Console;
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
 
 /**
  * JDK日志工厂类

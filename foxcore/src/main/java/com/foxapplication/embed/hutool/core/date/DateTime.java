@@ -1,13 +1,13 @@
 package com.foxapplication.embed.hutool.core.date;
 
-import cn.hutool.core.date.format.DateParser;
-import cn.hutool.core.date.format.DatePrinter;
-import cn.hutool.core.date.format.FastDateFormat;
-import cn.hutool.core.date.format.GlobalCustomFormat;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.SystemPropsUtil;
+import com.foxapplication.embed.hutool.core.date.format.DateParser;
+import com.foxapplication.embed.hutool.core.date.format.DatePrinter;
+import com.foxapplication.embed.hutool.core.date.format.FastDateFormat;
+import com.foxapplication.embed.hutool.core.date.format.GlobalCustomFormat;
+import com.foxapplication.embed.hutool.core.lang.Assert;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.util.SystemPropsUtil;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;

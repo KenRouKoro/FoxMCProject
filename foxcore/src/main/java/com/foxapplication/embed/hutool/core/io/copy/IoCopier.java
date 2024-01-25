@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.io.copy;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.io.StreamProgress;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.io.StreamProgress;
 
 /**
  * IO拷贝抽象，可自定义包括缓存、进度条等信息<br>

@@ -1,9 +1,9 @@
-package cn.hutool.http.server.action;
+package com.foxapplication.embed.hutool.http.server.action;
 
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.http.server.HttpServerRequest;
-import cn.hutool.http.server.HttpServerResponse;
+import com.foxapplication.embed.hutool.core.collection.CollUtil;
+import com.foxapplication.embed.hutool.core.io.FileUtil;
+import com.foxapplication.embed.hutool.http.server.HttpServerRequest;
+import com.foxapplication.embed.hutool.http.server.HttpServerResponse;
 
 import java.io.File;
 import java.util.List;

@@ -1,6 +1,6 @@
-package cn.hutool.bloomfilter.filter;
+package com.foxapplication.embed.hutool.bloomfilter.filter;
 
-import cn.hutool.core.util.HashUtil;
+import com.foxapplication.embed.hutool.core.util.HashUtil;
 
 /**
  * 默认Bloom过滤器，使用Java自带的Hash算法

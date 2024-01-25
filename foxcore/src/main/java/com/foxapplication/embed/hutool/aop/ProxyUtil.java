@@ -1,11 +1,11 @@
-package cn.hutool.aop;
+package com.foxapplication.embed.hutool.aop;
+
+import com.foxapplication.embed.hutool.aop.aspects.Aspect;
+import com.foxapplication.embed.hutool.aop.proxy.ProxyFactory;
+import com.foxapplication.embed.hutool.core.util.ClassUtil;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
-
-import cn.hutool.aop.aspects.Aspect;
-import cn.hutool.aop.proxy.ProxyFactory;
-import cn.hutool.core.util.ClassUtil;
 
 /**
  * 代理工具类

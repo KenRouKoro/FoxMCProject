@@ -2,8 +2,8 @@ package com.foxapplication.embed.hutool.core.convert.impl;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import cn.hutool.core.convert.AbstractConverter;
-import cn.hutool.core.util.BooleanUtil;
+import com.foxapplication.embed.hutool.core.convert.AbstractConverter;
+import com.foxapplication.embed.hutool.core.util.BooleanUtil;
 
 /**
  * {@link AtomicBoolean}转换器

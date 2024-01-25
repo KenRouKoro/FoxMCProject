@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.clone.CloneSupport;
+import com.foxapplication.embed.hutool.core.clone.CloneSupport;
 
 import java.io.Serializable;
 import java.util.Objects;

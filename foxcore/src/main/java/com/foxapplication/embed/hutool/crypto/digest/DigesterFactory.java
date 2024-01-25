@@ -12,8 +12,8 @@
 
 package com.foxapplication.embed.hutool.crypto.digest;
 
-import cn.hutool.crypto.GlobalBouncyCastleProvider;
-import cn.hutool.crypto.SecureUtil;
+import com.foxapplication.embed.hutool.crypto.GlobalBouncyCastleProvider;
+import com.foxapplication.embed.hutool.crypto.SecureUtil;
 
 import java.security.MessageDigest;
 

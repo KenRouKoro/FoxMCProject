@@ -1,7 +1,7 @@
 package com.foxapplication.embed.hutool.core.swing.clipboard;
 
-import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.thread.ThreadUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.ClipboardOwner;

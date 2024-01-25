@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.text;
 
 
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.net;
 
-import cn.hutool.core.codec.PercentCodec;
+import com.foxapplication.embed.hutool.core.codec.PercentCodec;
 
 /**
  * <a href="https://www.ietf.org/rfc/rfc3986.html">RFC3986</a> 编码实现<br>

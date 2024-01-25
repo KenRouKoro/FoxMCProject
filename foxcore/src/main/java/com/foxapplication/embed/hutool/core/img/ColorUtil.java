@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.img;
 
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.RandomUtil;
-import cn.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.core.convert.Convert;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.RandomUtil;
+import com.foxapplication.embed.hutool.core.util.StrUtil;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;

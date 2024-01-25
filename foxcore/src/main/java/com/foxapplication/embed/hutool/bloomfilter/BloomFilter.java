@@ -1,4 +1,4 @@
-package cn.hutool.bloomfilter;
+package com.foxapplication.embed.hutool.bloomfilter;
 
 import java.io.Serializable;
 

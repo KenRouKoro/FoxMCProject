@@ -4,4 +4,4 @@
  * @author looly
  *
  */
-package cn.hutool.aop.interceptor;
+package com.foxapplication.embed.hutool.aop.interceptor;

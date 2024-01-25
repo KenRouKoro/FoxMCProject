@@ -1,6 +1,6 @@
-package cn.hutool.json.serialize;
+package com.foxapplication.embed.hutool.json.serialize;
 
-import cn.hutool.json.JSON;
+import com.foxapplication.embed.hutool.json.JSON;
 
 /**
  * 序列化接口，通过实现此接口，实现自定义的对象转换为JSON的操作

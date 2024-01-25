@@ -1,12 +1,12 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.collection.TransIter;
-import cn.hutool.core.exceptions.ExceptionUtil;
-import cn.hutool.core.lang.func.Func0;
-import cn.hutool.core.lang.mutable.Mutable;
-import cn.hutool.core.lang.mutable.MutableObj;
-import cn.hutool.core.map.SafeConcurrentHashMap;
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.collection.TransIter;
+import com.foxapplication.embed.hutool.core.exceptions.ExceptionUtil;
+import com.foxapplication.embed.hutool.core.lang.func.Func0;
+import com.foxapplication.embed.hutool.core.lang.mutable.Mutable;
+import com.foxapplication.embed.hutool.core.lang.mutable.MutableObj;
+import com.foxapplication.embed.hutool.core.map.SafeConcurrentHashMap;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 import java.io.Serializable;
 import java.util.Iterator;

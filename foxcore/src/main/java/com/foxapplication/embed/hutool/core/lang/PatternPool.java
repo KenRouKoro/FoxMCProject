@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.map.WeakConcurrentMap;
+import com.foxapplication.embed.hutool.core.map.WeakConcurrentMap;
 
 import java.util.regex.Pattern;
 

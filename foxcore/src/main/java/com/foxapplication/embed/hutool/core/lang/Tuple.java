@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.clone.CloneSupport;
-import cn.hutool.core.collection.ArrayIter;
-import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.clone.CloneSupport;
+import com.foxapplication.embed.hutool.core.collection.ArrayIter;
+import com.foxapplication.embed.hutool.core.collection.ListUtil;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
 
 import java.io.Serializable;
 import java.util.Arrays;

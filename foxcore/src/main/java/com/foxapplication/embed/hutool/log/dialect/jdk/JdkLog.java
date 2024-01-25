@@ -1,11 +1,11 @@
-package cn.hutool.log.dialect.jdk;
+package com.foxapplication.embed.hutool.log.dialect.jdk;
+
+import com.foxapplication.embed.hutool.core.util.StrUtil;
+import com.foxapplication.embed.hutool.log.AbstractLog;
 
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
-
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.log.AbstractLog;
 
 /**
  * <a href="http://java.sun.com/javase/6/docs/technotes/guides/logging/index.html">java.util.logging</a> log.
@@ -93,7 +93,7 @@ public class JdkLog extends AbstractLog {
 	
 	// ------------------------------------------------------------------------- Log
 	@Override
-	public void log(String fqcn, cn.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
+	public void log(String fqcn, com.foxapplication.embed.hutool.log.level.Level level, Throwable t, String format, Object... arguments) {
 		Level jdkLevel;
 		switch (level) {
 			case TRACE:

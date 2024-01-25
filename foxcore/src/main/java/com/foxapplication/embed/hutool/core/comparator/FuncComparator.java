@@ -1,6 +1,6 @@
 package com.foxapplication.embed.hutool.core.comparator;
 
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.util.function.Function;
 

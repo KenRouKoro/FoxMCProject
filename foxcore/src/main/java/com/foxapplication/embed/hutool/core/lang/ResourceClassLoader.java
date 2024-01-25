@@ -1,8 +1,8 @@
 package com.foxapplication.embed.hutool.core.lang;
 
-import cn.hutool.core.io.resource.Resource;
-import cn.hutool.core.util.ClassLoaderUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.io.resource.Resource;
+import com.foxapplication.embed.hutool.core.util.ClassLoaderUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.security.SecureClassLoader;
 import java.util.HashMap;

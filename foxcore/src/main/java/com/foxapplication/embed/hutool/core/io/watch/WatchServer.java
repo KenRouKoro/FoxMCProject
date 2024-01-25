@@ -1,9 +1,9 @@
 package com.foxapplication.embed.hutool.core.io.watch;
 
-import cn.hutool.core.io.IoUtil;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.ObjectUtil;
+import com.foxapplication.embed.hutool.core.io.IoUtil;
+import com.foxapplication.embed.hutool.core.lang.Filter;
+import com.foxapplication.embed.hutool.core.util.ArrayUtil;
+import com.foxapplication.embed.hutool.core.util.ObjectUtil;
 
 import java.io.Closeable;
 import java.io.IOException;

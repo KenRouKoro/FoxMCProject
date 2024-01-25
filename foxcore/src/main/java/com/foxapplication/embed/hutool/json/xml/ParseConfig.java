@@ -10,7 +10,7 @@
  * See the Mulan PSL v2 for more details.
  */
 
-package cn.hutool.json.xml;
+package com.foxapplication.embed.hutool.json.xml;
 
 import java.io.Serializable;
 
