@@ -529,7 +529,7 @@ public class AntPathMatcher {
 	 * In that case, the second pattern will be merged into the first. Otherwise,
 	 * an {@code IllegalArgumentException} will be thrown.
 	 * <p>Examples</p>
-	 * <table border="1" summary="">
+	 * <table border="1">
 	 * <tr><th>Pattern 1</th><th>Pattern 2</th><th>Result</th></tr>
 	 * <tr><td>{@code null}</td><td>{@code null}</td><td>&nbsp;</td></tr>
 	 * <tr><td>/hotels</td><td>{@code null}</td><td>/hotels</td></tr>
@@ -639,7 +639,7 @@ public class AntPathMatcher {
 	/**
 	 * Tests whether or not a string matches against a pattern via a {@link Pattern}.
 	 * <p>The pattern may contain special characters: '*' means zero or more characters; '?' means one and
-	 * only one character; '{' and '}' indicate a URI template pattern. For example <tt>/users/{user}</tt>.
+	 * only one character; '{' and '}' indicate a URI template pattern.
 	 */
 	protected static class AntPathStringMatcher {
 

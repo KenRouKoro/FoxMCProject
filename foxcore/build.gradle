@@ -1,9 +1,10 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
 group = 'com.foxapplication.mc'
-version = '1.0-SNAPSHOT'
+version = '1.0.0'
 
 repositories {
     mavenCentral()
@@ -29,7 +30,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
     // https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
-    implementation("org.glassfish.jaxb:jaxb-runtime:4.0.4")
+    compileOnly("org.glassfish.jaxb:jaxb-runtime:4.0.4")
 
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
@@ -37,8 +38,8 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok:1.18.30'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-    implementation 'org.bouncycastle:bcpkix-jdk18on:1.77'
-    implementation 'javax.xml.soap:javax.xml.soap-api:1.4.0'
+    compileOnly 'org.bouncycastle:bcpkix-jdk18on:1.77'
+    compileOnly 'javax.xml.soap:javax.xml.soap-api:1.4.0'
 
     compileOnly  "org.python:jython:$jythonVersion"
     compileOnly  "org.luaj:luaj-jse:$luajVersion"
@@ -57,7 +58,41 @@ dependencies {
     compileOnly  "org.jboss.logging:jboss-logging:$jbossLoggingVersion"
     compileOnly  "io.github.logtube:logtube:$logtubeVersion"
     compileOnly  "org.yaml:snakeyaml:2.2"
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
 }
+
+javadoc {
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options {
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        author true
+        version true
+        title "FoxCore"
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "utf-8"
+}
+tasks.withType(Javadoc).configureEach {
+    options.encoding = "utf-8"
+}
+
+tasks.withType(JavaExec).configureEach { JavaExec task ->
+    task.jvmArgs += ['-Dsun.stdout.encoding=utf8']
+    task.jvmArgs += ['-Dsun.stderr.encoding=utf8']
+}
+
+
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = "UTF-8"
@@ -66,3 +101,18 @@ tasks.withType(JavaCompile).configureEach {
 test {
     useJUnitPlatform()
 }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId group
+            artifactId project.name
+            version version
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
+

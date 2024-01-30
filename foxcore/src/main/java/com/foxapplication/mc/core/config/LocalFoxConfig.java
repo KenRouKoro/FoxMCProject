@@ -48,6 +48,7 @@ public class LocalFoxConfig {
         this.config = config;
         this.fileType = fileType;
         this.filePath = filePath;
+        init();
     }
 
     /**
@@ -94,14 +95,21 @@ public class LocalFoxConfig {
     /**
      * 初始化配置
      */
-    public void init(){
-        fileReader = new FileReader(filePath+"/"+config.configName());
-        fileWriter = new FileWriter(filePath+"/"+config.configName());
-        if (!FileUtil.isFile(filePath+"/"+config.configName())){
-            FileUtil.touch(filePath+"/"+config.configName());
+    private void init(){
+        boolean initFlag = !FileUtil.isFile(filePath + "/" + config.configName() + getSuffix(fileType));
+        FileUtil.touch(filePath+"/"+config.configName()+getSuffix(fileType));
+        fileReader = new FileReader(filePath+"/"+config.configName()+getSuffix(fileType));
+        fileWriter = new FileWriter(filePath+"/"+config.configName()+getSuffix(fileType));
+        if (initFlag){
             initFile();
         }
         load();
+
+        if (config instanceof BeanFoxConfig beanFoxConfig){
+            beanFoxConfig.addFieldChangedListener(event -> {
+                save();
+            });
+        }
     }
 
     /**
@@ -191,7 +199,7 @@ public class LocalFoxConfig {
             sb.append(key).append(" = ").append(config.getValue(key)).append('\n');
         });
         fileWriter.write(sb.toString());
-        setting = new Setting(filePath+"/"+config.configName(),CharsetUtil.CHARSET_UTF_8,false);
+        setting = new Setting(filePath+"/"+config.configName()+getSuffix(fileType),CharsetUtil.CHARSET_UTF_8,false);
     }
 
     /**
@@ -243,5 +251,13 @@ public class LocalFoxConfig {
         config.getList().forEach(key -> map.put(key, new OutputAnnotationData(config.getAnnotation(key).getAnnotation(), Location.Top,config.getValue(key))));
         TomlWriter writer = new TomlWriter();
         fileWriter.write(writer.write(map));
+    }
+    public static String getSuffix(FileType type){
+        return switch (type) {
+            case JSON -> ".json";
+            case TOML -> ".toml";
+            case YAML -> ".yaml";
+            case BaseSetting -> ".setting";
+        };
     }
 }

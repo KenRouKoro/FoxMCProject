@@ -22,7 +22,7 @@ import java.util.TreeMap;
  *
  * <p>
  * 参考博客：https://www.cnblogs.com/waterystone/p/5708063.html
- * <p>
+ * </p>
  *
  * @param <T> 权重随机获取的对象类型
  * @author looly

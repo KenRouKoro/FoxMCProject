@@ -54,6 +54,7 @@ public class FoxCore {
             log.info("已启用FoxCoreWebConfig服务");
             WebConfig.init();
             WebConfig.addConfig(CONFIGBEAN);
+
         }
     }
 
