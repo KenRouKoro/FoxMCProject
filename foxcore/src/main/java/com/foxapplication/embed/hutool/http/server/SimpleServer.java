@@ -220,8 +220,6 @@ public class SimpleServer {
 	 * 启动Http服务器，启动后会阻塞当前线程
 	 */
 	public void start() {
-		final InetSocketAddress address = getAddress();
-		Console.log("Hutool Simple Http Server listen on 【{}:{}】", address.getHostName(), address.getPort());
 		this.server.start();
 	}
 }

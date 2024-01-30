@@ -1,5 +1,7 @@
 package com.foxapplication.mc.core.config;
 
+import com.foxapplication.mc.core.config.interfaces.FieldAnnotationData;
+
 import java.util.List;
 
 /**
@@ -31,7 +33,7 @@ public interface FoxConfig {
      * @param name 名称
      * @return 注释
      */
-    String getAnnotation(String name);
+    FieldAnnotationData getAnnotation(String name);
     /**
      * 获取配置名称
      * @return 名称

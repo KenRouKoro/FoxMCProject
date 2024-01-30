@@ -15,5 +15,5 @@ public @interface FileTypeInterface {
      * 文件类型
      * @return 文件类型枚举，默认为基本设置
      */
-    FileType type() default FileType.BaseSetting;
+    FileType type() default FileType.TOML;
 }

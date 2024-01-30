@@ -20,7 +20,7 @@ import java.io.File;
 import java.util.HashMap;
 
 /**
- * 本地Fox配置类
+ * 本地持久化Fox配置类
  */
 public class LocalFoxConfig {
     @Getter
@@ -40,7 +40,7 @@ public class LocalFoxConfig {
 
     /**
      * 构造函数
-     * @param config Fox配置
+     * @param config Fox配置接口
      * @param fileType 文件类型
      * @param filePath 文件路径
      */
@@ -52,7 +52,7 @@ public class LocalFoxConfig {
 
     /**
      * 构造函数
-     * @param config Fox配置
+     * @param config Fox配置接口
      * @param fileType 文件类型
      */
     public LocalFoxConfig(FoxConfig config, FileType fileType) {
@@ -64,7 +64,7 @@ public class LocalFoxConfig {
      * @param beanClass Bean类
      */
     public LocalFoxConfig(Class<?> beanClass) {
-        this(new BeanFoxConfig(beanClass), beanClass.getAnnotation(FileTypeInterface.class) != null ? beanClass.getAnnotation(FileTypeInterface.class).type() : FileType.BaseSetting);
+        this(new BeanFoxConfig(beanClass), beanClass.getAnnotation(FileTypeInterface.class) != null ? beanClass.getAnnotation(FileTypeInterface.class).type() : FileType.TOML);
     }
 
     /**
@@ -72,7 +72,7 @@ public class LocalFoxConfig {
      * @param bean Bean对象
      */
     public LocalFoxConfig(Object bean) {
-        this(new BeanFoxConfig(bean), bean.getClass().getAnnotation(FileTypeInterface.class) != null ?  bean.getClass().getAnnotation(FileTypeInterface.class).type() : FileType.BaseSetting);
+        this(new BeanFoxConfig(bean), bean.getClass().getAnnotation(FileTypeInterface.class) != null ?  bean.getClass().getAnnotation(FileTypeInterface.class).type() : FileType.TOML);
     }
 
     /**
@@ -81,6 +81,14 @@ public class LocalFoxConfig {
      */
     public void setName(String name){
         config.setConfigName(name);
+    }
+
+    public BeanFoxConfig getBeanFoxConfig(){
+        if (config instanceof BeanFoxConfig beanFoxConfig){
+            return beanFoxConfig;
+        }else {
+            throw new RuntimeException("正在获取非BeanFoxConfig类");
+        }
     }
 
     /**
@@ -211,7 +219,7 @@ public class LocalFoxConfig {
      */
     private void initTomlFile(){
         HashMap<String,Object> map = new HashMap<>();
-        config.getList().forEach(key -> map.put(key, new OutputAnnotationData(config.getAnnotation(key), Location.Top,config.getValue(key))));
+        config.getList().forEach(key -> map.put(key, new OutputAnnotationData(config.getAnnotation(key).getAnnotation(), Location.Top,config.getValue(key))));
         TomlWriter writer = new TomlWriter();
         fileWriter.write(writer.write(map));
     }
@@ -232,7 +240,7 @@ public class LocalFoxConfig {
      */
     private void saveTomlFile(){
         HashMap<String,Object> map = new HashMap<>();
-        config.getList().forEach(key -> map.put(key, new OutputAnnotationData(config.getAnnotation(key), Location.Top,config.getValue(key))));
+        config.getList().forEach(key -> map.put(key, new OutputAnnotationData(config.getAnnotation(key).getAnnotation(), Location.Top,config.getValue(key))));
         TomlWriter writer = new TomlWriter();
         fileWriter.write(writer.write(map));
     }

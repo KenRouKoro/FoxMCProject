@@ -57,8 +57,6 @@ dependencies {
     compileOnly  "org.jboss.logging:jboss-logging:$jbossLoggingVersion"
     compileOnly  "io.github.logtube:logtube:$logtubeVersion"
     compileOnly  "org.yaml:snakeyaml:2.2"
-
-    implementation 'com.github.KenRouKoro:ctoml4j:1.0.1'
 }
 
 tasks.withType(JavaCompile).configureEach {
