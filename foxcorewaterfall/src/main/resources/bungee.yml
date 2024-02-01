@@ -1,0 +1,4 @@
+name: FoxCoreWaterfall
+version: '${version}'
+main: com.foxapplication.mc.foxcore.waterfall.FoxCoreWaterfall
+author: KenRouKoro
