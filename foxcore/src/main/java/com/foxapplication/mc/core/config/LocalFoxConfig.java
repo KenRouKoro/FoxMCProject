@@ -5,6 +5,9 @@ import cn.korostudio.ctoml.OutputAnnotationData;
 import com.foxapplication.embed.hutool.core.io.FileUtil;
 import com.foxapplication.embed.hutool.core.io.file.FileReader;
 import com.foxapplication.embed.hutool.core.io.file.FileWriter;
+import com.foxapplication.embed.hutool.core.io.watch.WatchMonitor;
+import com.foxapplication.embed.hutool.core.io.watch.Watcher;
+import com.foxapplication.embed.hutool.core.io.watch.watchers.DelayWatcher;
 import com.foxapplication.embed.hutool.core.util.CharsetUtil;
 import com.foxapplication.embed.hutool.json.JSONObject;
 import com.foxapplication.embed.hutool.json.JSONUtil;
@@ -17,6 +20,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.WatchEvent;
 import java.util.HashMap;
 
 /**
@@ -33,6 +38,7 @@ public class LocalFoxConfig {
     private String filePath ;
     private FileWriter fileWriter;
     private FileReader fileReader;
+    private WatchMonitor watchMonitor = null;
     /**
      * 如果是BaseSetting就调用hutool的Setting模块
      */
@@ -49,6 +55,7 @@ public class LocalFoxConfig {
         this.fileType = fileType;
         this.filePath = filePath;
         init();
+
     }
 
     /**
@@ -82,6 +89,42 @@ public class LocalFoxConfig {
      */
     public void setName(String name){
         config.setConfigName(name);
+    }
+
+    /**
+     * 设置是否自动热重载
+     * @param autoLoad 是否自动热重载
+     */
+    public void setAutoLoad(boolean autoLoad){
+        if (autoLoad&&(watchMonitor==null)){
+            watchMonitor = WatchMonitor.create(filePath+"/"+config.configName()+getSuffix(fileType), WatchMonitor.ENTRY_MODIFY);
+            watchMonitor.setWatcher(new DelayWatcher(new Watcher() {
+                @Override
+                public void onCreate(WatchEvent<?> event, Path currentPath) {
+
+                }
+
+                @Override
+                public void onModify(WatchEvent<?> event, Path currentPath) {
+                    load();
+                }
+
+                @Override
+                public void onDelete(WatchEvent<?> event, Path currentPath) {
+
+                }
+
+                @Override
+                public void onOverflow(WatchEvent<?> event, Path currentPath) {
+
+                }
+            }, 500));
+            watchMonitor.start();
+        }else {
+            if (watchMonitor!=null){
+                watchMonitor.close();
+            }
+        }
     }
 
     public BeanFoxConfig getBeanFoxConfig(){
