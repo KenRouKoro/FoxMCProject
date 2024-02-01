@@ -56,5 +56,8 @@ WebPort = 8621
 
 #### WebConfig
 你可以启用FoxConfigWebConfig系统以实现在线的配置文件管理。  
+
+添加配置文件在线配置支持，你只需要在`WebConfig`中的`addConfig(FoxConfig config)`方法注册对应的配置文件接口即可。
+
 对于上文例子中的配置文件，其会被生成为这样：
 ![FoxCoreConfigWebConfig.png](img/FoxCoreConfigWebConfig.png)
