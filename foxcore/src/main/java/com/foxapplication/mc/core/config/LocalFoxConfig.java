@@ -252,6 +252,12 @@ public class LocalFoxConfig {
         TomlWriter writer = new TomlWriter();
         fileWriter.write(writer.write(map));
     }
+
+    /**
+     * 根据文件类型返回后缀名
+     * @param type 文件类型
+     * @return 文件后缀名
+     */
     public static String getSuffix(FileType type){
         return switch (type) {
             case JSON -> ".json";

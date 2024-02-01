@@ -3,8 +3,10 @@ plugins {
     id 'maven-publish'
 }
 
+apply from:'../commonsettings.gradle'
+
 group = 'com.foxapplication.mc'
-version = '1.0.0'
+version = ProjectVersion
 
 repositories {
     mavenCentral()

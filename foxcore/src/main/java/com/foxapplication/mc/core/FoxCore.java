@@ -9,6 +9,7 @@ import com.foxapplication.mc.core.config.webconfig.WebConfig;
 import lombok.Getter;
 
 public class FoxCore {
+
     @Getter
     private static Platform platform = Platform.None;
     @Getter
@@ -46,7 +47,7 @@ public class FoxCore {
             return;
         }
         localFoxCoreConfig = new LocalFoxConfig(FoxCoreConfig.class);
-        CONFIGBEAN = (BeanFoxConfig) localFoxCoreConfig.getConfig();
+        CONFIGBEAN = localFoxCoreConfig.getBeanFoxConfig();
         new BeanFoxConfig(FoxCoreConfig.class);
         log.info("当前加载器为：{} 。", FoxCore.platform);
 

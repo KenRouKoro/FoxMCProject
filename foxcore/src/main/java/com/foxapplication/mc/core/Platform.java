@@ -14,10 +14,6 @@ public enum Platform {
      */
     Forge,
     /**
-     * 加载器平台Ignite
-     */
-    Ignite,
-    /**
      * 无加载器平台
      */
     None,
@@ -32,5 +28,13 @@ public enum Platform {
     /**
      * 混合加载器平台Mixture
      */
-    Mixture
+    Mixture,
+    /**
+     * 其他加载器平台
+     */
+    Other,
+    /**
+     * 加载器平台Sponge
+     */
+    Sponge
 }

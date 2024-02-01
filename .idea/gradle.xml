@@ -21,6 +21,38 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/foxcorefabric" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/foxcorefabric" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/foxcoreneoforge" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/foxcoreneoforge" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/foxcorepaper" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/foxcorepaper" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/foxcorevelocity" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/foxcorevelocity" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
