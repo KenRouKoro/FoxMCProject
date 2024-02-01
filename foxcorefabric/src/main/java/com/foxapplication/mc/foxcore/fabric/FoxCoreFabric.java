@@ -13,18 +13,21 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 public class FoxCoreFabric implements ModInitializer {
     private static Log log ;
 
-
+    // Fabric服务器配置
     private static FabricMinecraftServerConfig config ;
+
     @Override
     public void onInitialize() {
-        //设置日志门面
+        // 设置日志门面
         LogFactory.setCurrentLogFactory(Log4j2LogFactory.class);
         log = LogFactory.get();
-        //初始化
+        // 初始化
         FoxCore.Init(Platform.Fabric);
 
+        // 服务器生命周期事件
         ServerLifecycleEvents.SERVER_STOPPING.register((server) -> {
-            if (!FoxCore.getConfig().isEnabledWebConfig())return;
+            // 如果启用了WebConfig
+            if (!FoxCore.getConfig().isEnabledWebConfig()) return;
             log.info("正在关闭FoxCoreWebConfig服务");
             WebConfig.getServer().getRawServer().stop(2);
         });

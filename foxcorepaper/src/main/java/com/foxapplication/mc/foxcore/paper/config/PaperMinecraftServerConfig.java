@@ -35,6 +35,10 @@ public class PaperMinecraftServerConfig implements FoxConfig {
     private static Log log ;
 
 
+    /**
+     * 构造方法
+     * @param filePath 配置文件路径
+     */
     public PaperMinecraftServerConfig(Path filePath) {
         this.filePath = filePath;
         props = new Props(filePath.toFile());
@@ -47,6 +51,10 @@ public class PaperMinecraftServerConfig implements FoxConfig {
         }
     }
 
+    /**
+     * 获取配置文件中的所有字段
+     * @return 字段列表
+     */
     @Override
     public List<String> getList() {
         Set<Object> keys = props.keySet();
@@ -55,6 +63,11 @@ public class PaperMinecraftServerConfig implements FoxConfig {
                 .toList();
     }
 
+    /**
+     * 获取指定字段的值
+     * @param s 字段名
+     * @return 字段的值
+     */
     @Override
     public Object getValue(String s) {
         // 获取原始值
@@ -88,6 +101,11 @@ public class PaperMinecraftServerConfig implements FoxConfig {
     }
 
 
+    /**
+     * 设置指定字段的值
+     * @param s 字段名
+     * @param o 字段的值
+     */
     @Override
     public void setValue(String s, Object o) {
         String valueAsString = o instanceof String ? (String) o : String.valueOf(o);
@@ -103,21 +121,40 @@ public class PaperMinecraftServerConfig implements FoxConfig {
 
     }
 
+    /**
+     * 获取字段的注释信息
+     * @param s 字段名
+     * @return 字段的注释信息
+     */
     @Override
     public FieldAnnotationData getAnnotation(String s) {
         return new FieldAnnotationData(lang.getStr(s,s),s);
     }
 
+    /**
+     * 获取配置文件的名称
+     * @return 配置文件的名称
+     */
     @Override
     public String configName() {
         return "MinecraftServer";
     }
 
+    /**
+     * 设置配置文件的名称
+     * @param s 配置文件的名称
+     */
     @Override
     public void setConfigName(String s) {
 
     }
 
+    /**
+     * 设置服务器配置
+     * @param server 服务器实例
+     * @param s 字段名
+     * @param o 字段的值
+     */
     private void setServerConfig(DedicatedServer server, String s, Object o){
         switch (s){
             case "pvp":
@@ -140,9 +177,24 @@ public class PaperMinecraftServerConfig implements FoxConfig {
                 break;
         }
     }
+
+    /**
+     * 根据字符串获取对应的GameType
+     * @param function 转换函数
+     * @param row 字符串
+     * @return 对应的GameType
+     */
     protected GameType get(Function<String, Object> function, String row) {
         return (GameType) MoreObjects.firstNonNull(row != null ? function.apply(row) : null, GameType.SURVIVAL);
     }
+
+    /**
+     * 根据字符串分发转换函数
+     * @param intFunction 整型转换函数
+     * @param function 字符串转换函数
+     * @param <V> 返回值类型
+     * @return 转换函数
+     */
     protected static <V> Function<String, V> dispatchNumberOrString(IntFunction<V> intFunction, Function<String, V> function) {
         return string -> {
             try {

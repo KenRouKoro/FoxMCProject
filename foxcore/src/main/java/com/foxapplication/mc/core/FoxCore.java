@@ -59,6 +59,10 @@ public class FoxCore {
         }
     }
 
+    /**
+     * 获取FoxCore配置
+     * @return FoxCore配置
+     */
     public static FoxCoreConfig getConfig() {
         return (FoxCoreConfig) CONFIGBEAN.getBean();
     }

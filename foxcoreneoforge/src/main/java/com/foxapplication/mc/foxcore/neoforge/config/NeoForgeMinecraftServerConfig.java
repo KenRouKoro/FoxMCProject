@@ -34,6 +34,10 @@ public class NeoForgeMinecraftServerConfig implements FoxConfig {
     private static Log log ;
 
 
+    /**
+     * 构造函数
+     * @param filePath 配置文件路径
+     */
     public NeoForgeMinecraftServerConfig(Path filePath) {
         this.filePath = filePath;
         props = new Props(filePath.toFile());
@@ -117,6 +121,12 @@ public class NeoForgeMinecraftServerConfig implements FoxConfig {
 
     }
 
+    /**
+     * 设置服务器配置
+     * @param server 服务器实例
+     * @param s 配置项名称
+     * @param o 配置项值
+     */
     private void setServerConfig(DedicatedServer server,String s, Object o){
         switch (s){
             case "pvp":
@@ -139,9 +149,24 @@ public class NeoForgeMinecraftServerConfig implements FoxConfig {
                 break;
         }
     }
+
+    /**
+     * 获取GameType
+     * @param function 函数
+     * @param row 行
+     * @return GameType
+     */
     protected GameType get(Function<String, Object> function, String row) {
         return (GameType) MoreObjects.firstNonNull(row != null ? function.apply(row) : null, GameType.SURVIVAL);
     }
+
+    /**
+     * 分发数字或字符串
+     * @param intFunction int函数
+     * @param function 函数
+     * @param <V> 泛型
+     * @return 函数
+     */
     protected static <V> Function<String, V> dispatchNumberOrString(IntFunction<V> intFunction, Function<String, V> function) {
         return string -> {
             try {

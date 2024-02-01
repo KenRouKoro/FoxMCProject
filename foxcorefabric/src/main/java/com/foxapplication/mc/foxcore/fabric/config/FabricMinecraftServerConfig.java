@@ -46,6 +46,11 @@ public class FabricMinecraftServerConfig implements FoxConfig {
         }
     }
 
+    /**
+     * 获取配置文件中的所有键值对
+     *
+     * @return 配置文件中的所有键值对
+     */
     @Override
     public List<String> getList() {
         Set<Object> keys = props.keySet();
@@ -54,6 +59,12 @@ public class FabricMinecraftServerConfig implements FoxConfig {
                 .toList();
     }
 
+    /**
+     * 获取指定键的值
+     *
+     * @param s 键
+     * @return 键对应的值
+     */
     @Override
     public Object getValue(String s) {
         // 获取原始值
@@ -87,6 +98,12 @@ public class FabricMinecraftServerConfig implements FoxConfig {
     }
 
 
+    /**
+     * 设置指定键的值
+     *
+     * @param s 键
+     * @param o 值
+     */
     @Override
     public void setValue(String s, Object o) {
         String valueAsString = o instanceof String ? (String) o : String.valueOf(o);
@@ -102,16 +119,32 @@ public class FabricMinecraftServerConfig implements FoxConfig {
 
     }
 
+    /**
+     * 获取指定键的注释信息
+     *
+     * @param s 键
+     * @return 键的注释信息
+     */
     @Override
     public FieldAnnotationData getAnnotation(String s) {
         return new FieldAnnotationData(lang.getStr(s,s),s);
     }
 
+    /**
+     * 获取配置文件的名称
+     *
+     * @return 配置文件的名称
+     */
     @Override
     public String configName() {
         return "MinecraftServer";
     }
 
+    /**
+     * 设置配置文件的名称
+     *
+     * @param s 配置文件的名称
+     */
     @Override
     public void setConfigName(String s) {
 
@@ -139,9 +172,26 @@ public class FabricMinecraftServerConfig implements FoxConfig {
                 break;
         }
     }
+
+    /**
+     * 根据字符串获取对应的GameType
+     *
+     * @param function 用于根据字符串获取GameType的函数
+     * @param row      字符串
+     * @return 对应的GameType
+     */
     protected GameType get(Function<String, Object> function, String row) {
         return (GameType) MoreObjects.firstNonNull(row != null ? function.apply(row) : null, GameType.SURVIVAL);
     }
+
+    /**
+     * 根据字符串分发处理函数，根据字符串的类型调用不同的处理函数
+     *
+     * @param intFunction 处理int类型的函数
+     * @param function    处理字符串类型的函数
+     * @param <V>         返回值类型
+     * @return 处理函数
+     */
     protected static <V> Function<String, V> dispatchNumberOrString(IntFunction<V> intFunction, Function<String, V> function) {
         return string -> {
             try {
