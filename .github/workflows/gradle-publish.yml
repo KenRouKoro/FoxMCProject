@@ -29,6 +29,12 @@ jobs:
 
     - name: Change directory to foxcore
       run: cd foxcore
+      
+    - name: Build with Gradle
+      run: |
+        cd foxcore
+        chmod +x ./gradlew
+        ./gradlew build -PversionSuffix=-SNAPSHOT
 
     - name: Build with Gradle
       run: |
