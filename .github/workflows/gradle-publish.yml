@@ -36,13 +36,7 @@ jobs:
         chmod +x ./gradlew
         ./gradlew build -PversionSuffix=-SNAPSHOT
 
-    - name: Build with Gradle
-      run: |
-        cd foxcore
-        ./gradlew build -PversionSuffix=-SNAPSHOT
-
-    - name: Publish to GitHub Packages (on release)
-      if: github.event_name == 'release'
+    - name: Publish to GitHub Packages
       run: |
         cd foxcore
         ./gradlew publish
