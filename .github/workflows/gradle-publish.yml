@@ -1,0 +1,45 @@
+name: Gradle Package
+
+on:
+  push:
+    branches:
+      - main  
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        server-id: github
+        settings-path: ${{ github.workspace }}
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@ec92e829475ac0c2315ea8f9eced72db85bb337a
+
+    - name: Change directory to foxcore
+      run: cd foxcore
+
+    - name: Build with Gradle
+      run: |
+        cd foxcore
+        ./gradlew build -PversionSuffix=-SNAPSHOT
+
+    - name: Publish to GitHub Packages (on release)
+      if: github.event_name == 'release'
+      run: |
+        cd foxcore
+        ./gradlew publish
+      env:
+        USERNAME: ${{ github.actor }}
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
