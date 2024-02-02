@@ -4,9 +4,10 @@ plugins {
 }
 
 apply from:'../commonsettings.gradle'
+def versionSuffix = project.hasProperty('versionSuffix') ? project.versionSuffix : ''
 
 group = 'com.foxapplication.mc'
-version = ProjectVersion
+version = ProjectVersion + versionSuffix
 
 repositories {
     mavenCentral()
