@@ -98,6 +98,7 @@ public class LocalFoxConfig {
     public void setAutoLoad(boolean autoLoad){
         if (autoLoad&&(watchMonitor==null)){
             watchMonitor = WatchMonitor.create(filePath+"/"+config.configName()+getSuffix(fileType), WatchMonitor.ENTRY_MODIFY);
+            watchMonitor.setDaemon(true);
             watchMonitor.setWatcher(new DelayWatcher(new Watcher() {
                 @Override
                 public void onCreate(WatchEvent<?> event, Path currentPath) {
