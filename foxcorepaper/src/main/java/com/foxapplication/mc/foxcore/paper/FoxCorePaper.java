@@ -50,9 +50,11 @@ public final class FoxCorePaper extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        FoxCore.onStopping();
         if (!FoxCore.getConfig().isEnabledWebConfig())return;
         log.info("正在关闭FoxCoreWebConfig服务");
         WebConfig.getServer().getRawServer().stop(2);
+
     }
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onServerStart(ServerLoadEvent event) {

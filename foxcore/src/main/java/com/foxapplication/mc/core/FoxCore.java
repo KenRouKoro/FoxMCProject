@@ -1,5 +1,6 @@
 package com.foxapplication.mc.core;
 
+import com.foxapplication.embed.hutool.core.thread.GlobalThreadPool;
 import com.foxapplication.embed.hutool.log.Log;
 import com.foxapplication.embed.hutool.log.LogFactory;
 import com.foxapplication.mc.core.config.BeanFoxConfig;
@@ -57,6 +58,13 @@ public class FoxCore {
             WebConfig.addConfig(CONFIGBEAN);
 
         }
+    }
+
+    /**
+     * 停止
+     */
+    public static void onStopping(){
+        GlobalThreadPool.shutdown(true);
     }
 
     /**

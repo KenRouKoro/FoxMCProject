@@ -31,5 +31,9 @@ public class FoxCoreFabric implements ModInitializer {
             log.info("正在关闭FoxCoreWebConfig服务");
             WebConfig.getServer().getRawServer().stop(2);
         });
+
+        ServerLifecycleEvents.SERVER_STOPPING.register((server) -> {
+            FoxCore.onStopping();
+        });
     }
 }

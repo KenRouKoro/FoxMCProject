@@ -39,6 +39,7 @@ public class FoxCoreVelocity {
     }
     @Subscribe
     public void onClose(ProxyShutdownEvent event){
+        FoxCore.onStopping();
         if (!FoxCore.getConfig().isEnabledWebConfig())return;
         logger.info("正在关闭FoxCoreWebConfig服务");
         WebConfig.getServer().getRawServer().stop(2);

@@ -23,6 +23,7 @@ public final class FoxCoreWaterfall extends Plugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        FoxCore.onStopping();
         if (!FoxCore.getConfig().isEnabledWebConfig())return;
         log.info("正在关闭FoxCoreWebConfig服务");
         WebConfig.getServer().getRawServer().stop(2);

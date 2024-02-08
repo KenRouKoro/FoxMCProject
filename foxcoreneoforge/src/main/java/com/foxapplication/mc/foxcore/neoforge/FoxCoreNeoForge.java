@@ -72,6 +72,7 @@ public class FoxCoreNeoForge {
     }
     @SubscribeEvent
     public void onServerEnd(ServerStoppingEvent event) {
+        FoxCore.onStopping();
         if (!FoxCore.getConfig().isEnabledWebConfig())return;
         log.info("正在关闭FoxCoreWebConfig服务");
         WebConfig.getServer().getRawServer().stop(2);
