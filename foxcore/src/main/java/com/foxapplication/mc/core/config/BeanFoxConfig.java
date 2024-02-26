@@ -21,7 +21,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * @see FoxConfig
  */
 public class BeanFoxConfig implements FoxConfig {
+    @Getter
     private final DynaBean config; // 配置对象
+    @Getter
     private final BeanDesc desc; // Bean对象的描述信息
     @Setter
     @Getter

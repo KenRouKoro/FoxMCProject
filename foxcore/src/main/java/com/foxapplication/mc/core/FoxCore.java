@@ -49,7 +49,6 @@ public class FoxCore {
         }
         localFoxCoreConfig = new LocalFoxConfig(FoxCoreConfig.class);
         CONFIGBEAN = localFoxCoreConfig.getBeanFoxConfig();
-        new BeanFoxConfig(FoxCoreConfig.class);
         log.info("当前加载器为：{} 。", FoxCore.platform);
 
         if (getConfig().isEnabledWebConfig()){

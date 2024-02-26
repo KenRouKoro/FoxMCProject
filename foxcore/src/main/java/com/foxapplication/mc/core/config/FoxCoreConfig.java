@@ -5,6 +5,9 @@ import com.foxapplication.mc.core.config.interfaces.FileType;
 import com.foxapplication.mc.core.config.interfaces.FileTypeInterface;
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @FileTypeInterface(type = FileType.TOML)
 @Data
 public class FoxCoreConfig {

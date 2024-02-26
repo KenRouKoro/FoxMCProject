@@ -19,6 +19,7 @@ import com.foxapplication.embed.hutool.json.JSONUtil;
 import com.foxapplication.embed.hutool.log.Log;
 import com.foxapplication.embed.hutool.log.LogFactory;
 import com.foxapplication.mc.core.FoxCore;
+import com.foxapplication.mc.core.config.BeanFoxConfig;
 import com.foxapplication.mc.core.config.FoxConfig;
 import com.foxapplication.mc.core.config.interfaces.FieldAnnotation;
 import lombok.Getter;
@@ -26,6 +27,7 @@ import lombok.Setter;
 
 import java.io.File;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
 import java.net.InetSocketAddress;
@@ -244,14 +246,24 @@ public class WebConfig {
 
             } else if (value instanceof List<?>) {
                 object1.putOnce("data", value);
-                Type objType = value.getClass().getGenericSuperclass();
-                Type typeArgument = TypeUtil.getTypeArgument(objType);
-                type = switch (typeArgument.getTypeName()) {
-                    case "java.lang.String" -> "stringarray";
-                    case "java.lang.Integer", "java.lang.Long" -> "numberarray";
-                    case "java.lang.Float", "java.lang.Double" -> "decimalsarray";
-                    default -> throw new RuntimeException("错误的类型： " + typeArgument.getTypeName());
-                };
+                if(config instanceof BeanFoxConfig beanFoxConfig){
+                    Method method = beanFoxConfig.getDesc().getGetter(id);
+                    Type returnType = method.getGenericReturnType();
+                    Type typeArgument = TypeUtil.getTypeArgument(returnType);
+                    try {
+                        type = switch (typeArgument.getTypeName()) {
+                            case "java.lang.String" -> "stringarray";
+                            case "java.lang.Integer", "java.lang.Long" -> "numberarray";
+                            case "java.lang.Float", "java.lang.Double" -> "decimalsarray";
+                            default -> throw new RuntimeException("错误的类型： " + typeArgument.getTypeName());
+                        };
+                    }catch (RuntimeException e){
+                        log.error(e);
+                        type = "stringarray";
+                    }
+                }else {
+                    type="stringarray";
+                }
             } else if (value instanceof Integer || value instanceof Long) {
                 object1.putOnce("data", value);
                 type = "number";
@@ -280,10 +292,8 @@ public class WebConfig {
                 object1.putOnce("object_annotation", to);
             }
             object1.putOnce("type", type);
-
             object.append("config", object1);
         });
-
         return object.toString();
     }
 
@@ -300,7 +310,7 @@ public class WebConfig {
         if (object instanceof String) {
             config.setValue(fieldID, data.get("data"));
         } else if (object instanceof List<?>) {
-            config.setValue(fieldID, data.getJSONArray("data").toList(TypeUtil.getTypeArgument(object.getClass().getGenericSuperclass()).getClass()));
+            config.setValue(fieldID, data.getJSONArray("data"));
         } else if (object instanceof Integer || object instanceof Long) {
             config.setValue(fieldID, data.get("data"));
         } else if (object instanceof Float || object instanceof Double) {

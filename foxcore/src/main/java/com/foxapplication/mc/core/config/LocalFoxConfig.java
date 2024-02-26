@@ -14,8 +14,8 @@ import com.foxapplication.embed.hutool.json.JSONUtil;
 import com.foxapplication.embed.hutool.setting.Setting;
 import com.foxapplication.mc.core.config.interfaces.FileType;
 import com.foxapplication.mc.core.config.interfaces.FileTypeInterface;
-import com.moandjiezana.toml.Toml;
-import com.moandjiezana.toml.TomlWriter;
+import com.foxapplication.embed.moandjiezana.toml.Toml;
+import com.foxapplication.embed.moandjiezana.toml.TomlWriter;
 import lombok.Getter;
 import lombok.Setter;
 

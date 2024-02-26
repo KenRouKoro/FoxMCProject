@@ -1,4 +1,0 @@
-# 是否启用FoxWebConfig配置系统
-EnabledWebConfig = true
-# FoxWebConfig配置系统使用的web端口
-WebPort = 8621
