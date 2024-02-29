@@ -115,15 +115,20 @@ publishing {
         }
     }
     repositories {
-        mavenLocal()
         maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/kenroukoro/foxmcproject")
-            credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+            name = "Gitea"
+            url = uri("https://git.foxapplication.com/api/packages/koro/maven")
+
+            credentials(HttpHeaderCredentials) {
+                name = "Authorization"
+                value = "token "+System.getenv("GITEA_TOKEN")
+            }
+
+            authentication {
+                header(org.gradle.authentication.http.HttpHeaderAuthentication)
             }
         }
+        mavenLocal()
     }
 }
 
