@@ -5,6 +5,7 @@ version = '1.0.1'
 
 repositories {
     mavenCentral()
+    maven { url "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/" }
     mavenLocal()
     maven {
         name = "sonatype"

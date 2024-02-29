@@ -17,6 +17,7 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven { url "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/" }
     mavenLocal()
 
 }

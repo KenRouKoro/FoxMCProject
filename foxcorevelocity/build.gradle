@@ -14,6 +14,7 @@ repositories {
         name = "papermc-repo"
         url = "https://repo.papermc.io/repository/maven-public/"
     }
+    maven { url "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/" }
     mavenLocal()
 }
 
